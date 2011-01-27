@@ -1,0 +1,32 @@
+﻿/* The gmail domain extension. */
+"@gmail.com" = "@gmail.com";
+
+/* A dialog title for setting up a Google account */
+"Set up your Google account." = "設定您的「Google 帳戶」。";
+
+/* A dialog title for updating your password for a Google account */
+"Update your Google password." = "更新您的 Google·密碼。";
+
+/* A label for a field denoting an Account Name */
+"Account Name:" = "帳戶名稱：";
+
+/* A label for a field denoting an Password */
+"Password:" = "密碼：";
+
+/* A checkbox that denotes that this is a Google Apps Account */
+"This is a Google Apps account." = "這是一個「Google 應用服務」帳戶。";
+
+/* A label denoting that the user should type in the characters that they see in the picture below. */
+"Type the characters you see in the picture below." = "輸入下方圖片中的字元。";
+
+/* A label denoting that the letters that the user types in are not case-sensitive. */
+"Letters are not case-sensitive." = "字母不分大小寫。";
+
+/* A cancel button */
+"Cancel" = "取消";
+
+/* A button that denotes that you want to setup your account. */
+"Setup" = "設定";
+
+/* A button that denotes that you want to update your account. */
+"Update" = "更新";

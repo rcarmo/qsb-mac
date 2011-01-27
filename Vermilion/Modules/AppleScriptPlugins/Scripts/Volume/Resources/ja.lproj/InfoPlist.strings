@@ -1,0 +1,11 @@
+﻿/* Name of action that sets the user's speaker volume to maximum. Do not include ^ in localization. */
+"^Max Volume" = "Max Volume";
+
+/* Name of action that sets the user's speaker volume to minimum (without being completely muted). Do not include ^ in localization. */
+"^Min Volume" = "Min Volume";
+
+/* Name of action that sets the user's speaker volume to mute. Do not include ^ in localization. */
+"^Mute Volume" = "Mute Volume";
+
+/* Name of action that sets the user's speaker volume to middle. Do not include ^ in localization. */
+"^Mid Volume" = "Mid Volume";

@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the iChat Buddies Source. It is a source that provides the user with the list of contacts that they interact with through iChat. Do not include ^ in localization. */
+"^iChat Buddies Source" = "iChat 好友来源";

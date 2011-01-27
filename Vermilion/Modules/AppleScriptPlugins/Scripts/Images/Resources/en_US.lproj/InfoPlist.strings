@@ -1,0 +1,14 @@
+﻿/* Name of action that rotates an image 90 degrees clockwise. Do not include ^ in localization. */
+"^Rotate Clockwise 90 Degrees" = "Rotate Clockwise 90 Degrees";
+
+/* Name of action that roates an image 90 degress counter clockwise. Do not include ^ in localization. */
+"^Rotate Counter Clockwise 90 Degrees" = "Rotate Counter Clockwise 90 Degrees";
+
+/* Name of action that will scale an image. Do not include ^ in localization. */
+"^Scale" = "Scale";
+
+/* Name of action that will convert an image from one file type to another. Do not include ^ in localization. */
+"^Convert" = "Convert";
+
+/* Name of action that will set the desktop picture. Do not include ^ in localization. */
+"^Set As Desktop Picture" = "Set As Desktop Picture";

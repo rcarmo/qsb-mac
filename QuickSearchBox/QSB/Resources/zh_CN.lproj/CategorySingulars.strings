@@ -1,0 +1,41 @@
+﻿//
+//  CategorySingulars.strings (Localized) (en)
+//  
+//  Copyright Google Inc., 2009. All rights reserved.
+//
+
+/* A grouping label denoting an action that one may do. */
+"^Actions" = "操作";
+
+/* A grouping label denoting an application. */
+"^Apps" = "应用程序";
+
+/* A grouping label denoting a personal contact. */
+"^Contacts" = "联系人";
+
+/* A grouping label denoting a document. */
+"^Docs" = "文档";
+
+/* A grouping label denoting a scheduled even. */
+"^Events" = "活动";
+
+/* A grouping label denoting a disk folders or directory. */
+"^Folders" = "文件夹";
+
+/* A grouping label denoting a picture or graphic. */
+"^Images" = "图片";
+
+/* A grouping label denoting a music file, composer or artist. */
+"^Music" = "音乐";
+
+/* A grouping label denoting a movie or video. */
+"^Movies" = "电影";
+
+/* A grouping label denoting mail messages or chat transcript. */
+"^Messages" = "讯息";
+
+/* A grouping label denoting a webpage. */
+"^Webpages" = "网页";
+
+/* A grouping label denoting somethings that isn't covered by the other labels. */
+"^Others" = "其他";

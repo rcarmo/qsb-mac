@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>thunderbird</key>
+	<array>
+		<string>thunder</string>
+		<string>bird</string>
+	</array>
+	<key>firefox</key>
+	<array>
+		<string>fire</string>
+		<string>fox</string>
+	</array>
+	<key>photoshop</key>
+	<array>
+		<string>photo</string>
+		<string>shop</string>
+	</array>
+</dict>
+</plist>

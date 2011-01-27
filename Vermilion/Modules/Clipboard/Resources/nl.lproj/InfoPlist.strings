@@ -1,0 +1,5 @@
+﻿/* A label denoting the name of the Clipboard Source. It is a source that allows the user to search their clipboard history. Do not include ^ in localization.*/
+"^Clipboard" = "Clipboard";
+
+/* A label denoting the name of the Copy to Clipboard action. Do not include ^ in localization.*/
+"^Copy to Clipboard" = "Copy to Clipboard";

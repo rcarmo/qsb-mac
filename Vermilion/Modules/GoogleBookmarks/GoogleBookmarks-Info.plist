@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.googlebookmarks</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>GoogleBookmarksSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.googlebookmarks.source</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Google Bookmarks</string>
+			<key>HGSExtensionDesiredAccountTypes</key>
+			<string>kHGSGoogleAccountTypeID</string>
+			<key>HGSSearchSourceUTIsToExcludeFromDiskSources</key>
+			<array>
+				<string>com.googlecode.precipitate.bookmark</string>
+			</array>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>webpage.bookmark.googlebookmarks</string>
+		</dict>
+	</array>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+</dict>
+</plist>

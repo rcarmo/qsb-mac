@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Actions Source. It is a source that allows you to access the actions that you can apply to items you find with the QSB. Do not include ^ in localization.*/
+"^Actions Source" = "Fuente de acciones";

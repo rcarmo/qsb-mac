@@ -1,0 +1,24 @@
+﻿/* A dialog title denoting that an account of that type with that login information has already been set up. */
+"Account already set up." = "已设定帐户。";
+
+/* A dialog title denoting that we were unable to authenticate the account with the user info given to us */
+"Could not authenticate that account." = "无法验证该帐户。";
+
+/* A dialog title denoting that we were unable to set up the %@ account */
+"Could not set up that %@ account." = "无法设定该“%@”帐户。";
+
+/* A dialog title telling the user that they should enable some searchable items for the account they just set up. */
+"Enable searchable items for this account." = "为该帐户启用可搜索的项目。";
+
+/* A dialog label telling the user in detail how they should enable some searchable items for the account they just set up. */
+"One or more search sources may have been added for the account '%@'. It may be necessary to manually enable each search source that uses this account.  Do so via the 'Searchable Items' tab in Preferences." = "帐户“%@”可能添加了一个或多个搜索来源。您可能需要手动启用每个使用该帐户的搜索来源。请在“使用偏好”中的“可搜索的项目”标签页中进行操作。";
+
+/* A dialog label explaining in detail that we could not set up an account of type 1 with username 2. */
+"The %1$@ account '%2$@' could not be set up for use.  Please check your password and try again." = "无法设定为使用%1$@帐户“%2$@”。请检查您的密码，然后重试。";
+
+/* A dialog label explaining in detail that we were unable to authenticate the account with the user info given to us */
+"The account '%@' could not be authenticated. Please check the account name and password and try again." = "无法验证帐户“%@”。请检查帐户名称和密码，然后重试。";
+
+/* A dialog label explaining in detail that an account of that type with that login information has already been set up. */
+"The account '%@' has already been set up for use in Quick Search Box." = "已设置“%@”帐户，通过该帐户可以使用快捷搜索框。";
+

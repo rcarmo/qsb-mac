@@ -1,0 +1,32 @@
+﻿/* Name of action that shows all applications. Do not include ^ in localization. */
+"^Show All Applications" = "Mostra tutte le applicazioni";
+
+/* Name of action that shuts the computer off. Do not include ^ in localization. */
+"^Shut Down" = "Spegni";
+
+/* Name of action that puts the computer to sleep. Do not include ^ in localization. */
+"^Sleep" = "Sospensione";
+
+/* Name of action that restarts the computer. Do not include ^ in localization. */
+"^Restart" = "Riavvia";
+
+/* Name of action that quits the visible applications. Do not include ^ in localization. */
+"^Quit Visible Applications" = "Esci da applicazioni visibili";
+
+/* Name of action that logs the user out of their computer. Do not include ^ in localization. */
+"^Log Out" = "Disconnetti";
+
+/* Name of action that locks the user's screen. Do not include ^ in localization. */
+"^Lock Screen" = "Blocca schermo";
+
+/* Name of action that hides all other applications. Do not include ^ in localization. */
+"^Hide Others" = "Nascondi altre";
+
+/* Name of action that empties the trash. Do not include ^ in localization. */
+"^Empty Trash" = "Svuota il cestino";
+
+/* Name of action that ejects the user's dvd drive tray. Do not include ^ in localization. */
+"^Eject Disk Tray" = "Espelli cassetto disco";
+
+/* Name of action that closes the user's dvd drive tray. Do not include ^ in localization. */
+"^Close Disk Tray" = "Chiudi cassetto disco";

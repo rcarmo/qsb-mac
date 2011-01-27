@@ -1,0 +1,29 @@
+﻿/* A label denoting that this result represents multiple items */
+"Multiple Items" = "Multiple Items";
+
+/* A label denoting a plugin missing it's name. */
+"Unknown Name" = "Unknown Name";
+
+/* A dialog title denoting an error caused while attempting to execute an AppleScript */
+"AppleScript Error" = "AppleScript Error";
+
+/* A dialog title. %@ is replaced by a product name. */
+"Upload to %@" = "Upload to %@";
+
+/* A message explaining to the user that a file is being uploaded. %@ is the display name of the file that is being uploaded. */
+"Uploading '%@'." = "Uploading '%@'.";
+
+/* A message explaining to the user that a file is being uploaded. %1$@ is the display name of the file that is being uploaded. %2$d us the total number of files to be uploaded. */
+"Uploading '%1$@' (the first of %2$d)." = "Uploading '%1$@' (the first of %2$d).";
+
+/* A message explaining that the file, identified by %@, could not be uploaded because it was taking too long. */
+"Upload of '%@' timed out. Please check your connection to the Internet." = "Upload of '%@' timed out. Please check your connection to the Internet.";
+
+/* A message explaining to the user that a file was successfully uploaded to the user's Google Docs. %@ is the display name of the file that was uploaded. */
+"'%@' has been uploaded to %@." = "'%@' has been uploaded to %@.";
+
+/* A message explaining to the user that we could not upload a file. %1$@ is the name of the file to be uploaded.  %2$@  is the error description. And %3$d is the error code. */
+"Could not upload '%1$@'. \"%2$@\" (%3$d)" = "Could not upload '%1$@'. \"%2$@\" (%3$d)";
+
+/* A message explaining that the user could not upload Picasa Web images due to a bad password for account %@. */
+"Could not perform upload. Please check the password for account '%@'." = "Could not perform upload. Please check the password for account '%@'.";

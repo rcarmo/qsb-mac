@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin name="QSB Plugin Info.plist Structure Definition" id="com.google.qsb.plist-plugin.info-plist" version="1.0">
+  
+  <extension point="com.apple.xcode.plist.structure-definition"
+             id="com.google.qsb.plist-plugin.info-plist" version="1.0"
+             name="QSB Plugin Info.plist">
+
+    <!-- "_root_" is the magic name of the top-level property list element -->
+    <definition name="_root_" localizedString="QSB Plugin Information Property List" class="Dictionary">
+      <dictionaryKeys>
+        <!-- Required keys -->
+        <key name="CFBundleIdentifier" class="String" localizedString="Bundle identifier" use="required"/>
+        <key name="CFBundleExecutable" class="String" localizedString="Executable file" use="required"/>
+        <key name="CFBundleInfoDictionaryVersion" class="InfoDictVersion" localizedString="InfoDictionary version" use="required"/>
+        
+        <!-- Most common keys -->
+        <key name="CFBundleName" class="String" localizedString="Bundle name" use="default"/>
+        <key name="CFBundleDisplayName" class="String" localizedString="Bundle display name" use="default"/>
+        <key name="NSHumanReadableCopyright" class="String" localizedString="Copyright (human-readable)" use="optional"/>
+        <key name="CFBundleVersion" class="CFBundleVersionStrings" localizedString="Bundle version" use="default"/>
+        <key name="CFBundlePackageType" class="CFBundlePackageTypeStrings" localizedString="Bundle OS Type code" use="default"/>
+        <key name="CFBundleSignatureString" class="CFBundleSignatureStrings" localizedString="Bundle creator OS Type code" use="default"/>
+        <key name="HGSExtensions" class="HGSExtensionArray" localizedString="Vermilion Extensions" use="default"/>
+      </dictionaryKeys>
+    </definition>
+    
+    <definition name="StringArray" class="Array" arrayElementClass="String"/>
+  
+    <definition name="CFBundlePackageTypeStrings" class="String" default="BNDL"/>
+ 
+    <definition name="CFBundleSignatureStrings" class="String" default="hgsπ"/>
+    
+    <definition name="CFBundleVersionStrings" class="String" default="1.0"/>
+    
+    <definition name="InfoDictVersion" class="String" default="6.0"/>
+
+    <definition name="HGSExtensionArray" class="Array" arrayElementClass="HGSExtension"/>
+    
+    <definition name="HGSExtension" class="Dictionary">
+      <dictionaryKeys>
+        <!-- Required Extension keys -->
+        <key name="HGSExtensionClass" class="String" localizedString="Extension Main Class" use="required"/>
+        <key name="HGSExtensionIdentifier" class="String" localizedString="Extension Identifier" use="required"/>
+        <key name="HGSExtensionPoint" class="HGSExtensionPointStrings" localizedString="Extension Type" use="required"/>
+        
+        <!-- Optional Extension keys -->
+        <key name="HGSIsEnabledByDefault" class="Boolean" localizedString="Extension Enabled By Default" use="optional"/>
+        <key name="HGSIsUserVisible" class="Boolean" localizedString="Extension Is User Visible" use="optional"/>
+        <key name="HGSExtensionUserVisibleName" class="String" localizedString="Extension Display Name" use="optional"/>
+        <key name="HGSExtensionIconImagePath" class="String" localizedString="Extension Icon Path" use="optional"/>
+        
+        <!-- Account Keys -->
+        <key name="HGSExtensionDesiredAccountType" class="String" localizedString="Account Type Required" use="optional"/>
+        <key name="HGSExtensionOfferedAccountType" class="String" localizedString="Account Type Supplied" use="optional"/>
+        <key name="HGSExtensionOfferedAccountClass" class="String" localizedString="Account Class Name" use="optional"/>
+
+        <!-- Action Keys -->
+        <key name="HGSActionDirectObjectTypes" class="StringArray" localizedString="Action Direct Object Types" use="optional"/>
+        <key name="HGSActionExcludedDirectObjectTypesKey" class="StringArray" localizedString="Action Excluded Direct Object Types" use="optional"/>
+        <key name="HGSActionIndirectObjectTypes" class="StringArray" localizedString="Action Indirect Object Types" use="optional"/>
+        <key name="HGSActionOtherTerms" class="StringArray" localizedString="Action Search Synonyms" use="optional"/>
+        <key name="HGSActionIndirectObjectOptional" class="Boolean" localizedString="Action Account Type Required" use="optional"/>
+        <key name="HGSActionShowActionInGlobalSearchResults" class="Boolean" localizedString="Action Account Type Supplied" use="optional"/>
+        <key name="HGSActionDoesActionCauseUIContextChange" class="Boolean" localizedString="Action Causes UI Context Change" use="optional"/>
+        <key name="HGSActionMustRunOnMainThread" class="Boolean" localizedString="Action Supports Compound Results" use="optional"/>
+
+        <!-- Search Source Keys -->
+        <key name="HGSSearchSourceSupportedTypes" class="StringArray" localizedString="Types That Source Returns" use="required"/>
+        <key name="HGSSearchSourceUnsupportedTypes" class="StringArray" localizedString="Types That Source Does Not Return" use="optional"/>
+        <key name="HGSSearchSourcePivotableTypes" class="StringArray" localizedString="Source Pivotable Object Type " use="optional"/>
+        <key name="HGSSearchSourceUTIsToExcludeFromDiskSources" class="StringArray" localizedString="Source UTIs To Exclude From Disk Sources" use="optional"/>
+        <key name="HGSSearchSourceCannotArchive" class="Boolean" localizedString="Source Cannot Be Archived" use="optional"/>
+              
+      </dictionaryKeys>
+    </definition>
+    
+    <definition name="HGSExtensionPointStrings" class="String" default="HGSActionsExtensionPoint">
+      <allowableValues>
+        <value name="HGSSourcesExtensionPoint" localizedString="Source"/>
+        <value name="HGSActionsExtensionPoint" localizedString="Action"/>
+        <value name="HGSAccountsExtensionPoint" localizedString="Account"/>
+      </allowableValues>
+    </definition>
+    
+  </extension>
+</plugin>

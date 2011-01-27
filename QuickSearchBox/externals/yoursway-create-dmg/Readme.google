@@ -1,0 +1,6 @@
+Disk image creation
+Removed AppleScriptRunner and replaced it with a call to osascript.
+Changes have been made to create-dmg
+
+Version 1.0.0.2
+http://www.yoursway.com/free/#createdmg

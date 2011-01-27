@@ -1,0 +1,10 @@
+﻿"Send to %@" = "Send til %@";
+"Submit Report..." = "Send rapport…";
+"Cancel" = "Annuller";
+"Crash Report:" = "Rapport om nedbrud:";
+"Crash Report" = "Rapport om nedbrud";
+"Problem Description:" = "Problembeskrivelse:";
+"Crash report for \"%@\"" = "Rapport om nedbrud for \"%@\"";
+"The application %@ has unexpectedly quit." = "Programmet %@ sluttede uventet.";
+"Please describe the circumstances leading to the crash and any other relevant information:\n\n" = "Beskriv de forhold, der førte til nedbruddet og evt. andre relevante oplysninger:\n\n";
+"The system and other applications have not been affected.\n\nWould you like to submit a bug report to %@?" = "Systemet og andre programmer er ikke berørt.\n\nVil du sende en fejlrapport til %@?";

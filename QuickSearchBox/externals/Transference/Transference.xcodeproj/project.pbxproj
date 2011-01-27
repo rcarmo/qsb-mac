@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1040315A0FD5F49A000FFBEB /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 104031620FD5F4E0000FFBEB /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1040315E0FD5F4AB000FFBEB /* PBXTargetDependency */,
+				104031600FD5F4AB000FFBEB /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		104030BE0FD5EB97000FFBEB /* GTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040307E0FD5E9C6000FFBEB /* GTM.framework */; };
+		104030CA0FD5ED44000FFBEB /* TransferenceDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104030A50FD5EB0D000FFBEB /* TransferenceDemo.xib */; };
+		104030CB0FD5ED44000FFBEB /* Transference.icns in Resources */ = {isa = PBXBuildFile; fileRef = 104030A80FD5EB0D000FFBEB /* Transference.icns */; };
+		104030CD0FD5ED66000FFBEB /* TransferenceProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 104030B80FD5EB66000FFBEB /* TransferenceProtocol.m */; };
+		104030CE0FD5ED66000FFBEB /* TransferenceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 104030BA0FD5EB66000FFBEB /* TransferenceConstants.m */; };
+		104030CF0FD5ED66000FFBEB /* TransferenceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 104030AF0FD5EB2F000FFBEB /* TransferenceClient.m */; };
+		104030D00FD5ED66000FFBEB /* TransferenceDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104030A60FD5EB0D000FFBEB /* TransferenceDemoController.m */; };
+		104030D10FD5ED66000FFBEB /* TransferenceDemoMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 104030A90FD5EB0D000FFBEB /* TransferenceDemoMain.m */; };
+		104030D50FD5ED7D000FFBEB /* GTM.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1040307E0FD5E9C6000FFBEB /* GTM.framework */; };
+		104031210FD5F16D000FFBEB /* GTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040307E0FD5E9C6000FFBEB /* GTM.framework */; };
+		104031220FD5F16D000FFBEB /* Vermilion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040306D0FD5E934000FFBEB /* Vermilion.framework */; };
+		1040312B0FD5F180000FFBEB /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040312A0FD5F180000FFBEB /* Growl.framework */; };
+		104031310FD5F1F1000FFBEB /* BeaconServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 104030B20FD5EB66000FFBEB /* BeaconServer.m */; };
+		104031320FD5F1F1000FFBEB /* TransferenceProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 104030B80FD5EB66000FFBEB /* TransferenceProtocol.m */; };
+		104031330FD5F1F1000FFBEB /* TransferenceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 104030BA0FD5EB66000FFBEB /* TransferenceConstants.m */; };
+		104031340FD5F1F1000FFBEB /* TransferenceBeaconModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 104030BB0FD5EB66000FFBEB /* TransferenceBeaconModule.m */; };
+		1040344F0FD5FCFB000FFBEB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97324FDCFA39411CA2CEA /* AppKit.framework */; };
+		104034500FD5FCFB000FFBEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		104030BC0FD5EB93000FFBEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1040307D0FD5E9C6000FFBEB;
+			remoteInfo = GTM;
+		};
+		1040311D0FD5F150000FFBEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1040306C0FD5E934000FFBEB;
+			remoteInfo = Vermilion;
+		};
+		1040311F0FD5F150000FFBEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1040307D0FD5E9C6000FFBEB;
+			remoteInfo = GTM;
+		};
+		1040315D0FD5F4AB000FFBEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = "Transference Demo";
+		};
+		1040315F0FD5F4AB000FFBEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104031130FD5F004000FFBEB;
+			remoteInfo = TransferenceBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		104030D70FD5ED9B000FFBEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				104030D50FD5ED7D000FFBEB /* GTM.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1040306D0FD5E934000FFBEB /* Vermilion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Vermilion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1040307E0FD5E9C6000FFBEB /* GTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		104030A50FD5EB0D000FFBEB /* TransferenceDemo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferenceDemo.xib; sourceTree = "<group>"; };
+		104030A60FD5EB0D000FFBEB /* TransferenceDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferenceDemoController.m; sourceTree = "<group>"; };
+		104030A70FD5EB0D000FFBEB /* TransferenceDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferenceDemoController.h; sourceTree = "<group>"; };
+		104030A80FD5EB0D000FFBEB /* Transference.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Transference.icns; sourceTree = "<group>"; };
+		104030A90FD5EB0D000FFBEB /* TransferenceDemoMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferenceDemoMain.m; sourceTree = "<group>"; };
+		104030AA0FD5EB0D000FFBEB /* TransferenceDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TransferenceDemo-Info.plist"; sourceTree = "<group>"; };
+		104030AF0FD5EB2F000FFBEB /* TransferenceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferenceClient.m; sourceTree = "<group>"; };
+		104030B00FD5EB2F000FFBEB /* TransferenceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferenceClient.h; sourceTree = "<group>"; };
+		104030B20FD5EB66000FFBEB /* BeaconServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconServer.m; sourceTree = "<group>"; };
+		104030B30FD5EB66000FFBEB /* TransferenceBeacon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TransferenceBeacon-Info.plist"; sourceTree = "<group>"; };
+		104030B40FD5EB66000FFBEB /* BeaconServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconServer.h; sourceTree = "<group>"; };
+		104030B50FD5EB66000FFBEB /* TransferenceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferenceConstants.h; sourceTree = "<group>"; };
+		104030B60FD5EB66000FFBEB /* TransferenceClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferenceClientProtocol.h; sourceTree = "<group>"; };
+		104030B70FD5EB66000FFBEB /* TransferenceServerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferenceServerProtocol.h; sourceTree = "<group>"; };
+		104030B80FD5EB66000FFBEB /* TransferenceProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferenceProtocol.m; sourceTree = "<group>"; };
+		104030B90FD5EB66000FFBEB /* TransferenceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferenceProtocol.h; sourceTree = "<group>"; };
+		104030BA0FD5EB66000FFBEB /* TransferenceConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferenceConstants.m; sourceTree = "<group>"; };
+		104030BB0FD5EB66000FFBEB /* TransferenceBeaconModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferenceBeaconModule.m; sourceTree = "<group>"; };
+		104030BF0FD5EC18000FFBEB /* BreakpadExecutable.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = BreakpadExecutable.xcconfig; path = ../../QSB/xcconfig/BreakpadExecutable.xcconfig; sourceTree = SOURCE_ROOT; };
+		104030F00FD5EEC8000FFBEB /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = "../google-toolbox-for-mac/GTMDefines.h"; sourceTree = SOURCE_ROOT; };
+		104030F60FD5EF17000FFBEB /* GTMTransientRootProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMTransientRootProxy.h; path = "../google-toolbox-for-mac/Foundation/GTMTransientRootProxy.h"; sourceTree = SOURCE_ROOT; };
+		104030F70FD5EF17000FFBEB /* GTMTransientRootPortProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMTransientRootPortProxy.h; path = "../google-toolbox-for-mac/Foundation/GTMTransientRootPortProxy.h"; sourceTree = SOURCE_ROOT; };
+		104030F80FD5EF17000FFBEB /* GTMAbstractDOListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMAbstractDOListener.h; path = "../google-toolbox-for-mac/Foundation/GTMAbstractDOListener.h"; sourceTree = SOURCE_ROOT; };
+		104031000FD5EF44000FFBEB /* QSBRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = QSBRelease.xcconfig; path = ../../QSB/xcconfig/QSBRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		104031010FD5EF44000FFBEB /* QSBDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = QSBDebug.xcconfig; path = ../../QSB/xcconfig/QSBDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		104031140FD5F004000FFBEB /* TransferenceBeacon.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransferenceBeacon.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
+		1040311C0FD5F028000FFBEB /* BreakpadLoadableBundle.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = BreakpadLoadableBundle.xcconfig; path = ../../QSB/xcconfig/BreakpadLoadableBundle.xcconfig; sourceTree = SOURCE_ROOT; };
+		1040312A0FD5F180000FFBEB /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = ../Growl/Growl.framework; sourceTree = SOURCE_ROOT; };
+		1040313A0FD5F319000FFBEB /* GTMSystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMSystemVersion.h; path = "../google-toolbox-for-mac/Foundation/GTMSystemVersion.h"; sourceTree = SOURCE_ROOT; };
+		104031420FD5F372000FFBEB /* QSBApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSBApplicationDelegate.h; path = ../../QSB/QSBApplicationDelegate.h; sourceTree = SOURCE_ROOT; };
+		104031430FD5F372000FFBEB /* QSBSearchWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSBSearchWindowController.h; path = ../../QSB/QSBSearchWindowController.h; sourceTree = SOURCE_ROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		621BA0B711363DEB00C6887D /* QSBSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSBSearchController.h; path = ../../QSB/QSBSearchController.h; sourceTree = SOURCE_ROOT; };
+		8B8474F411481887002C460B /* QSBResultsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSBResultsWindowController.h; path = ../../QSB/QSBResultsWindowController.h; sourceTree = SOURCE_ROOT; };
+		8B8474F5114818B2002C460B /* Shortcuts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shortcuts.h; path = ../../../Vermilion/Modules/Shortcuts/Shortcuts.h; sourceTree = SOURCE_ROOT; };
+		8D1107320486CEB800E47090 /* Transference Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transference Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		104031120FD5F004000FFBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1040344F0FD5FCFB000FFBEB /* AppKit.framework in Frameworks */,
+				104034500FD5FCFB000FFBEB /* Foundation.framework in Frameworks */,
+				104031210FD5F16D000FFBEB /* GTM.framework in Frameworks */,
+				104031220FD5F16D000FFBEB /* Vermilion.framework in Frameworks */,
+				1040312B0FD5F180000FFBEB /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				104030BE0FD5EB97000FFBEB /* GTM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1040305C0FD5E8BA000FFBEB /* xcodeconfig */ = {
+			isa = PBXGroup;
+			children = (
+				104030BF0FD5EC18000FFBEB /* BreakpadExecutable.xcconfig */,
+				1040311C0FD5F028000FFBEB /* BreakpadLoadableBundle.xcconfig */,
+				104031000FD5EF44000FFBEB /* QSBRelease.xcconfig */,
+				104031010FD5EF44000FFBEB /* QSBDebug.xcconfig */,
+			);
+			name = xcodeconfig;
+			sourceTree = "<group>";
+		};
+		104030900FD5EA6F000FFBEB /* Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				104030A50FD5EB0D000FFBEB /* TransferenceDemo.xib */,
+				104030A60FD5EB0D000FFBEB /* TransferenceDemoController.m */,
+				104030A70FD5EB0D000FFBEB /* TransferenceDemoController.h */,
+				104030A80FD5EB0D000FFBEB /* Transference.icns */,
+				104030A90FD5EB0D000FFBEB /* TransferenceDemoMain.m */,
+				104030AA0FD5EB0D000FFBEB /* TransferenceDemo-Info.plist */,
+			);
+			name = "Demo App";
+			sourceTree = "<group>";
+		};
+		104030AC0FD5EB1B000FFBEB /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				104030AF0FD5EB2F000FFBEB /* TransferenceClient.m */,
+				104030B00FD5EB2F000FFBEB /* TransferenceClient.h */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		104030B10FD5EB34000FFBEB /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				104030B20FD5EB66000FFBEB /* BeaconServer.m */,
+				104030B30FD5EB66000FFBEB /* TransferenceBeacon-Info.plist */,
+				104030B40FD5EB66000FFBEB /* BeaconServer.h */,
+				104030B50FD5EB66000FFBEB /* TransferenceConstants.h */,
+				104030B60FD5EB66000FFBEB /* TransferenceClientProtocol.h */,
+				104030B70FD5EB66000FFBEB /* TransferenceServerProtocol.h */,
+				104030B80FD5EB66000FFBEB /* TransferenceProtocol.m */,
+				104030B90FD5EB66000FFBEB /* TransferenceProtocol.h */,
+				104030BA0FD5EB66000FFBEB /* TransferenceConstants.m */,
+				104030BB0FD5EB66000FFBEB /* TransferenceBeaconModule.m */,
+			);
+			name = Beacon;
+			sourceTree = "<group>";
+		};
+		104030E00FD5EE91000FFBEB /* externals */ = {
+			isa = PBXGroup;
+			children = (
+				104030E10FD5EEA0000FFBEB /* google-toolbox-for-mac */,
+			);
+			name = externals;
+			sourceTree = "<group>";
+		};
+		104030E10FD5EEA0000FFBEB /* google-toolbox-for-mac */ = {
+			isa = PBXGroup;
+			children = (
+				104030F10FD5EED9000FFBEB /* Foundation */,
+				104030F00FD5EEC8000FFBEB /* GTMDefines.h */,
+			);
+			name = "google-toolbox-for-mac";
+			sourceTree = "<group>";
+		};
+		104030F10FD5EED9000FFBEB /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				1040313A0FD5F319000FFBEB /* GTMSystemVersion.h */,
+				104030F60FD5EF17000FFBEB /* GTMTransientRootProxy.h */,
+				104030F70FD5EF17000FFBEB /* GTMTransientRootPortProxy.h */,
+				104030F80FD5EF17000FFBEB /* GTMAbstractDOListener.h */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		104031410FD5F347000FFBEB /* QSB */ = {
+			isa = PBXGroup;
+			children = (
+				104031420FD5F372000FFBEB /* QSBApplicationDelegate.h */,
+				621BA0B711363DEB00C6887D /* QSBSearchController.h */,
+				104031430FD5F372000FFBEB /* QSBSearchWindowController.h */,
+				8B8474F411481887002C460B /* QSBResultsWindowController.h */,
+				8B8474F5114818B2002C460B /* Shortcuts.h */,
+			);
+			name = QSB;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1040312A0FD5F180000FFBEB /* Growl.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Transference Demo.app */,
+				1040306D0FD5E934000FFBEB /* Vermilion.framework */,
+				1040307E0FD5E9C6000FFBEB /* GTM.framework */,
+				104031140FD5F004000FFBEB /* TransferenceBeacon.hgs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Transference */ = {
+			isa = PBXGroup;
+			children = (
+				1040305C0FD5E8BA000FFBEB /* xcodeconfig */,
+				104030E00FD5EE91000FFBEB /* externals */,
+				104031410FD5F347000FFBEB /* QSB */,
+				104030B10FD5EB34000FFBEB /* Beacon */,
+				104030AC0FD5EB1B000FFBEB /* Client */,
+				104030900FD5EA6F000FFBEB /* Demo App */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Transference;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1040306C0FD5E934000FFBEB /* Vermilion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104030710FD5E935000FFBEB /* Build configuration list for PBXNativeTarget "Vermilion" */;
+			buildPhases = (
+				104030730FD5E96C000FFBEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vermilion;
+			productName = Vermilion;
+			productReference = 1040306D0FD5E934000FFBEB /* Vermilion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1040307D0FD5E9C6000FFBEB /* GTM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104030820FD5E9C7000FFBEB /* Build configuration list for PBXNativeTarget "GTM" */;
+			buildPhases = (
+				104030840FD5E9CF000FFBEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTM;
+			productName = GTM;
+			productReference = 1040307E0FD5E9C6000FFBEB /* GTM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		104031130FD5F004000FFBEB /* TransferenceBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1040311B0FD5F01C000FFBEB /* Build configuration list for PBXNativeTarget "TransferenceBeacon" */;
+			buildPhases = (
+				104031110FD5F004000FFBEB /* Sources */,
+				104031120FD5F004000FFBEB /* Frameworks */,
+				104031300FD5F1B6000FFBEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				104031200FD5F150000FFBEB /* PBXTargetDependency */,
+				1040311E0FD5F150000FFBEB /* PBXTargetDependency */,
+			);
+			name = TransferenceBeacon;
+			productName = TransferenceBeacon;
+			productReference = 104031140FD5F004000FFBEB /* TransferenceBeacon.hgs */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* Transference Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Transference Demo" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				104030D70FD5ED9B000FFBEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				104030BD0FD5EB93000FFBEB /* PBXTargetDependency */,
+			);
+			name = "Transference Demo";
+			productInstallPath = "$(HOME)/Applications";
+			productName = Transference;
+			productReference = 8D1107320486CEB800E47090 /* Transference Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Transference" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Transference */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1040315A0FD5F49A000FFBEB /* Build All */,
+				104031130FD5F004000FFBEB /* TransferenceBeacon */,
+				8D1107260486CEB800E47090 /* Transference Demo */,
+				1040307D0FD5E9C6000FFBEB /* GTM */,
+				1040306C0FD5E934000FFBEB /* Vermilion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104030CA0FD5ED44000FFBEB /* TransferenceDemo.xib in Resources */,
+				104030CB0FD5ED44000FFBEB /* Transference.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		104030730FD5E96C000FFBEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Build Vermilion the way we want into our build folder\n\nset -o errexit\nset -o nounset\nset -o verbose\n\ncd \"${SRCROOT}/../../QSB\"\n/usr/bin/xcodebuild -project QSB.xcodeproj -target \"Vermilion\" -configuration \"${CONFIGURATION}\" OBJROOT=\"${OBJROOT}\" SYMROOT=\"${SYMROOT}\" CACHE_ROOT=\"${CACHE_ROOT}\" GOOGLE_VERSION_BUILDNUMBER=\"${GOOGLE_VERSION_BUILDNUMBER}\"\n";
+		};
+		104030840FD5E9CF000FFBEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Build GTM the way we want into our build folder\n\nset -o errexit\nset -o nounset\nset -o verbose\n\ncd \"${SRCROOT}/../../QSB\"\n/usr/bin/xcodebuild -project QSB.xcodeproj -target \"GTM\" -configuration \"${CONFIGURATION}\" OBJROOT=\"${OBJROOT}\" SYMROOT=\"${SYMROOT}\" CACHE_ROOT=\"${CACHE_ROOT}\" GOOGLE_VERSION_BUILDNUMBER=\"${GOOGLE_VERSION_BUILDNUMBER}\"\n";
+		};
+		104031300FD5F1B6000FFBEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -o errexit\nset -o nounset\nset -o verbose\n\n\"${SRCROOT}/../../QSB/BuildScripts/StripHeaders.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		104031110FD5F004000FFBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104031310FD5F1F1000FFBEB /* BeaconServer.m in Sources */,
+				104031320FD5F1F1000FFBEB /* TransferenceProtocol.m in Sources */,
+				104031330FD5F1F1000FFBEB /* TransferenceConstants.m in Sources */,
+				104031340FD5F1F1000FFBEB /* TransferenceBeaconModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104030CD0FD5ED66000FFBEB /* TransferenceProtocol.m in Sources */,
+				104030CE0FD5ED66000FFBEB /* TransferenceConstants.m in Sources */,
+				104030CF0FD5ED66000FFBEB /* TransferenceClient.m in Sources */,
+				104030D00FD5ED66000FFBEB /* TransferenceDemoController.m in Sources */,
+				104030D10FD5ED66000FFBEB /* TransferenceDemoMain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		104030BD0FD5EB93000FFBEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1040307D0FD5E9C6000FFBEB /* GTM */;
+			targetProxy = 104030BC0FD5EB93000FFBEB /* PBXContainerItemProxy */;
+		};
+		1040311E0FD5F150000FFBEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1040306C0FD5E934000FFBEB /* Vermilion */;
+			targetProxy = 1040311D0FD5F150000FFBEB /* PBXContainerItemProxy */;
+		};
+		104031200FD5F150000FFBEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1040307D0FD5E9C6000FFBEB /* GTM */;
+			targetProxy = 1040311F0FD5F150000FFBEB /* PBXContainerItemProxy */;
+		};
+		1040315E0FD5F4AB000FFBEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* Transference Demo */;
+			targetProxy = 1040315D0FD5F4AB000FFBEB /* PBXContainerItemProxy */;
+		};
+		104031600FD5F4AB000FFBEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 104031130FD5F004000FFBEB /* TransferenceBeacon */;
+			targetProxy = 1040315F0FD5F4AB000FFBEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1040306F0FD5E935000FFBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Vermilion;
+			};
+			name = Debug;
+		};
+		104030700FD5E935000FFBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Vermilion;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		104030800FD5E9C7000FFBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GTM;
+			};
+			name = Debug;
+		};
+		104030810FD5E9C7000FFBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GTM;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		104031150FD5F005000FFBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1040311C0FD5F028000FFBEB /* BreakpadLoadableBundle.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Growl\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TransferenceBeacon-Info.plist";
+				PRODUCT_NAME = TransferenceBeacon;
+				WRAPPER_EXTENSION = hgs;
+			};
+			name = Debug;
+		};
+		104031160FD5F005000FFBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1040311C0FD5F028000FFBEB /* BreakpadLoadableBundle.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Growl\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TransferenceBeacon-Info.plist";
+				PRODUCT_NAME = TransferenceBeacon;
+				WRAPPER_EXTENSION = hgs;
+			};
+			name = Release;
+		};
+		1040315B0FD5F49A000FFBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build All";
+			};
+			name = Debug;
+		};
+		1040315C0FD5F49A000FFBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build All";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		8B0E685A0FD873DC00461C4A /* Debug-gcov */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104031010FD5EF44000FFBEB /* QSBDebug.xcconfig */;
+			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				OTHER_LDFLAGS = "-lgcov";
+			};
+			name = "Debug-gcov";
+		};
+		8B0E685B0FD873DC00461C4A /* Debug-gcov */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build All";
+			};
+			name = "Debug-gcov";
+		};
+		8B0E685C0FD873DC00461C4A /* Debug-gcov */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1040311C0FD5F028000FFBEB /* BreakpadLoadableBundle.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Growl\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "TransferenceBeacon-Info.plist";
+				PRODUCT_NAME = TransferenceBeacon;
+				WRAPPER_EXTENSION = hgs;
+			};
+			name = "Debug-gcov";
+		};
+		8B0E685D0FD873DC00461C4A /* Debug-gcov */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104030BF0FD5EC18000FFBEB /* BreakpadExecutable.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Transference_Prefix.pch;
+				INFOPLIST_FILE = "TransferenceDemo-Info.plist";
+				PRODUCT_NAME = "Transference Demo";
+			};
+			name = "Debug-gcov";
+		};
+		8B0E685E0FD873DC00461C4A /* Debug-gcov */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GTM;
+			};
+			name = "Debug-gcov";
+		};
+		8B0E685F0FD873DC00461C4A /* Debug-gcov */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Vermilion;
+			};
+			name = "Debug-gcov";
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104030BF0FD5EC18000FFBEB /* BreakpadExecutable.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Transference_Prefix.pch;
+				INFOPLIST_FILE = "TransferenceDemo-Info.plist";
+				PRODUCT_NAME = "Transference Demo";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104030BF0FD5EC18000FFBEB /* BreakpadExecutable.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Transference_Prefix.pch;
+				INFOPLIST_FILE = "TransferenceDemo-Info.plist";
+				PRODUCT_NAME = "Transference Demo";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104031010FD5EF44000FFBEB /* QSBDebug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104031000FD5EF44000FFBEB /* QSBRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		104030710FD5E935000FFBEB /* Build configuration list for PBXNativeTarget "Vermilion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1040306F0FD5E935000FFBEB /* Debug */,
+				8B0E685F0FD873DC00461C4A /* Debug-gcov */,
+				104030700FD5E935000FFBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104030820FD5E9C7000FFBEB /* Build configuration list for PBXNativeTarget "GTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104030800FD5E9C7000FFBEB /* Debug */,
+				8B0E685E0FD873DC00461C4A /* Debug-gcov */,
+				104030810FD5E9C7000FFBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1040311B0FD5F01C000FFBEB /* Build configuration list for PBXNativeTarget "TransferenceBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104031150FD5F005000FFBEB /* Debug */,
+				8B0E685C0FD873DC00461C4A /* Debug-gcov */,
+				104031160FD5F005000FFBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104031620FD5F4E0000FFBEB /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1040315B0FD5F49A000FFBEB /* Debug */,
+				8B0E685B0FD873DC00461C4A /* Debug-gcov */,
+				1040315C0FD5F49A000FFBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Transference Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				8B0E685D0FD873DC00461C4A /* Debug-gcov */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Transference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				8B0E685A0FD873DC00461C4A /* Debug-gcov */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

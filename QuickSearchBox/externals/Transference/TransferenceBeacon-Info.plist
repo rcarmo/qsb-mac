@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<string>${GOOGLE_VERSIONINFO_FINDER}</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.module.transferencebeacon</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>${GOOGLE_VERSIONINFO_LONG}</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>TransferenceBeaconModule</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.transferencebeacon.service</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSServicesExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>Transference Beacon</string>
+		</dict>
+	</array>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+</dict>
+</plist>

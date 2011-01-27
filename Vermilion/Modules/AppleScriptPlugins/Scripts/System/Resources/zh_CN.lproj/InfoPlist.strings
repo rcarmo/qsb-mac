@@ -1,0 +1,32 @@
+﻿/* Name of action that shows all applications. Do not include ^ in localization. */
+"^Show All Applications" = "显示所有应用程序";
+
+/* Name of action that shuts the computer off. Do not include ^ in localization. */
+"^Shut Down" = "关机";
+
+/* Name of action that puts the computer to sleep. Do not include ^ in localization. */
+"^Sleep" = "睡眠";
+
+/* Name of action that restarts the computer. Do not include ^ in localization. */
+"^Restart" = "重新启动";
+
+/* Name of action that quits the visible applications. Do not include ^ in localization. */
+"^Quit Visible Applications" = "退出显示的应用程序";
+
+/* Name of action that logs the user out of their computer. Do not include ^ in localization. */
+"^Log Out" = "退出";
+
+/* Name of action that locks the user's screen. Do not include ^ in localization. */
+"^Lock Screen" = "锁定屏幕";
+
+/* Name of action that hides all other applications. Do not include ^ in localization. */
+"^Hide Others" = "隐藏其他应用程序";
+
+/* Name of action that empties the trash. Do not include ^ in localization. */
+"^Empty Trash" = "清空垃圾箱";
+
+/* Name of action that ejects the user's dvd drive tray. Do not include ^ in localization. */
+"^Eject Disk Tray" = "弹出光驱托盘";
+
+/* Name of action that closes the user's dvd drive tray. Do not include ^ in localization. */
+"^Close Disk Tray" = "关闭光驱托盘";

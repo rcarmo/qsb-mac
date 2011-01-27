@@ -1,0 +1,5 @@
+﻿/* Name of action that shows the currently selected item in the terminal. */
+"^Show in Terminal" = "Show in Terminal";
+
+/* Name of action that runs the text as a shell script in the terminal. */
+"^Run as Shell Script" = "Run as Shell Script";

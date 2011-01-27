@@ -1,0 +1,14 @@
+﻿/* A label denoting the name of the Address Book Contacts Source. It is a source that provides the user with the list of contacts from their Address Book.. Do not include ^ in localization. */
+"^Address Book Contacts Source" = "アドレス帳の連絡先ソース";
+
+/* A label denoting the name of the Email action which allows you to email a contact. Do not include ^ in localization. */
+"^Email" = "メール";
+
+/* A label denoting the name of the Email action which allows you to instant message a contact. Do not include ^ in localization. */
+"^Instant Message" = "インスタント メッセージ";
+
+/* A label denoting the name of the Email action which allows you to video chat a contact. Do not include ^ in localization. */
+"^Video Chat" = "ビデオチャット";
+
+/* A label denoting the name of the Email action which allows you to audio chat a contact. Do not include ^ in localization. */
+"^Audio Chat" = "音声チャット";

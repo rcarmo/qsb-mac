@@ -1,0 +1,41 @@
+﻿//
+//  CategorySingulars.strings (Localized) (en)
+//  
+//  Copyright Google Inc., 2009. All rights reserved.
+//
+
+/* A grouping label denoting an action that one may do. */
+"^Actions" = "Action";
+
+/* A grouping label denoting an application. */
+"^Apps" = "Application";
+
+/* A grouping label denoting a personal contact. */
+"^Contacts" = "Contact";
+
+/* A grouping label denoting a document. */
+"^Docs" = "Document";
+
+/* A grouping label denoting a scheduled even. */
+"^Events" = "Événement";
+
+/* A grouping label denoting a disk folders or directory. */
+"^Folders" = "Dossier";
+
+/* A grouping label denoting a picture or graphic. */
+"^Images" = "Image";
+
+/* A grouping label denoting a music file, composer or artist. */
+"^Music" = "Musique";
+
+/* A grouping label denoting a movie or video. */
+"^Movies" = "Film/Vidéo";
+
+/* A grouping label denoting mail messages or chat transcript. */
+"^Messages" = "Message";
+
+/* A grouping label denoting a webpage. */
+"^Webpages" = "Page Web";
+
+/* A grouping label denoting somethings that isn't covered by the other labels. */
+"^Others" = "Autre";

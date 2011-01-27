@@ -1,0 +1,22 @@
+#!/bin/bash
+is_running=$(osascript -e 'tell application "System Events" to exists process "Google Search App"')
+if [ "$is_running" = "true" ]; then
+  osascript -e 'tell application "Google Search App" to quit'
+  echo Restart
+fi
+is_running=$(osascript -e 'tell application "System Events" to exists process "Google Quick Search"')
+if [ "$is_running" = "true" ]; then
+  osascript -e 'tell application "Google Quick Search" to quit'
+  echo Restart
+fi
+is_running=$(osascript -e 'tell application "System Events" to exists process "Quick Search Box"')
+if [ "$is_running" = "true" ]; then
+  osascript -e 'tell application "Quick Search Box" to quit'
+  echo Restart
+fi
+is_running=$(osascript -e 'tell application "System Events" to exists process "Google Quick Search Box"')
+if [ "$is_running" = "true" ]; then
+  osascript -e 'tell application "Google Quick Search Box" to quit'
+  echo Restart
+fi
+

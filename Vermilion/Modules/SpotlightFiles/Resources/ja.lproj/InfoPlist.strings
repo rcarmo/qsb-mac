@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Spotlight Source. It is a source that allows the user to get results from all the files on their computer. Do not include ^ in localization.*/
+"^Spotlight Results" = "Spotlight 検索結果";

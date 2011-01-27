@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Mount Source. It is a source that allows the user to search mounted network volumes. Do not include ^ in localization.*/
+"^Mount" = "掛載";

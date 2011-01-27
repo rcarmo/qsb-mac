@@ -1,0 +1,41 @@
+﻿/* A label denoting the name of the URL Detection Source. It is a source that provides the user with an URL if it detects that the user is entering a URL. Do not include ^ in localization. */
+"^URL Detection" = "Rilevamento URL";
+
+/* A label denoting the name of the File System Directories Source. It is a source that provides the user with the list of files if it detects that the user is entering a file path. Do not include ^ in localization. */
+"^File System Directories" = "Directory del file system";
+
+/* A label denoting the name of the Web Search Source. It is a source that provides the user with the ability to search other web sites. Do not include ^ in localization. */
+"^Web Search" = "Ricerca web";
+
+/* A label denoting the name of the Google Search Source. It is a source that provides the user with the ability to search Google. Do not include ^ in localization. */
+"^Google Search" = "Cerca con Google";
+
+/* A label denoting the name of the Search Suggestions Source. It is a source that provides the user with the ability to get Google search suggestions. Do not include ^ in localization. */
+"^Search Suggestions" = "Suggerimenti di ricerca";
+
+/* A label denoting the name of the Open Search Source. It is a source that provides the user with the ability to use Open Search. Do not include ^ in localization. */
+"^Open Search Suggestions" = "Suggerimenti OpenSearch";
+
+/* A label denoting the name of the Text Input Source. It is a source that provides the user with the ability to enter free text into the QSB. Do not include ^ in localization. */
+"^Text Input" = "Immissione di testo";
+
+/* A label denoting the name of the Open action which allows you to open a result from the QSB. Do not include ^ in localization. */
+"^Open" = "Apri";
+
+/* A label denoting the name of the Open action which allows you to show the name of a result from the QSB as large type. Do not include ^ in localization. */
+"^Show Large Type" = "Mostra dimensioni grandi";
+
+/* A label denoting the name of the Open action which allows you to open a result from the QSB with a given application. Do not include ^ in localization. */
+"^Open With..." = "Apri con...";
+
+/* A label denoting the name of the Open action which allows you to eject a volume. Do not include ^ in localization. */
+"^Eject" = "Espelli";
+
+/* A label denoting the name of the Open action which allows you to reveal a result from the QSB in the Finder. Do not include ^ in localization. */
+"^Show in Finder" = "Mostra nel Finder";
+
+/* A label denoting the name of the Quick Look action which allows you to use the system quick look feature to look at a result from the QSB. Do not include ^ in localization. */
+"^Quick Look" = "Visualizzazione rapida";
+
+/* A label denoting the name of the Get Info action which allows you to get info on a result from the QSB. Do not include ^ in localization. */
+"^Get Info" = "Ottieni informazioni";

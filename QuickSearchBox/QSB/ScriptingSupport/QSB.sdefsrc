@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<!--
+
+QSB.sdefsrc
+Copyright 2007-2009 Google, Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+  * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+  * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-->
+
+<dictionary>
+
+ <!-- STANDARD SUITE -->
+ 
+  <suite name="Standard Suite" code="????"
+      description="Common classes and commands for all applications.">
+
+    <command name="quit" code="aevtquit" description="Quit the application.">
+      <cocoa class="NSQuitCommand"/>
+    </command>
+
+    <class name="application" code="capp"
+           description="The application's top-level scripting object.">
+     
+      <cocoa class="QSBApplication"/>
+      
+      <property name="name" code="pnam" type="text" access="r"
+                description="The name of the application."/>
+                
+      <property name="frontmost" code="pisf" type="boolean" access="r"
+                description="Is this the frontmost (active) application?">
+        <cocoa key="isActive"/>
+      </property>
+      
+      <property name="version" code="vers" type="text" access="r"
+                description="The version of the application."/>
+      
+      <element type="plugin" access="r"
+               description="The plugins installed in the application.">
+        <cocoa key="plugins"/>
+      </element>
+
+      <element type="extension" access="r"
+               description="The search sources installed in the application.">
+        <cocoa key="sourceExtensions"/>
+      </element>
+
+      <element type="account" access="r"
+               description="The accounts currently registered with the application.">
+        <cocoa key="accounts" />
+      </element>
+
+      <responds-to command="quit">
+        <cocoa method="handleQuitScriptCommand:"/>
+      </responds-to>
+      
+    </class>
+  </suite>
+  
+  <!-- Google Quick Search Suite -->
+ 
+  <suite name="Google Quick Search Suite" code="QSBS"
+         description="Classes and commands for Google Quick Search.">
+    <cocoa name="QSBSuite"/>
+
+     <command name="open preferences" code="QSBSOpPr" description="Display our preferences">
+      <cocoa class="QSBOpenPreferencesCommand"/>
+    </command>
+
+    <command name="open desktop homepage" code="QSBSOpPH" description="Open the Google Quick Search homepage">
+      <cocoa class="QSBOpenProductHomepageCommand"/>
+    </command>
+
+    <command name="show large type" code="QSBSLaTy" description="Display text in large type">
+      <cocoa class="QSBLargeTypeCommand"/>
+      <direct-parameter type="text" description="The text to display."/>
+    </command>
+    
+    <command name="search for" code="QSBSSeFo" description="Search for something">
+      <cocoa class="QSBSearchForCommand"/>
+      <direct-parameter type="text" description="The string to search for."/>
+      <parameter name="handler" code="Hand" type="script" optional="yes"
+                 description="Callback handling script for search.">
+        <cocoa key="handler"/>
+      </parameter>
+      <parameter name="maximum number of results" code="MaxX" type="integer" optional="yes"
+                 description="The maximum number of results to return. Defaults to 100.">
+        <cocoa key="maxResults"/>
+      </parameter>
+      <result>
+        <type type="search result" list="yes"/>
+      </result>
+    </command>
+
+    <command name="results received" code="QSBSReRe" 
+             description="This handler is called when results come back from a search">
+      <cocoa name="ResultsReceived" class="EventHandlerCommand"/>
+      <direct-parameter description="The search results.">
+        <type type="search result" list="yes"/>
+      </direct-parameter>
+      <parameter name="for" code="Fore" type="text" 
+                 description="The text of the original query">
+        <cocoa key="forQuery"/>
+      </parameter>
+    </command>
+  
+    <command name="path for file URL" code="QSBSFiUr"
+             description="Returns a posix path to a file if the direct object represents a file URL, otherwise returns an empty string">
+      <cocoa class="QSBPathForFileURLCommand"/>
+      <direct-parameter type="text" description="URL to return file path for"/>
+      <result type="text"/>
+    </command>
+  
+    <class name="plugin" code="HGPl"
+           description="A plugin.">
+      <cocoa class="HGSPlugin"/>
+      <property name="enabled" code="Enab" type="boolean" access="rw"
+                description="Is this plugin enabled?">
+         <cocoa key="enabled"/>
+      </property>
+      <property name="name" code="pnam" type="text" access="r"
+                description="Name of the plugin.">
+         <cocoa key="displayName"/>
+      </property>
+      <property name="id" code="ID  " type="text" access="r"
+                description="Plugin ID">
+         <cocoa key="bundleIdentifier"/>
+      </property>
+    </class>
+   
+    <class name="extension" code="HGEx"
+          description="A source extension.">
+      <cocoa class="HGSProtoExtension"/>
+      <property name="name" code="pnam" type="text" access="r"
+                description="Name of the proto extension.">
+         <cocoa key="displayName"/>
+      </property>
+      <property name="version" code="vers" type="text" access="r"
+                description="Version of the extension.">
+         <cocoa key="extensionVersion"/>
+      </property>
+      <property name="description" code="Desc" type="text" access="r"
+                description="Description of the extension.">
+         <cocoa key="extensionDescription"/>
+      </property>
+      <property name="id" code="ID  " type="text" access="r"
+                description="Extension ID">
+         <cocoa key="identifier"/>
+      </property>
+      <property name="installed" code="Inst" type="boolean" access="r"
+                description="Is this search source installed?">
+         <cocoa key="isInstalled"/>
+      </property>
+      <property name="enabled" code="Enab" type="boolean" access="rw"
+                description="Is this search source enabled?">
+         <cocoa key="enabled"/>
+      </property>
+      <property name="associated account" code="Acnt" type="text" access="r"
+                description="The account used by this extension, if any.">
+         <cocoa key="associatedAccount"/>
+      </property>
+    </class>
+   
+    <!-- Accounts -->
+
+    <class name="account"
+           code="BAct"
+           description="An abstract account.">
+      <cocoa class="HGSAccount"/>
+      <property name="user name" code="User" type="text"
+                description="The account name."> 
+        <cocoa key="userName"/>
+      </property>
+      <property name="password" code="Pass" type="text" access="w"
+                description="The password for the account">
+        <cocoa key="password"/>
+      </property>
+      <property name="type" code="ATyp" type="text"
+                description="The type of the account."> 
+        <cocoa key="type"/>
+      </property>
+      <property name="authenticated" code="Auth" type="boolean" access="r"
+               description="Has this account been authenticated?">
+        <cocoa key="isAuthenticated"/>
+      </property>
+      <property name="editable" code="Edtb" type="boolean" access="r"
+               description="Is this account editable?">
+        <cocoa key="isEditable"/>
+      </property>
+      <property name="id" code="ID  " type="text" access="r"
+                description="Unique account ID">
+         <cocoa key="identifier"/>
+      </property>
+    </class>
+
+    <class name="simple account"
+           code="PAct"
+           inherits="account"
+           description="An account with a password. There are subclasses for each kind of Google account.">
+      <cocoa class="HGSSimpleAccount"/>
+    </class>
+
+    <value-type name="script" code="scpt">
+      <cocoa class="NSAppleScript"/>
+    </value-type>
+
+    <record-type name="search result" code="SeRe">
+      <property name="name" code="pnam" type="text"
+                description="name of the result">
+        <cocoa key="title"/>
+      </property>
+
+      <property name="URI" code="pURI" type="text"
+                description="uniform resource identifier of the result">
+        <cocoa key="link"/>
+      </property>
+    </record-type>
+  </suite>
+
+</dictionary>

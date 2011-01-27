@@ -1,0 +1,18 @@
+﻿/* Weather condition details. %1$@ is temperature %2$@ is units and%3$@ is wind data. */
+"%1$@°%2$@ - %3$@" = "%1$@°%2$@ - %3$@";
+
+/* Weather condition details. %1$@ is temperature %2$@ is units %3$@ is condition and %4$@ is wind data. */
+"%1$@°%2$@ - %3$@ - %4$@" = "%1$@°%2$@ - %3$@ - %4$@";
+
+/* Label for unit to denote Celsius */
+"C" = "C";
+
+/* Label for unit to denot Farenheit */
+"F" = "F";
+
+/* A label denoting that the user is looking for weather information */
+"weather " = "weather";
+
+/* A label in a result denoting that we are displaying the weather for the city %@ */
+"Weather for %@" = "Weather for %@";
+

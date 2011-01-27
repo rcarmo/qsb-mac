@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<string>^Actions</string>
+	<key>contact</key>
+	<string>^Contacts</string>
+	<key>email</key>
+	<string>^Messages</string>
+	<key>file</key>
+	<string>^Docs</string>
+	<key>file.application</key>
+	<string>^Apps</string>
+	<key>file.directory</key>
+	<string>^Folders</string>
+	<key>media</key>
+	<string>^Docs</string>
+	<key>file.media.image</key>
+	<string>^Images</string>
+	<key>file.media.image.album</key>
+	<string>^Images</string>
+	<key>file.media.movie</key>
+	<string>^Movies</string>
+	<key>file.media.music</key>
+	<string>^Music</string>
+	<key>webpage.media.image</key>
+	<string>^Images</string>
+	<key>webpage.media.image.album</key>
+	<string>^Images</string>
+	<key>webpage.media.movie</key>
+	<string>^Movies</string>
+	<key>webpage.media.music</key>
+	<string>^Music</string>
+	<key>itunes</key>
+	<string>^Music</string>
+	<key>message</key>
+	<string>^Others</string>
+	<key>onebox</key>
+	<string>^Others</string>
+	<key>search</key>
+	<string>^Webpages</string>
+	<key>search.googlesearch</key>
+	<string>^Webpages</string>
+	<key>suggestion</key>
+	<string>^Webpages</string>
+	<key>suggestion.googlenavsuggest</key>
+	<string>^Webpages</string>
+	<key>suggestion.googlesuggest</key>
+	<string>^Webpages</string>
+	<key>webpage</key>
+	<string>^Webpages</string>
+	<key>webpage.application</key>
+	<string>^Apps</string>
+	<key>webpage.bookmark</key>
+	<string>^Webpages</string>
+	<key>webpage.history</key>
+	<string>^Webpages</string>
+</dict>
+</plist>

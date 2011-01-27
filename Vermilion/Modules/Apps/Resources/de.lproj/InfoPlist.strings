@@ -1,0 +1,5 @@
+﻿/* A label denoting the name of the Quit action which allows you to Quit applications. Do not include ^ in localization. */
+"^Quit" = "Beenden";
+
+/* A label denoting the name of the Applications Source. It is a source that provides a list of all the applications on the users computer. Do not include ^ in localization. */
+"^Applications Source" = "Quelle der Anwendungen";

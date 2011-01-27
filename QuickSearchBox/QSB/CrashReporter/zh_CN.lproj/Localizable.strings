@@ -1,0 +1,10 @@
+﻿"Send to %@" = "发送到 %@";
+"Submit Report..." = "提交报告…";
+"Cancel" = "取消";
+"Crash Report:" = "崩溃报告：";
+"Crash Report" = "崩溃报告";
+"Problem Description:" = "问题描述：";
+"Crash report for \"%@\"" = "“%@”的崩溃报告";
+"The application %@ has unexpectedly quit." = "应用程序“%@”意外退出。";
+"Please describe the circumstances leading to the crash and any other relevant information:\n\n" = "请描述导致崩溃的环境以及其他任何相关的信息：\n\n";
+"The system and other applications have not been affected.\n\nWould you like to submit a bug report to %@?" = "系统和其他应用程序未受影响。\n\n您想向 %@ 提交一个 Bug 报告吗？";

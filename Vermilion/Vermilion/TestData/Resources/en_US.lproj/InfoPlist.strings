@@ -1,0 +1,8 @@
+﻿/* HGSActionArgumentTest Localized Strings */
+"^File" = "File";
+"^The file you want to manipulate." = "The file you want to manipulate.";
+"^Document" = "Document";
+"^Doohickey" = "Doohickey";
+
+/* A string for testing NSBundle (HGSExtension) */
+"^Localize Me InfoPlist.strings" = "Localize Me InfoPlist.strings";

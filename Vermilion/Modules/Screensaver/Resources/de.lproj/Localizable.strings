@@ -1,0 +1,14 @@
+﻿//
+//  Localized strings (en)
+//  
+//  Copyright Google Inc., 2009. All rights reserved.
+//
+
+/* A label describing a screen saver result. */
+"screen saver" = "Bildschirmschoner";
+
+/* A label describing a screen saver result. */
+"screensaver" = "Bildschirmschoner";
+
+/* A string representing a named screen saver where %s is replaced with a name. */
+"%s Screen Saver" = "Bildschirmschoner %s";

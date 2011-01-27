@@ -1,0 +1,57 @@
+﻿//
+//  Localized strings (en)
+//  
+//  Copyright Google Inc., 2006-2008. All rights reserved.
+//
+
+/* A label describing that a buddy's status is available. */
+"Available" = "Disponibile";
+
+/* A label describing that a buddy's status is away. */
+"Away" = "Non al computer";
+
+/* A label describing that the user's currently away. */
+"I'm Away" = "Non al computer";
+
+/* A label describing that the user's currently idle. */
+"I'm Idle" = "Sono in pausa";
+
+/* A label describing that the user's currently offline. */
+"I'm Offline" = "Non sono in linea";
+
+/* A label describing that a buddy's status is idle. */
+"Idle" = "In pausa";
+
+/* A label describing that the user's online status is not set. */
+"My Status Not Set" = "Mio stato non impostato";
+
+/* A label describing that the user's online status is currently unknown. */
+"My Status Unknown" = "Mio stato sconosciuto";
+
+/* A label describing that the user's currently available. */
+"MyIMStatusAvailable" = "MioStatoIMDisponibile";
+
+/* A label describing that a buddy's status is not set. */
+"No buddy status" = "Stato amico non impostato";
+
+/* A label describing that a buddy's status is offline. */
+"Offline" = "Non in linea";
+
+/* A label describing that a chat service is disconnected. */
+"Service Disconnected" = "Servizio disconnesso";
+
+/* A label describing that a chat service is logged in. */
+"Service Logged In" = "Accesso al servizio eseguito";
+
+/* A label describing that a chat service is logging in. */
+"Service Logging In" = "Accesso al servizio in corso";
+
+/* A label describing that a chat service is logging out. */
+"Service Logging Out" = "Disconnessione dal servizio in corso";
+
+/* A label describing that a chat service is offline. */
+"Service Offline" = "Servizio non in linea";
+
+/* A label describing that a buddy's status is unknown. */
+"Unknown" = "Sconosciuto";
+

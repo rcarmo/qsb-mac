@@ -1,0 +1,24 @@
+﻿/* A dialog title denoting that an account of that type with that login information has already been set up. */
+"Account already set up." = "既にアカウントが設定されています。";
+
+/* A dialog title denoting that we were unable to authenticate the account with the user info given to us */
+"Could not authenticate that account." = "アカウントを認証できませんでした。";
+
+/* A dialog title denoting that we were unable to set up the %@ account */
+"Could not set up that %@ account." = "%@ アカウントを設定できませんでした。";
+
+/* A dialog title telling the user that they should enable some searchable items for the account they just set up. */
+"Enable searchable items for this account." = "このアカウントの検索対象を有効にしてください。";
+
+/* A dialog label telling the user in detail how they should enable some searchable items for the account they just set up. */
+"One or more search sources may have been added for the account '%@'. It may be necessary to manually enable each search source that uses this account.  Do so via the 'Searchable Items' tab in Preferences." = "複数の検索ソースがアカウント「%@」に追加されている場合があります。必要に応じて、このアカウントを使用する各検索ソースを手動で有効にしてください。これは、[設定] の [検索対象] タブで行います。";
+
+/* A dialog label explaining in detail that we could not set up an account of type 1 with username 2. */
+"The %1$@ account '%2$@' could not be set up for use.  Please check your password and try again." = "%1$@ アカウント「%2$@」を使用するように設定できませんでした。パスワードを確認して、再度お試しください。";
+
+/* A dialog label explaining in detail that we were unable to authenticate the account with the user info given to us */
+"The account '%@' could not be authenticated. Please check the account name and password and try again." = "アカウント「%@」を認証できませんでした。アカウント名とパスワードを確認して、もう一度お試しください。";
+
+/* A dialog label explaining in detail that an account of that type with that login information has already been set up. */
+"The account '%@' has already been set up for use in Quick Search Box." = "アカウント「%@」は、クイック検索ボックスで使用するように既に設定されています。";
+

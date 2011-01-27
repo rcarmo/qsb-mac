@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+	<key>CFBundleName</key>
+	<string>Volume AppleScript</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.volumeapplescript</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.volumeapplescript.action.maxVolume</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Max Volume</string>
+			<key>HGSExtensionIconImagePath</key>
+			<string>maxVolume.icns</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>maxVolume</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.volumeapplescript.action.minVolume</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Min Volume</string>
+			<key>HGSExtensionIconImagePath</key>
+			<string>minVolume.icns</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>minVolume</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.volumeapplescript.action.midVolume</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Mid Volume</string>
+			<key>HGSExtensionIconImagePath</key>
+			<string>midVolume.icns</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>midVolume</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.volumeapplescript.action.mutevolume</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Mute Volume</string>
+			<key>HGSExtensionIconImagePath</key>
+			<string>muteVolume.icns</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>muteVolume</string>
+		</dict>
+	</array>
+</dict>
+</plist>

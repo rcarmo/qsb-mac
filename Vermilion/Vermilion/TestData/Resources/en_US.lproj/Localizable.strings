@@ -1,0 +1,5 @@
+﻿/* A string for testing Python & AppleScript module localization */
+"Localized Value" = "Localized Value in English";
+
+/* A string for testing NSBundle (HGSExtension) */
+"^Localize Me Localizable.strings" = "Localize Me Localizable.strings";

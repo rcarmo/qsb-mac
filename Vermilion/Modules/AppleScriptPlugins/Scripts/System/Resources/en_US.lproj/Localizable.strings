@@ -1,0 +1,2 @@
+﻿/* Name of the picture files that are going to be taken. There will be a number appended to this string so it will be "Picture 1" etc. Do not include ^ in localization. */
+"^Picture " = "Picture ";

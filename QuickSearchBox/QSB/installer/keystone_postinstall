@@ -1,0 +1,9 @@
+#!/bin/bash
+if echo "$KS_PREINSTALL_OUT" | grep Restart; then
+  path=$(echo "$KS_INSTALL_OUT" | grep "dest_path=" | cut -f2 -d=)
+  test -n "$path" && open "$path"
+fi
+
+rc=$(echo "$KS_INSTALL_OUT" | grep "exit=" | cut -f2 -d=)
+exit $rc
+

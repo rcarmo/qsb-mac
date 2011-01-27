@@ -1,0 +1,342 @@
+﻿//
+//  Localized strings (en)
+//  
+//  Copyright Google Inc., 2006-2008. All rights reserved.
+//
+
+/* A grouping label denoting a collection of actions that one may do. */
+"^Actions" = "Aktionen";
+
+/* A grouping label denoting a collection of applications. */
+"^Apps" = "Google Apps";
+
+/* A grouping label denoting a collection of personal contacts. */
+"^Contacts" = "Kontakte";
+
+/* A grouping label denoting a collection of documents. */
+"^Docs" = "Text & Tabellen";
+
+/* A grouping label denoting a collection of scheduled events. */
+"^Events" = "Ereignisse";
+
+/* A grouping label denoting a collection of on disk folders or directories. */
+"^Folders" = "Ordner";
+
+/* A grouping label denoting a collection of pictures or graphics. */
+"^Images" = "Bilder";
+
+/* A grouping label denoting a collection of music files, composers or artists. */
+"^Music" = "Musik";
+
+/* A grouping label denoting a collection of movies or videos. */
+"^Movies" = "Filme";
+
+/* A grouping label denoting a collection of mail messages or chat transcripts. */
+"^Messages" = "Nachrichten";
+
+/* A grouping label denoting a collection of webpages. */
+"^Webpages" = "Webseiten";
+
+/* A grouping label denoting somethings that isn't covered by the other labels. */
+"^Others" = "Sonstige";
+
+/* Application menu item that displays the about dialog. Do not localize $APPNAME$. */
+"About $APPNAME$" = "Über $APPNAME$";
+
+/* Application menu item that displays the preferences dialog. */
+"Preferences…" = "Einstellungen…";
+
+/* Application menu item that opens the feedback webpage for sending QSB feedback. */
+"Send Feedback…" = "Feedback senden…";
+
+/* Application menu item that opens the QSB homepage. Do not localize $APPNAME$. */
+"Open $APPNAME$ Homepage" = "Startseite von $APPNAME$ öffnen";
+
+/* Application menu item that shows system services. */
+"Services" = "Services";
+
+/* Application menu item that hides the application. Do not localize $APPNAME$. */
+"Hide $APPNAME$" = "$APPNAME$ ausblenden";
+
+/* Application menu item that hides other applications. */
+"Hide Others" = "Andere ausblenden";
+
+/* Application menu item that shows all applications. */
+"Show All" = "Alle anzeigen";
+
+/* Application menu item that quits the application. Do not localize $APPNAME$. */
+"Quit $APPNAME$" = "Quit $APPNAME$";
+
+/* File menu title. */
+"File" = "Datei";
+
+/* File menu item that retrieves the current Finder selection for use by QSB. Finder is the name of a system application. */
+"Get Selection from Finder" = "Auswahl aus Finder abrufen";
+
+/* File menu item that closes the QSB window. */
+"Close" = "Schließen";
+
+/* Edit menu item title. */
+"Edit" = "Bearbeiten";
+
+/* Edit menu item that undoes the last operation. */
+"Undo" = "Rückgängig machen";
+
+/* Edit menu item that redoes the last operation. */
+"Redo" = "Wiederholen";
+
+/* Edit menu item that performs a "cut" operation. */
+"Cut" = "Ausschneiden";
+
+/* Edit menu item that performs a "copy" operation. */
+"Copy" = "Kopieren";
+
+/* Edit menu item that performs a "paste" operation. */
+"Paste" = "Einfügen";
+
+/* Edit menu item that performs a "delete" operation. */
+"Delete" = "Entfernen";
+
+/* Edit menu item that performs a "select all" operation. */
+"Select All" = "Alle auswählen";
+
+/* Menu item for showing the Quick Search Box. */
+"Show Quick Search Box" = "Schnellsuche-Feld anzeigen";
+
+/* Menu item for hiding the Quick Search Box. */
+"Hide Quick Search Box" = "Schnellsuche-Feld ausblenden";
+
+/* Tab title in our preferences dialog representing some basic options for the user to configure. */
+"Basics" = "Grundlagen";
+
+/* Tab title in our preferences dialog representing some options for configuring what they want to search with the QSB. */
+"Searchable Items" = "Suchbare Elemente";
+
+/* Tab title in our preferences dialog representing options for configuring accounts. */
+"Accounts" = "Konten";
+
+/* Tab title in our preferences dialog represeting some advanced features. "Under the hood" is a colloqualism for advanced features. */
+"Under the Hood" = "Erweiterte Funktionen";
+
+/* A label denoting a group of general preferences. */
+"General:" = "Allgemein:";
+
+/* A checkbox controlling if we should display our icon as a menu in the menu bar for easy access to QSB. */
+"Show icon in menu bar" = "Symbol in Menüleiste anzeigen";
+
+/* A checkbox controlling if we should display our icon in the dock for easy access to QSB. */
+"Show icon in dock" = "Symbol im Dock anzeigen";
+
+/* A sublabel to mark the dock preference, which requires the app relaunch. */
+"Requires relaunch" = "Neustart erforderlich";
+
+/* A checkbox controlling if the QSB should be opened automatically when the user logs in. */
+"Open Quick Search Box at login" = "Schnellsuche-Feld beim Anmelden öffnen";
+
+/* A label for an edit field allowing the user to set the keyboard shortcut to show and hide QSB. */
+"Keyboard shortcut:" = "Keyboard shortcuts:";
+
+/* The button label that resets the keyboard shortcut edit field to cmd-cmd which is the default setting. */
+"Use Default (⌘⌘)" = "Standardeinstellung verwenden (⌘⌘)";
+
+/* A label denoting a group of preferences that affect the color and style of the QSB. */
+"Theme:" = "Design:";
+
+/* A label for menu that controls how many results the QSB will display. */
+"Number of results:" = "Anzahl an Ergebnissen:";
+
+/* A menu item that denotes that the QSB will display 3 results. */
+"3" = "3";
+
+/* A menu item that denotes that the QSB will display 5 results. */
+"5" = "5";
+
+/* A menu item that denotes that the QSB will display 10 results. */
+"10" = "10";
+
+/* A menu item representing the color black. */
+"Black" = "Schwarz";
+
+/* A menu item representing the color blue. */
+"Blue" = "Blau";
+
+/* A menu item representing te color green. */
+"Green" = "Grün";
+
+/* A menu item representing the color red. */
+"Red" = "Rot";
+
+/* A menu item representing the color silver. */
+"Silver" = "Silber";
+
+/* A menu item representing the color white. */
+"White" = "Weiß";
+
+/* A menu item representing the color yellow. */
+"Yellow" = "Gelb";
+
+/* A menu item that brings up a color picker allowing the user to select a custom color. */
+"Other..." = "Sonstiges...";
+
+/* A checkbox denoting whether the QSB is going to have a glossy appearance or not. */
+"Glossy" = "Glänzend";
+
+/* A checkbox denoting if the QSB should show web site suggestions from Google.com. */
+"Show website suggestions from Google.com" = "Websitevorschläge von Google.de anzeigen";
+
+/* A checkbox denoting if the QSB show show search suggestions from Google.com. */
+"Show search suggestions from Google.com" = "Suchvorschläge von Google.de anzeigen";
+
+/* A button that invokes a dialog that allows the user to add a new account. */
+"Add Account" = "Konto hinzufügen";
+
+/* A button that removes the selected account. */
+"Remove Account" = "Konto entfernen";
+
+/* A button that edits the selected account. */
+"Edit Account" = "Konto bearbeiten";
+
+/* The title for a dialog that is warning the user about removing an account. */
+"About to remove an account." = "Das Konto wird in Kürze entfernt.";
+
+/* A warning in a dialog associated with removing an account. */
+"Removing the account '%@' will disable and remove all search sources associated with this account." = "Durch das Entfernen des Kontos \"%@\" werden alle Suchquellen, die mit diesem Konto verknüpft sind, deaktiviert und entfernt.";
+
+/* A label denoting options that control how the user is notified about various things by the QSB. */
+"Notifications:" = "Benachrichtigungen:";
+
+/* A checkbox controlling if the user wants to use Growl for notifications. "Growl" is an application name and should not be localized. */
+"Use Growl for notifications" = "Growl für Benachrichtigungen verwenden";
+
+/* A label denoting options some less used advanced options that may not be in the final version. */
+"DEBUG OPTIONS" = "OPTIONEN ZUR FEHLERSUCHE";
+
+/* A label denoting options that control how results are displayed. */
+"Results:" = "Ergebnisse:";
+
+/* A checkbox that overrides the automatic hiding of the search & results
+    windows when QSB becomes inactive. */
+"Hide QSB when it becomes inactive" = "Schnellsuche-Feld ausblenden, wenn es inaktiv wird";
+
+/* A checkbox controlling if the user wants to enabled the more results window. */
+"Enable 'More Results'" = "\"Mehr Ergebnisse\" aktivieren";
+
+/* A menu item denoting that the user wants to see 1 item per category in the more results window. */
+"1 item per category" = "1 Element pro Kategorie";
+
+/* A menu item denoting that the user wants to see 2 items per category in the more results window. */
+"2 items per category" = "2 Elemente pro Kategorie";
+
+/* A menu item denoting that the user wants to see 3 items per category in the more results window. */
+"3 items per category" = "3 Elemente pro Kategorie";
+
+/* A menu item denoting that the user wants to see 4 items per category in the more results window. */
+"4 items per category" = "4 Elemente pro Kategorie";
+
+/* A menu item denoting that the user wants to see 5 items per category in the more results window. */
+"5 items per category" = "5 Elemente pro Kategorie";
+
+/* A checkbox controlling if the user wants to see intermediate file content matches as the file context search source is searching. */
+"Show intermediate file content matches" = "Übereinstimmungen mit Content aus Zwischendateien anzeigen";
+
+/* A menu item denoting that the user doesn't want to show any google suggestion results. */
+"Don't Show Suggestions" = "Keine Suchvorschläge anzeigen";
+
+/* A menu item denoting that the user wants to show 3 google suggestion results. */
+"3 Search Suggestions" = "3 Suchvorschläge";
+
+/* A menu item denoting that the user wants to show 5 google suggestion results. */
+"5 Search Suggestions" = "5 Suchvorschläge";
+
+/* A menu item denoting that the user wants to show 7 google suggestion results. */
+"7 Search Suggestions" = "7 Suchvorschläge";
+
+/* A label denoting a group of options controlling output going to the console. */
+"Console output:" = "Konsolenausgabe:";
+
+/* A checkbox controlling if the top results for a query will be sent to the console. */
+"'Top Results' for each query" = "\"Top-Ergebnisse\" für jede Anfrage";
+
+/* A checkbox controlling if the query status will be sent to the console when restarting a query. */
+"Query status when restarting query" = "Status der Anfrage beim Neustart der Anfrage";
+
+/* A checkbox controlling if the query progress will be sent to the console as the query progresses. */
+"Query operations progress" = "Fortschritt der Suchanfragen";
+
+/* A label denoting a table describing the plugins that have been loaded into the QSB. */
+"Plug-ins:" = "Plug-ins:";
+
+/* A label for a menu item that allows you to choose a type of account. */
+"Account Type:" = "Kontotyp:";
+
+/* A table result label telling users that they can search an corpus represented by %@ by typing in a text field above. */
+"Search %@ by typing in the box above." = "Suchen Sie nach %@ durch Eingabe in das obige Feld.";
+
+/* A table result label for an item that allows you to search google. */
+"Google Search" = "Google-Suche";
+
+/* A table result label for an item that allows you to search google for the token represented by %@. */
+"Search Google for '%@'" = "Auf Google nach \"%@\" suchen";
+
+/* A table result label for an item that will show the user all x things where x is %u and the things are %@. */
+"Show all %u %@…" = "Alle %1$u %2$@ anzeigen…";
+
+/* A table result label for an item with no title. */
+"<No Title>" = "<Kein Titel>";
+
+/* A list delimiter. */
+", " = ",";
+
+/* A button label for a cancel button. */
+"Cancel" = "Abbrechen";
+
+/* A button label for an OK button. */
+"OK" = "OK";
+
+/* A dialog message greeting the user to Quick Search Box the first time they launch it. */
+"Welcome to the Quick Search Box, Google's latest desktop search tool! Type in this box to:" = "Willkommen beim Schnellsuche-Feld, dem neuesten Tool zur Desktop-Suche von Google! Geben Sie Text in dieses Feld ein, um:";
+
+/* A label in a dialog telling people they can search the web with QSB. */
+"Search the web" = "Suche im Web";
+
+/* A label in a dialog giving examples of what they can search for on the web with QSB. The examples do not need to be exactly as stated here. Something locale specific may be better. Please keep the length down to something similar to what is here in English. */
+"Examples: chichen itza, music lyrics" = "Beispiele: chichen itza, songtexte";
+
+/* A label in a dialog telling people they can launch apps with QSB. */
+"Start applications" = "Anwendungen starten";
+
+/* A label in a dialog giving examples of what apps they can launch with QSB. The examples do not need to be exactly as stated here. Something locale specific may be better. Please keep the length down to something similar to what is here in English. */
+"Examples: itunes, calculator" = "Beispiele: iTunes, Taschenrechner";
+
+/* A label in a dialog telling people they can open webpages with QSB. */
+"Open webpages" = "Webseiten öffnen";
+
+/* A label in a dialog giving examples of what webpages they can open with QSB. The examples do not need to be exactly as stated here. Something locale specific may be better. Please keep the length down to something similar to what is here in English. */
+"Examples: blogger.com, youtube.co.uk" = "Beispiele: blogger.com, youtube.co.uk";
+
+/* A label in a result denoting the user's home folder in a generic way. */
+"Home" = "Startseite";
+
+/* A menu item denoting that the user wants to quit. */
+"Quit" = "Beenden";
+
+/* A menu item denoting that the user wants to search their computer and the web. */
+"Computer & Web" = "Computer & Web";
+
+/* The title of the preferences dialog. */
+"Preferences" = "Preferences";
+
+/* A string shown at launchtime to denote that QSB is starting up and is loading a plugin. */
+"Starting up… Loading %@" = "Starting up… Loading %@";
+
+/* A string shown at launchtime to denote that QSB is starting up. */
+"Starting up…" = "Starting up…";
+
+/* A string shown at launchtime to denote that we are initializing the plugins. */
+"Initializing Plugins…" = "Initializing Plugins…";
+
+/* The placeholder text for the search field in the "Searchable Items" tab in the preferences dialog. */
+"Search" = "Search";
+
+/* Menu item that performs an "update check" operation. */
+"Check for Updates…" = "Check for Updates…";

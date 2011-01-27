@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME} - ${QSB_CODE_NAME}</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>hgs</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>QSBPlugin</string>
+			<key>CFBundleTypeName</key>
+			<string>${PRODUCT_NAME}  Plugin</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>${GOOGLE_VERSIONINFO_FINDER}</string>
+	<key>CFBundleIconFile</key>
+	<string>QSBIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.Desktop.QSB2</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>${GOOGLE_VERSIONINFO_SHORT}</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>Google Suggestion URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>googlesuggest</string>
+			</array>
+			<key>GTMBundleURLClass</key>
+			<string>QSBGoogleSuggestURLHandler</string>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>${GOOGLE_VERSIONINFO_LONG}</string>
+	<key>GoogleBreakpadProduct</key>
+	<string>Google_QuickSearchBox_Mac</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.5.0</string>
+	<key>LSUIElement</key>
+	<string>1</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>${GOOGLE_VERSIONINFO_ABOUT}</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>QSBApplication</string>
+	<key>OSAScriptingDefinition</key>
+	<string>QSB.sdef</string>
+	<key>com.apple.PreferenceSync.ExcludeAllSyncKeys</key>
+	<true/>
+</dict>
+</plist>

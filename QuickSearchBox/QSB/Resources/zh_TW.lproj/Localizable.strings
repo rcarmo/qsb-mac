@@ -1,0 +1,342 @@
+﻿//
+//  Localized strings (en)
+//  
+//  Copyright Google Inc., 2006-2008. All rights reserved.
+//
+
+/* A grouping label denoting a collection of actions that one may do. */
+"^Actions" = "動作";
+
+/* A grouping label denoting a collection of applications. */
+"^Apps" = "應用程式";
+
+/* A grouping label denoting a collection of personal contacts. */
+"^Contacts" = "聯絡人";
+
+/* A grouping label denoting a collection of documents. */
+"^Docs" = "文件";
+
+/* A grouping label denoting a collection of scheduled events. */
+"^Events" = "活動";
+
+/* A grouping label denoting a collection of on disk folders or directories. */
+"^Folders" = "資料夾";
+
+/* A grouping label denoting a collection of pictures or graphics. */
+"^Images" = "圖片";
+
+/* A grouping label denoting a collection of music files, composers or artists. */
+"^Music" = "音樂";
+
+/* A grouping label denoting a collection of movies or videos. */
+"^Movies" = "影片";
+
+/* A grouping label denoting a collection of mail messages or chat transcripts. */
+"^Messages" = "訊息";
+
+/* A grouping label denoting a collection of webpages. */
+"^Webpages" = "網頁";
+
+/* A grouping label denoting somethings that isn't covered by the other labels. */
+"^Others" = "其他";
+
+/* Application menu item that displays the about dialog. Do not localize $APPNAME$. */
+"About $APPNAME$" = "關於 $APPNAME$";
+
+/* Application menu item that displays the preferences dialog. */
+"Preferences…" = "偏好設定…";
+
+/* Application menu item that opens the feedback webpage for sending QSB feedback. */
+"Send Feedback…" = "傳送意見…";
+
+/* Application menu item that opens the QSB homepage. Do not localize $APPNAME$. */
+"Open $APPNAME$ Homepage" = "開啟·$APPNAME$ 首頁";
+
+/* Application menu item that shows system services. */
+"Services" = "服務";
+
+/* Application menu item that hides the application. Do not localize $APPNAME$. */
+"Hide $APPNAME$" = "隱藏·$APPNAME$";
+
+/* Application menu item that hides other applications. */
+"Hide Others" = "隱藏其他";
+
+/* Application menu item that shows all applications. */
+"Show All" = "全部顯示";
+
+/* Application menu item that quits the application. Do not localize $APPNAME$. */
+"Quit $APPNAME$" = "Quit $APPNAME$";
+
+/* File menu title. */
+"File" = "檔案";
+
+/* File menu item that retrieves the current Finder selection for use by QSB. Finder is the name of a system application. */
+"Get Selection from Finder" = "取得 Finder 選取項目";
+
+/* File menu item that closes the QSB window. */
+"Close" = "關閉";
+
+/* Edit menu item title. */
+"Edit" = "編輯";
+
+/* Edit menu item that undoes the last operation. */
+"Undo" = "復原";
+
+/* Edit menu item that redoes the last operation. */
+"Redo" = "重做";
+
+/* Edit menu item that performs a "cut" operation. */
+"Cut" = "剪下";
+
+/* Edit menu item that performs a "copy" operation. */
+"Copy" = "複製";
+
+/* Edit menu item that performs a "paste" operation. */
+"Paste" = "貼上";
+
+/* Edit menu item that performs a "delete" operation. */
+"Delete" = "刪除";
+
+/* Edit menu item that performs a "select all" operation. */
+"Select All" = "選取全部";
+
+/* Menu item for showing the Quick Search Box. */
+"Show Quick Search Box" = "顯示快速搜尋框";
+
+/* Menu item for hiding the Quick Search Box. */
+"Hide Quick Search Box" = "隱藏快速搜尋框";
+
+/* Tab title in our preferences dialog representing some basic options for the user to configure. */
+"Basics" = "基本選項";
+
+/* Tab title in our preferences dialog representing some options for configuring what they want to search with the QSB. */
+"Searchable Items" = "可搜尋項目";
+
+/* Tab title in our preferences dialog representing options for configuring accounts. */
+"Accounts" = "帳戶";
+
+/* Tab title in our preferences dialog represeting some advanced features. "Under the hood" is a colloqualism for advanced features. */
+"Under the Hood" = "進階功能";
+
+/* A label denoting a group of general preferences. */
+"General:" = "一般：";
+
+/* A checkbox controlling if we should display our icon as a menu in the menu bar for easy access to QSB. */
+"Show icon in menu bar" = "在選單列中顯示圖示";
+
+/* A checkbox controlling if we should display our icon in the dock for easy access to QSB. */
+"Show icon in dock" = "在 Dock 中顯示圖示";
+
+/* A sublabel to mark the dock preference, which requires the app relaunch. */
+"Requires relaunch" = "需要重新啟動";
+
+/* A checkbox controlling if the QSB should be opened automatically when the user logs in. */
+"Open Quick Search Box at login" = "登入時開啟快速搜尋框";
+
+/* A label for an edit field allowing the user to set the keyboard shortcut to show and hide QSB. */
+"Keyboard shortcut:" = "Keyboard shortcuts:";
+
+/* The button label that resets the keyboard shortcut edit field to cmd-cmd which is the default setting. */
+"Use Default (⌘⌘)" = "使用預設值 (⌘⌘)";
+
+/* A label denoting a group of preferences that affect the color and style of the QSB. */
+"Theme:" = "主題：";
+
+/* A label for menu that controls how many results the QSB will display. */
+"Number of results:" = "結果數量：";
+
+/* A menu item that denotes that the QSB will display 3 results. */
+"3" = "3";
+
+/* A menu item that denotes that the QSB will display 5 results. */
+"5" = "5";
+
+/* A menu item that denotes that the QSB will display 10 results. */
+"10" = "10";
+
+/* A menu item representing the color black. */
+"Black" = "黑色";
+
+/* A menu item representing the color blue. */
+"Blue" = "藍色";
+
+/* A menu item representing te color green. */
+"Green" = "綠色";
+
+/* A menu item representing the color red. */
+"Red" = "紅色";
+
+/* A menu item representing the color silver. */
+"Silver" = "銀色";
+
+/* A menu item representing the color white. */
+"White" = "白色";
+
+/* A menu item representing the color yellow. */
+"Yellow" = "黃色";
+
+/* A menu item that brings up a color picker allowing the user to select a custom color. */
+"Other..." = "其他...";
+
+/* A checkbox denoting whether the QSB is going to have a glossy appearance or not. */
+"Glossy" = "光亮";
+
+/* A checkbox denoting if the QSB should show web site suggestions from Google.com. */
+"Show website suggestions from Google.com" = "顯示 Google.com 的網站建議";
+
+/* A checkbox denoting if the QSB show show search suggestions from Google.com. */
+"Show search suggestions from Google.com" = "顯示 Google.com 的搜尋建議";
+
+/* A button that invokes a dialog that allows the user to add a new account. */
+"Add Account" = "新增帳戶";
+
+/* A button that removes the selected account. */
+"Remove Account" = "移除帳戶";
+
+/* A button that edits the selected account. */
+"Edit Account" = "編輯帳戶";
+
+/* The title for a dialog that is warning the user about removing an account. */
+"About to remove an account." = "即將移除帳戶。";
+
+/* A warning in a dialog associated with removing an account. */
+"Removing the account '%@' will disable and remove all search sources associated with this account." = "移除「%@」帳戶將導致所有相關的搜尋來源遭到停用與移除。";
+
+/* A label denoting options that control how the user is notified about various things by the QSB. */
+"Notifications:" = "通知：";
+
+/* A checkbox controlling if the user wants to use Growl for notifications. "Growl" is an application name and should not be localized. */
+"Use Growl for notifications" = "使用 Growl 通知";
+
+/* A label denoting options some less used advanced options that may not be in the final version. */
+"DEBUG OPTIONS" = "偵錯選項";
+
+/* A label denoting options that control how results are displayed. */
+"Results:" = "結果：";
+
+/* A checkbox that overrides the automatic hiding of the search & results
+    windows when QSB becomes inactive. */
+"Hide QSB when it becomes inactive" = "非使用中時隱藏快速搜尋框";
+
+/* A checkbox controlling if the user wants to enabled the more results window. */
+"Enable 'More Results'" = "啟用「更多結果」";
+
+/* A menu item denoting that the user wants to see 1 item per category in the more results window. */
+"1 item per category" = "每個類別顯示 1 個項目";
+
+/* A menu item denoting that the user wants to see 2 items per category in the more results window. */
+"2 items per category" = "每個類別顯示 2 個項目";
+
+/* A menu item denoting that the user wants to see 3 items per category in the more results window. */
+"3 items per category" = "每個類別顯示 3 個項目";
+
+/* A menu item denoting that the user wants to see 4 items per category in the more results window. */
+"4 items per category" = "每個類別顯示 4 個項目";
+
+/* A menu item denoting that the user wants to see 5 items per category in the more results window. */
+"5 items per category" = "每個類別顯示 5 個項目";
+
+/* A checkbox controlling if the user wants to see intermediate file content matches as the file context search source is searching. */
+"Show intermediate file content matches" = "顯示符合的中間檔案內容";
+
+/* A menu item denoting that the user doesn't want to show any google suggestion results. */
+"Don't Show Suggestions" = "不要顯示建議";
+
+/* A menu item denoting that the user wants to show 3 google suggestion results. */
+"3 Search Suggestions" = "3 個搜尋建議";
+
+/* A menu item denoting that the user wants to show 5 google suggestion results. */
+"5 Search Suggestions" = "5 個搜尋建議";
+
+/* A menu item denoting that the user wants to show 7 google suggestion results. */
+"7 Search Suggestions" = "7 個搜尋建議";
+
+/* A label denoting a group of options controlling output going to the console. */
+"Console output:" = "主控台輸出：";
+
+/* A checkbox controlling if the top results for a query will be sent to the console. */
+"'Top Results' for each query" = "每項查詢的「熱門結果」";
+
+/* A checkbox controlling if the query status will be sent to the console when restarting a query. */
+"Query status when restarting query" = "重新啟動查詢時查詢狀態";
+
+/* A checkbox controlling if the query progress will be sent to the console as the query progresses. */
+"Query operations progress" = "查詢作業進度";
+
+/* A label denoting a table describing the plugins that have been loaded into the QSB. */
+"Plug-ins:" = "外掛程式：";
+
+/* A label for a menu item that allows you to choose a type of account. */
+"Account Type:" = "帳戶類型：";
+
+/* A table result label telling users that they can search an corpus represented by %@ by typing in a text field above. */
+"Search %@ by typing in the box above." = "使用上方搜尋框搜尋「%@」。";
+
+/* A table result label for an item that allows you to search google. */
+"Google Search" = "Google 搜尋";
+
+/* A table result label for an item that allows you to search google for the token represented by %@. */
+"Search Google for '%@'" = "在 Google 搜尋「%@」";
+
+/* A table result label for an item that will show the user all x things where x is %u and the things are %@. */
+"Show all %u %@…" = "顯示所有 %1$u %2$@...";
+
+/* A table result label for an item with no title. */
+"<No Title>" = "<無標題>";
+
+/* A list delimiter. */
+", " = "、";
+
+/* A button label for a cancel button. */
+"Cancel" = "取消";
+
+/* A button label for an OK button. */
+"OK" = "確定";
+
+/* A dialog message greeting the user to Quick Search Box the first time they launch it. */
+"Welcome to the Quick Search Box, Google's latest desktop search tool! Type in this box to:" = "歡迎使用「快速搜尋框」！「快速搜尋框」是 Google 最新的桌面搜尋工具。使用此工具，您即可：";
+
+/* A label in a dialog telling people they can search the web with QSB. */
+"Search the web" = "搜尋網頁";
+
+/* A label in a dialog giving examples of what they can search for on the web with QSB. The examples do not need to be exactly as stated here. Something locale specific may be better. Please keep the length down to something similar to what is here in English. */
+"Examples: chichen itza, music lyrics" = "範例：萬里長城、音樂歌詞";
+
+/* A label in a dialog telling people they can launch apps with QSB. */
+"Start applications" = "啟動應用程式";
+
+/* A label in a dialog giving examples of what apps they can launch with QSB. The examples do not need to be exactly as stated here. Something locale specific may be better. Please keep the length down to something similar to what is here in English. */
+"Examples: itunes, calculator" = "範例：itunes、計算機";
+
+/* A label in a dialog telling people they can open webpages with QSB. */
+"Open webpages" = "開啟網頁";
+
+/* A label in a dialog giving examples of what webpages they can open with QSB. The examples do not need to be exactly as stated here. Something locale specific may be better. Please keep the length down to something similar to what is here in English. */
+"Examples: blogger.com, youtube.co.uk" = "範例：blogger.com、youtube.co.uk";
+
+/* A label in a result denoting the user's home folder in a generic way. */
+"Home" = "主要資料夾";
+
+/* A menu item denoting that the user wants to quit. */
+"Quit" = "結束";
+
+/* A menu item denoting that the user wants to search their computer and the web. */
+"Computer & Web" = "電腦與網路";
+
+/* The title of the preferences dialog. */
+"Preferences" = "Preferences";
+
+/* A string shown at launchtime to denote that QSB is starting up and is loading a plugin. */
+"Starting up… Loading %@" = "Starting up… Loading %@";
+
+/* A string shown at launchtime to denote that QSB is starting up. */
+"Starting up…" = "Starting up…";
+
+/* A string shown at launchtime to denote that we are initializing the plugins. */
+"Initializing Plugins…" = "Initializing Plugins…";
+
+/* The placeholder text for the search field in the "Searchable Items" tab in the preferences dialog. */
+"Search" = "Search";
+
+/* Menu item that performs an "update check" operation. */
+"Check for Updates…" = "Check for Updates…";

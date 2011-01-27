@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>HGSObjectAttributeLastUsedDate</key>
+		<date>2009-07-13T14:55:02Z</date>
+		<key>HGSObjectAttributeName</key>
+		<string>Get Bookmark Add-ons</string>
+		<key>HGSObjectAttributeURI</key>
+		<string>https://en-us.add-ons.mozilla.com/en-US/firefox/bookmarks/</string>
+	</dict>
+	<dict>
+		<key>HGSObjectAttributeLastUsedDate</key>
+		<date>2009-07-13T14:55:02Z</date>
+		<key>HGSObjectAttributeName</key>
+		<string>Help and Tutorials</string>
+		<key>HGSObjectAttributeURI</key>
+		<string>http://en-us.www.mozilla.com/en-US/firefox/help/</string>
+	</dict>
+	<dict>
+		<key>HGSObjectAttributeLastUsedDate</key>
+		<date>2009-07-13T14:55:02Z</date>
+		<key>HGSObjectAttributeName</key>
+		<string>Customize Firefox</string>
+		<key>HGSObjectAttributeURI</key>
+		<string>http://en-us.www.mozilla.com/en-US/firefox/customize/</string>
+	</dict>
+	<dict>
+		<key>HGSObjectAttributeLastUsedDate</key>
+		<date>2009-07-13T14:55:02Z</date>
+		<key>HGSObjectAttributeName</key>
+		<string>Get Involved</string>
+		<key>HGSObjectAttributeURI</key>
+		<string>http://en-us.www.mozilla.com/en-US/firefox/community/</string>
+	</dict>
+	<dict>
+		<key>HGSObjectAttributeLastUsedDate</key>
+		<date>2009-07-13T14:55:02Z</date>
+		<key>HGSObjectAttributeName</key>
+		<string>About Us</string>
+		<key>HGSObjectAttributeURI</key>
+		<string>http://en-us.www.mozilla.com/en-US/firefox/about/</string>
+	</dict>
+	<dict>
+		<key>HGSObjectAttributeLastUsedDate</key>
+		<date>2009-07-13T14:55:02Z</date>
+		<key>HGSObjectAttributeName</key>
+		<string>Getting Started</string>
+		<key>HGSObjectAttributeURI</key>
+		<string>http://en-us.www.mozilla.com/en-US/firefox/central/</string>
+	</dict>
+</array>
+</plist>

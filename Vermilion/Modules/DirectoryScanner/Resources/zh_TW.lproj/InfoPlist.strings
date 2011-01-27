@@ -1,0 +1,14 @@
+﻿/* A label denoting the name of the Documents Folder Source. It is a source that allows you to access the files in the user's Documents Folder. Do not include ^ in localization.*/
+"^Documents Folder" = "文件資料夾";
+
+/* A label denoting the name of the Downloads Folder Source. It is a source that allows you to access the files in the user's Downloads Folder. Do not include ^ in localization.*/
+"^Downloads Folder" = "下載資料夾";
+
+/* A label denoting the name of the Desktop Folder Source. It is a source that allows you to access the files in the user's Desktop Folder. Do not include ^ in localization.*/
+"^Desktop Folder" = "桌面資料夾";
+
+/* A label denoting the name of the System Volume Source. It is a source that allows you to access the files in the top level of the user's System Volume. Do not include ^ in localization.*/
+"^System Volume" = "系統磁碟區";
+
+/* A label denoting the name of the Home Folder Source. It is a source that allows you to access the files in the user's Home Folder. Do not include ^ in localization.*/
+"^Home Folder" = "主要資料夾";

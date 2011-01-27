@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.webbookmarks</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>FirefoxBookmarksSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.webbookmarks.firefox.source</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Firefox Bookmarks</string>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>webpage</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSCaminoBookmarksSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.webbookmarks.camino.source</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Camino Bookmarks</string>
+			<key>HGSSearchSourceUTIsToExcludeFromDiskSources</key>
+			<string>com.apple.safari.bookmark</string>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>webpage</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>ChromeBookmarksSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.webbookmarks.chromium.source</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Chromium Bookmarks</string>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>webpage</string>
+			<key>HGSSearchSourceUTIsToExcludeFromDiskSources</key>
+			<string>com.apple.safari.bookmark</string>
+			<key>ChromeBookmarksSourceSubdirectory</key>
+			<string>Chromium</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>ChromeBookmarksSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.webbookmarks.chrome.source</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Google Chrome Bookmarks</string>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>webpage</string>
+			<key>HGSSearchSourceUTIsToExcludeFromDiskSources</key>
+			<string>com.apple.safari.bookmark</string>
+			<key>ChromeBookmarksSourceSubdirectory</key>
+			<string>Google/Chrome</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSSafariBookmarksSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.webbookmarks.safari.source</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Safari Bookmarks</string>
+			<key>HGSSearchSourceUTIsToExcludeFromDiskSources</key>
+			<string>com.apple.safari.bookmark</string>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>webpage</string>
+		</dict>
+	</array>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+</dict>
+</plist>

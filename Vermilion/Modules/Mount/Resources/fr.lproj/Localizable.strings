@@ -1,0 +1,6 @@
+﻿/* A label for a result denoting a network mount point */
+"mount" = "montage";
+
+/* A label for a result denoting a network share point */
+"share" = "partage";
+

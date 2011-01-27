@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.spotlightfiles</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>SLFilesSource</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.spotlightfiles.source</string>
+			<key>HGSSearchSourcePivotableTypes</key>
+			<string>contact</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Spotlight Results</string>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<array>
+				<string>file</string>
+				<string>contact</string>
+				<string>email</string>
+				<string>webpage</string>
+			</array>
+		</dict>
+	</array>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+</dict>
+</plist>

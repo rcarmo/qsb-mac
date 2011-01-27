@@ -1,0 +1,62 @@
+﻿/* Name of action that decreases the rating of the currently selected iTunes song. Do not include ^ in localization. */
+"^Decrease iTunes Rating" = "降低 iTunes 評分";
+
+/* Name of action that increases the rating of the currently selected iTunes song. Do not include ^ in localization. */
+"^Increase iTunes Rating" = "提高 iTunes 評分";
+
+/* Name of action that toggles the mute setting of iTunes. Do not include ^ in localization. */
+"^Toggle iTunes Mute" = "切換 iTunes 靜音功能";
+
+/* Name of action that increases iTunes volume. Do not include ^ in localization. */
+"^Increase iTunes Volume" = "調高 iTunes 音量";
+
+/* Name of action that decreases iTunes volume. Do not include ^ in localization. */
+"^Decrease iTunes Volume" = "調低 iTunes 音量";
+
+/* Name of action that set the iTunes rating of the currently selected song to 5. Do not include ^ in localization. */
+"^Set iTunes Rating To 5" = "將 iTunes 評分設為 5";
+
+/* Name of action that set the iTunes rating of the currently selected song to 4. Do not include ^ in localization. */
+"^Set iTunes Rating To 4" = "將 iTunes 評分設為 4";
+
+/* Name of action that set the iTunes rating of the currently selected song to 3. Do not include ^ in localization. */
+"^Set iTunes Rating To 3" = "將 iTunes 評分設為 3";
+
+/* Name of action that set the iTunes rating of the currently selected song to 2. Do not include ^ in localization. */
+"^Set iTunes Rating To 2" = "將 iTunes 評分設為 2";
+
+/* Name of action that set the iTunes rating of the currently selected song to 1. Do not include ^ in localization. */
+"^Set iTunes Rating To 1" = "將 iTunes 評分設為 1";
+
+/* Name of action that set the iTunes rating of the currently selected song to 0. Do not include ^ in localization. */
+"^Set iTunes Rating To 0" = "將 iTunes 評分設為 0";
+
+/* Name of action that toggles iTunes shuffle. Do not include ^ in localization. */
+"^Toggle iTunes Shuffle" = "切換 iTunes 隨機播放功能";
+
+/* Name of action that toggles iTunes repeat. Do not include ^ in localization. */
+"^Toggle iTunes Repeat" = "切換 iTunes 重複播放功能";
+
+/* A label denoting the name of the iTunes Music Source. It is a source that allows the user to access all the music they have stored in iTunes. Do not include ^ in localization.*/
+"^iTunes Music" = "iTunes 音樂";
+
+/* Name of action that plays the currently selected song. Do not include ^ in localization. */
+"^Play in iTunes" = "在 iTunes 中播放";
+
+/* Name of action that plays the currently selected song(s) in iTunes DJ. Do not include ^ in localization. */
+"^Play in iTunes DJ" = "在 iTunes DJ 中播放";
+
+/* Name of action that adds the currently selected song(s) to iTunes DJ. Do not include ^ in localization. */
+"^Add to iTunes DJ" = "新增至 iTunes DJ";
+
+/* Name of action that starts iTunes playing. Do not include ^ in localization. */
+"^Play iTunes" = "播放 iTunes";
+
+/* Name of action that pauses iTunes playing. Do not include ^ in localization. */
+"^Pause iTunes" = "暫停 iTunes";
+
+/* Name of action that goes to the next iTunes track. Do not include ^ in localization. */
+"^Next iTunes Track" = "下一首 iTunes 曲目";
+
+/* Name of action that goes to the previous iTunes track. Do not include ^ in localization. */
+"^Previous iTunes Track" = "前一首 iTunes 曲目";

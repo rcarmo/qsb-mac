@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Images AppleScript</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.imagesapplescript</string>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.imagesapplescript.action.rotateCW</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Rotate Clockwise 90 Degrees</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>rotateCW</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>file.media.image</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.imagesapplescript.action.rotateCCW</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Rotate Counter Clockwise 90 Degrees</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>rotateCCW</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>file.media.image</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.imagesapplescript.action.scale</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Scale</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>scale</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>file.media.image</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.imagesapplescript.action.convert</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Convert</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>convert</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>file.media.image</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.imagesapplescript.action.setasdesktoppicture</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Set As Desktop Picture</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>setAsDesktopPicture</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>file.media.image</string>
+		</dict>
+	</array>
+</dict>
+</plist>

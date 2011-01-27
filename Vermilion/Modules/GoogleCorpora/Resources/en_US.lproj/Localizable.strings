@@ -1,0 +1,77 @@
+﻿/* A menu item denoting that the user wants to search Google. */
+"^Google.com" = "Google.com";
+
+/* A menu item denoting that the user wants to search local sites. */
+"^Local" = "Local";
+
+/* A menu item denoting that the user wants to search Google Maps. */
+"^Google Maps" = "Google Maps";
+
+/* A menu item denoting that the user wants to search Google Image Search. */
+"^Google Image Search" = "Google Image Search";
+
+/* A menu item denoting that the user wants to search Gmail. */
+"^Gmail" = "Gmail";
+
+/* A menu item denoting that the user wants to search Google Calendar. */
+"^Google Calendar" = "Google Calendar";
+
+/* A menu item denoting that the user wants to search Google News. */
+"^Google News" = "Google News";
+
+/* A menu item denoting that the user wants to search Google Blogs. */
+"^Google Blogs" = "Google Blogs";
+
+/* A menu item denoting that the user wants to search Google Groups. */
+"^Google Groups" = "Google Groups";
+
+/* A menu item denoting that the user wants to search Google Product Search. */
+"^Google Product Search" = "Google Product Search";
+
+/* A menu item denoting that the user wants to search Google Reader. */
+"^Google Reader" = "Google Reader";
+
+/* A result title denoting that the user wants to open Google Talk. */
+"^Google Talk" = "Google Talk";
+
+/* A result title denoting that the user wants to open Picasa Web Albums. */
+"^Picasa Web Albums" = "Picasa Web Albums";
+
+/* A menu item denoting that the user wants to search Google Docs. */
+"^Google Docs" = "Google Docs";
+
+/* A result title denoting that the user wants to open iGoogle. */
+"^iGoogle" = "iGoogle";
+
+/* A result title denoting that the user wants to open Google Notebook. */
+"^Google Notebook" = "Google Notebook";
+
+/* A result title denoting that the user wants to open GOOG-411. */
+"^GOOG-411" = "GOOG-411";
+
+/* A menu item denoting that the user wants to search YouTube. */
+"^YouTube" = "YouTube";
+
+/* A result title denoting that the user wants to open Blogger. */
+"^Blogger" = "Blogger";
+
+/* A menu item denoting that the user wants to search Google Finance. */
+"^Google Finance" = "Google Finance";
+
+/* A menu item denoting that the user wants to search their Gmail. */
+"^%@ Mail" = "%@ Mail";
+
+/* A menu item denoting that the user wants to search their Calendar. */
+"^%@ Calendar" = "%@ Calendar";
+
+/* A menu item denoting that the user wants to search their Docs. */
+"^%@ Docs" = "%@ Docs";
+
+/* A menu item denoting that the user wants to search Wikipedia. */
+"^Wikipedia" = "Wikipedia";
+
+/* A menu item denoting that the user wants to search Amazon. */
+"^Amazon" = "Amazon";
+
+/* A menu item denoting that the user wants to search IMDB. */
+"^IMDB" = "IMDB";

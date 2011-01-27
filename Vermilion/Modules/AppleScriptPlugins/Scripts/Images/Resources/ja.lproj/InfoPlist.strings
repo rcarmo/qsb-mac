@@ -1,0 +1,11 @@
+﻿/* Name of action that rotates an image 90 degrees clockwise. Do not include ^ in localization. */
+"^Rotate Clockwise 90 Degrees" = "時計回りに 90 度回転";
+
+/* Name of action that roates an image 90 degress counter clockwise. Do not include ^ in localization. */
+"^Rotate Counter Clockwise 90 Degrees" = "反時計回りに 90 度回転";
+
+/* Name of action that will scale an image. Do not include ^ in localization. */
+"^Scale" = "拡大・縮小";
+
+/* Name of action that will convert an image from one file type to another. Do not include ^ in localization. */
+"^Convert" = "変換";

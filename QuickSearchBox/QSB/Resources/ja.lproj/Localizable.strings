@@ -1,0 +1,342 @@
+﻿//
+//  Localized strings (en)
+//  
+//  Copyright Google Inc., 2006-2008. All rights reserved.
+//
+
+/* A grouping label denoting a collection of actions that one may do. */
+"^Actions" = "処理";
+
+/* A grouping label denoting a collection of applications. */
+"^Apps" = "アプリケーション";
+
+/* A grouping label denoting a collection of personal contacts. */
+"^Contacts" = "連絡先";
+
+/* A grouping label denoting a collection of documents. */
+"^Docs" = "ドキュメント";
+
+/* A grouping label denoting a collection of scheduled events. */
+"^Events" = "予定";
+
+/* A grouping label denoting a collection of on disk folders or directories. */
+"^Folders" = "フォルダ";
+
+/* A grouping label denoting a collection of pictures or graphics. */
+"^Images" = "画像";
+
+/* A grouping label denoting a collection of music files, composers or artists. */
+"^Music" = "音楽";
+
+/* A grouping label denoting a collection of movies or videos. */
+"^Movies" = "ムービー";
+
+/* A grouping label denoting a collection of mail messages or chat transcripts. */
+"^Messages" = "メッセージ";
+
+/* A grouping label denoting a collection of webpages. */
+"^Webpages" = "ウェブページ";
+
+/* A grouping label denoting somethings that isn't covered by the other labels. */
+"^Others" = "その他";
+
+/* Application menu item that displays the about dialog. Do not localize $APPNAME$. */
+"About $APPNAME$" = "$APPNAME$ について";
+
+/* Application menu item that displays the preferences dialog. */
+"Preferences…" = "設定...";
+
+/* Application menu item that opens the feedback webpage for sending QSB feedback. */
+"Send Feedback…" = "にご意見・ご感想を送信…";
+
+/* Application menu item that opens the QSB homepage. Do not localize $APPNAME$. */
+"Open $APPNAME$ Homepage" = "$APPNAME$ ホームページを開く";
+
+/* Application menu item that shows system services. */
+"Services" = "サービス";
+
+/* Application menu item that hides the application. Do not localize $APPNAME$. */
+"Hide $APPNAME$" = "$APPNAME$ を非表示";
+
+/* Application menu item that hides other applications. */
+"Hide Others" = "その他を非表示";
+
+/* Application menu item that shows all applications. */
+"Show All" = "すべて表示";
+
+/* Application menu item that quits the application. Do not localize $APPNAME$. */
+"Quit $APPNAME$" = "Quit $APPNAME$";
+
+/* File menu title. */
+"File" = "ファイル";
+
+/* File menu item that retrieves the current Finder selection for use by QSB. Finder is the name of a system application. */
+"Get Selection from Finder" = "Finder 上の選択を取得";
+
+/* File menu item that closes the QSB window. */
+"Close" = "閉じる";
+
+/* Edit menu item title. */
+"Edit" = "編集";
+
+/* Edit menu item that undoes the last operation. */
+"Undo" = "元に戻す";
+
+/* Edit menu item that redoes the last operation. */
+"Redo" = "やり直し";
+
+/* Edit menu item that performs a "cut" operation. */
+"Cut" = "カット";
+
+/* Edit menu item that performs a "copy" operation. */
+"Copy" = "コピー";
+
+/* Edit menu item that performs a "paste" operation. */
+"Paste" = "ペースト";
+
+/* Edit menu item that performs a "delete" operation. */
+"Delete" = "削除";
+
+/* Edit menu item that performs a "select all" operation. */
+"Select All" = "すべて選択";
+
+/* Menu item for showing the Quick Search Box. */
+"Show Quick Search Box" = "クイック検索ボックスを表示";
+
+/* Menu item for hiding the Quick Search Box. */
+"Hide Quick Search Box" = "クイック検索ボックスを非表示";
+
+/* Tab title in our preferences dialog representing some basic options for the user to configure. */
+"Basics" = "基本設定";
+
+/* Tab title in our preferences dialog representing some options for configuring what they want to search with the QSB. */
+"Searchable Items" = "検索対象";
+
+/* Tab title in our preferences dialog representing options for configuring accounts. */
+"Accounts" = "アカウント";
+
+/* Tab title in our preferences dialog represeting some advanced features. "Under the hood" is a colloqualism for advanced features. */
+"Under the Hood" = "高度な設定";
+
+/* A label denoting a group of general preferences. */
+"General:" = "全般:";
+
+/* A checkbox controlling if we should display our icon as a menu in the menu bar for easy access to QSB. */
+"Show icon in menu bar" = "メニューバーにアイコンを表示する";
+
+/* A checkbox controlling if we should display our icon in the dock for easy access to QSB. */
+"Show icon in dock" = "ドック内にアイコンを表示";
+
+/* A sublabel to mark the dock preference, which requires the app relaunch. */
+"Requires relaunch" = "QSB の再起動が必要";
+
+/* A checkbox controlling if the QSB should be opened automatically when the user logs in. */
+"Open Quick Search Box at login" = "ログイン時にクイック検索ボックスを開く";
+
+/* A label for an edit field allowing the user to set the keyboard shortcut to show and hide QSB. */
+"Keyboard shortcut:" = "Keyboard shortcuts:";
+
+/* The button label that resets the keyboard shortcut edit field to cmd-cmd which is the default setting. */
+"Use Default (⌘⌘)" = "デフォルトを使用（⌘⌘）";
+
+/* A label denoting a group of preferences that affect the color and style of the QSB. */
+"Theme:" = "テーマ:";
+
+/* A label for menu that controls how many results the QSB will display. */
+"Number of results:" = "検索結果数:";
+
+/* A menu item that denotes that the QSB will display 3 results. */
+"3" = "3";
+
+/* A menu item that denotes that the QSB will display 5 results. */
+"5" = "5";
+
+/* A menu item that denotes that the QSB will display 10 results. */
+"10" = "10";
+
+/* A menu item representing the color black. */
+"Black" = "黒";
+
+/* A menu item representing the color blue. */
+"Blue" = "青";
+
+/* A menu item representing te color green. */
+"Green" = "緑";
+
+/* A menu item representing the color red. */
+"Red" = "赤";
+
+/* A menu item representing the color silver. */
+"Silver" = "シルバー";
+
+/* A menu item representing the color white. */
+"White" = "白";
+
+/* A menu item representing the color yellow. */
+"Yellow" = "黄";
+
+/* A menu item that brings up a color picker allowing the user to select a custom color. */
+"Other..." = "その他...";
+
+/* A checkbox denoting whether the QSB is going to have a glossy appearance or not. */
+"Glossy" = "光沢";
+
+/* A checkbox denoting if the QSB should show web site suggestions from Google.com. */
+"Show website suggestions from Google.com" = "Google.com のウェブサイト検索候補を表示する";
+
+/* A checkbox denoting if the QSB show show search suggestions from Google.com. */
+"Show search suggestions from Google.com" = "Google.com の検索候補を表示";
+
+/* A button that invokes a dialog that allows the user to add a new account. */
+"Add Account" = "アカウントを追加";
+
+/* A button that removes the selected account. */
+"Remove Account" = "アカウントを削除";
+
+/* A button that edits the selected account. */
+"Edit Account" = "アカウントを編集";
+
+/* The title for a dialog that is warning the user about removing an account. */
+"About to remove an account." = "アカウントを削除しようとしています。";
+
+/* A warning in a dialog associated with removing an account. */
+"Removing the account '%@' will disable and remove all search sources associated with this account." = "アカウント「%@」を削除すると、このアカウントに関連付けられた検索ソースはすべて使用できなくなり、削除されます。";
+
+/* A label denoting options that control how the user is notified about various things by the QSB. */
+"Notifications:" = "通知:";
+
+/* A checkbox controlling if the user wants to use Growl for notifications. "Growl" is an application name and should not be localized. */
+"Use Growl for notifications" = "Growl を通知に使用する";
+
+/* A label denoting options some less used advanced options that may not be in the final version. */
+"DEBUG OPTIONS" = "デバッグ オプション";
+
+/* A label denoting options that control how results are displayed. */
+"Results:" = "結果:";
+
+/* A checkbox that overrides the automatic hiding of the search & results
+    windows when QSB becomes inactive. */
+"Hide QSB when it becomes inactive" = "QSB が非表示の時は表示しない";
+
+/* A checkbox controlling if the user wants to enabled the more results window. */
+"Enable 'More Results'" = "「その他の検索結果」を有効にする";
+
+/* A menu item denoting that the user wants to see 1 item per category in the more results window. */
+"1 item per category" = "カテゴリごとに 1 項目";
+
+/* A menu item denoting that the user wants to see 2 items per category in the more results window. */
+"2 items per category" = "カテゴリごとに 2 項目";
+
+/* A menu item denoting that the user wants to see 3 items per category in the more results window. */
+"3 items per category" = "カテゴリごとに 3 項目";
+
+/* A menu item denoting that the user wants to see 4 items per category in the more results window. */
+"4 items per category" = "カテゴリごとに 4 項目";
+
+/* A menu item denoting that the user wants to see 5 items per category in the more results window. */
+"5 items per category" = "カテゴリごとに 5 項目";
+
+/* A checkbox controlling if the user wants to see intermediate file content matches as the file context search source is searching. */
+"Show intermediate file content matches" = "ファイルのコンテンツ検索中に結果を表示する";
+
+/* A menu item denoting that the user doesn't want to show any google suggestion results. */
+"Don't Show Suggestions" = "検索候補を表示しない";
+
+/* A menu item denoting that the user wants to show 3 google suggestion results. */
+"3 Search Suggestions" = "3 つの検索候補";
+
+/* A menu item denoting that the user wants to show 5 google suggestion results. */
+"5 Search Suggestions" = "5 つの検索候補";
+
+/* A menu item denoting that the user wants to show 7 google suggestion results. */
+"7 Search Suggestions" = "7 つの検索候補";
+
+/* A label denoting a group of options controlling output going to the console. */
+"Console output:" = "コンソール出力:";
+
+/* A checkbox controlling if the top results for a query will be sent to the console. */
+"'Top Results' for each query" = "各キーワードの「検索結果上位」";
+
+/* A checkbox controlling if the query status will be sent to the console when restarting a query. */
+"Query status when restarting query" = "検索再開時の検索状況";
+
+/* A checkbox controlling if the query progress will be sent to the console as the query progresses. */
+"Query operations progress" = "検索の処理状況";
+
+/* A label denoting a table describing the plugins that have been loaded into the QSB. */
+"Plug-ins:" = "プラグイン:";
+
+/* A label for a menu item that allows you to choose a type of account. */
+"Account Type:" = "アカウントの種類:";
+
+/* A table result label telling users that they can search an corpus represented by %@ by typing in a text field above. */
+"Search %@ by typing in the box above." = "上記のボックスに入力して %@ を検索します。";
+
+/* A table result label for an item that allows you to search google. */
+"Google Search" = "Google 検索";
+
+/* A table result label for an item that allows you to search google for the token represented by %@. */
+"Search Google for '%@'" = "Google で \"%@\" を検索";
+
+/* A table result label for an item that will show the user all x things where x is %u and the things are %@. */
+"Show all %u %@…" = "%2$@ の %1$u をすべて表示...";
+
+/* A table result label for an item with no title. */
+"<No Title>" = "<タイトルなし>";
+
+/* A list delimiter. */
+", " = "、";
+
+/* A button label for a cancel button. */
+"Cancel" = "キャンセル";
+
+/* A button label for an OK button. */
+"OK" = "OK";
+
+/* A dialog message greeting the user to Quick Search Box the first time they launch it. */
+"Welcome to the Quick Search Box, Google's latest desktop search tool! Type in this box to:" = "クイック検索ボックスへようこそ。Google の最新のデスクトップ検索ツールです。検索ボックスから、次の操作が可能です:";
+
+/* A label in a dialog telling people they can search the web with QSB. */
+"Search the web" = "ウェブを検索";
+
+/* A label in a dialog giving examples of what they can search for on the web with QSB. The examples do not need to be exactly as stated here. Something locale specific may be better. Please keep the length down to something similar to what is here in English. */
+"Examples: chichen itza, music lyrics" = "例: 明日香村、歌詞";
+
+/* A label in a dialog telling people they can launch apps with QSB. */
+"Start applications" = "アプリケーションを起動";
+
+/* A label in a dialog giving examples of what apps they can launch with QSB. The examples do not need to be exactly as stated here. Something locale specific may be better. Please keep the length down to something similar to what is here in English. */
+"Examples: itunes, calculator" = "例: iTunes、計算機";
+
+/* A label in a dialog telling people they can open webpages with QSB. */
+"Open webpages" = "ウェブページを開く";
+
+/* A label in a dialog giving examples of what webpages they can open with QSB. The examples do not need to be exactly as stated here. Something locale specific may be better. Please keep the length down to something similar to what is here in English. */
+"Examples: blogger.com, youtube.co.uk" = "例: blogger.com、youtube.co.jp";
+
+/* A label in a result denoting the user's home folder in a generic way. */
+"Home" = "ホーム";
+
+/* A menu item denoting that the user wants to quit. */
+"Quit" = "終了";
+
+/* A menu item denoting that the user wants to search their computer and the web. */
+"Computer & Web" = "コンピュータとウェブ";
+
+/* The title of the preferences dialog. */
+"Preferences" = "Preferences";
+
+/* A string shown at launchtime to denote that QSB is starting up and is loading a plugin. */
+"Starting up… Loading %@" = "Starting up… Loading %@";
+
+/* A string shown at launchtime to denote that QSB is starting up. */
+"Starting up…" = "Starting up…";
+
+/* A string shown at launchtime to denote that we are initializing the plugins. */
+"Initializing Plugins…" = "Initializing Plugins…";
+
+/* The placeholder text for the search field in the "Searchable Items" tab in the preferences dialog. */
+"Search" = "Search";
+
+/* Menu item that performs an "update check" operation. */
+"Check for Updates…" = "Check for Updates…";

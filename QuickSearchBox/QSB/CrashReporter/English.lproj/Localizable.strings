@@ -1,0 +1,25 @@
+﻿/* Button title */
+"Cancel" = "Cancel";
+/* Console log header */
+"Console Log" = "Console Log";
+/* Missing crash report */
+"Could not locate crash report." = "Could not locate crash report.";
+/* Crash log header */
+"Crash Report" = "Crash Report";
+/* Crash report window title */
+"Crash report for \"%@\"" = "Crash report for \"%@\"";
+/* Crash log header */
+"Crash Report:" = "Crash Report:";
+/* Description text */
+"Please describe the circumstances leading to the crash and any other relevant information:\n\n" = "Please describe the circumstances leading to the crash and any other relevant information:\n\n";
+/* Description header */
+"Problem Description:" = "Problem Description:";
+/* Send to #COMPANY# button text */
+"Send to %@" = "Send to %@";
+/* Button title */
+"Submit Report..." = "Submit Report…";
+/* App crash title */
+"The application %@ has unexpectedly quit." = "The application %@ has unexpectedly quit.";
+/* App crash message */
+"The system and other applications have not been affected.\n\nWould you like to submit a bug report to %@?" = "The system and other applications have not been affected.\n\nWould you like to submit a bug report to %@?";
+

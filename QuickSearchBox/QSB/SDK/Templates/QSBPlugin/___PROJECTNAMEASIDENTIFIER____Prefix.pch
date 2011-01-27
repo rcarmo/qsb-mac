@@ -1,0 +1,14 @@
+//
+//  ___PROJECTNAMEASIDENTIFIER____Prefix.pch
+//  ___PROJECTNAME___
+//
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+  #import <Vermilion/Vermilion.h>
+  #import <GTM/GTMDefines.h>
+#endif

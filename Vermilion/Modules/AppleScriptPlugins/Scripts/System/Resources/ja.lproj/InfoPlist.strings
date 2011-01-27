@@ -1,0 +1,32 @@
+﻿/* Name of action that shows all applications. Do not include ^ in localization. */
+"^Show All Applications" = "すべてのアプリケーションを表示";
+
+/* Name of action that shuts the computer off. Do not include ^ in localization. */
+"^Shut Down" = "システム終了";
+
+/* Name of action that puts the computer to sleep. Do not include ^ in localization. */
+"^Sleep" = "スリープ";
+
+/* Name of action that restarts the computer. Do not include ^ in localization. */
+"^Restart" = "再起動";
+
+/* Name of action that quits the visible applications. Do not include ^ in localization. */
+"^Quit Visible Applications" = "表示中のアプリケーションを終了";
+
+/* Name of action that logs the user out of their computer. Do not include ^ in localization. */
+"^Log Out" = "ログアウト";
+
+/* Name of action that locks the user's screen. Do not include ^ in localization. */
+"^Lock Screen" = "画面をロック";
+
+/* Name of action that hides all other applications. Do not include ^ in localization. */
+"^Hide Others" = "その他を非表示";
+
+/* Name of action that empties the trash. Do not include ^ in localization. */
+"^Empty Trash" = "ゴミ箱を空にする";
+
+/* Name of action that ejects the user's dvd drive tray. Do not include ^ in localization. */
+"^Eject Disk Tray" = "ディスク トレイから取り出す";
+
+/* Name of action that closes the user's dvd drive tray. Do not include ^ in localization. */
+"^Close Disk Tray" = "ディスク トレイを閉じる";

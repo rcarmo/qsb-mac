@@ -1,0 +1,62 @@
+﻿/* Name of action that decreases the rating of the currently selected iTunes song. Do not include ^ in localization. */
+"^Decrease iTunes Rating" = "iTunes のレートを下げる";
+
+/* Name of action that increases the rating of the currently selected iTunes song. Do not include ^ in localization. */
+"^Increase iTunes Rating" = "iTunes でレートを上げる";
+
+/* Name of action that toggles the mute setting of iTunes. Do not include ^ in localization. */
+"^Toggle iTunes Mute" = "iTunes のミュートをオン/オフ";
+
+/* Name of action that increases iTunes volume. Do not include ^ in localization. */
+"^Increase iTunes Volume" = "iTunes の音量を上げる";
+
+/* Name of action that decreases iTunes volume. Do not include ^ in localization. */
+"^Decrease iTunes Volume" = "iTunes の音量を下げる";
+
+/* Name of action that set the iTunes rating of the currently selected song to 5. Do not include ^ in localization. */
+"^Set iTunes Rating To 5" = "iTunes でレートを 5 に設定";
+
+/* Name of action that set the iTunes rating of the currently selected song to 4. Do not include ^ in localization. */
+"^Set iTunes Rating To 4" = "iTunes でレートを 4 に設定";
+
+/* Name of action that set the iTunes rating of the currently selected song to 3. Do not include ^ in localization. */
+"^Set iTunes Rating To 3" = "iTunes でレートを 3 に設定";
+
+/* Name of action that set the iTunes rating of the currently selected song to 2. Do not include ^ in localization. */
+"^Set iTunes Rating To 2" = "iTunes でレートを 2 に設定";
+
+/* Name of action that set the iTunes rating of the currently selected song to 1. Do not include ^ in localization. */
+"^Set iTunes Rating To 1" = "iTunes でレートを 1 に設定";
+
+/* Name of action that set the iTunes rating of the currently selected song to 0. Do not include ^ in localization. */
+"^Set iTunes Rating To 0" = "iTunes でレートを 0 に設定";
+
+/* Name of action that toggles iTunes shuffle. Do not include ^ in localization. */
+"^Toggle iTunes Shuffle" = "iTunes のシャッフルをオン/オフ";
+
+/* Name of action that toggles iTunes repeat. Do not include ^ in localization. */
+"^Toggle iTunes Repeat" = "iTunes のリピートをオン/オフ";
+
+/* A label denoting the name of the iTunes Music Source. It is a source that allows the user to access all the music they have stored in iTunes. Do not include ^ in localization.*/
+"^iTunes Music" = "iTunes ミュージック";
+
+/* Name of action that plays the currently selected song. Do not include ^ in localization. */
+"^Play in iTunes" = "iTunes で再生";
+
+/* Name of action that plays the currently selected song(s) in iTunes DJ. Do not include ^ in localization. */
+"^Play in iTunes DJ" = "iTunes DJ で再生";
+
+/* Name of action that adds the currently selected song(s) to iTunes DJ. Do not include ^ in localization. */
+"^Add to iTunes DJ" = "iTunes DJ に追加";
+
+/* Name of action that starts iTunes playing. Do not include ^ in localization. */
+"^Play iTunes" = "iTunes を再生";
+
+/* Name of action that pauses iTunes playing. Do not include ^ in localization. */
+"^Pause iTunes" = "iTunes を一時停止";
+
+/* Name of action that goes to the next iTunes track. Do not include ^ in localization. */
+"^Next iTunes Track" = "iTunes での次の曲";
+
+/* Name of action that goes to the previous iTunes track. Do not include ^ in localization. */
+"^Previous iTunes Track" = "iTunes/前の曲";

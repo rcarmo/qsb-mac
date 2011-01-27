@@ -1,0 +1,20 @@
+﻿/* A menu item denoting that the user wants to search Google Image Search. */
+"^Google Image Search" = "Afbeeldingen zoeken met Google";
+
+/* A menu item denoting that the user wants to search Gmail. */
+"^Gmail" = "Gmail";
+
+/* A menu item denoting that the user wants to search Google News. */
+"^Google News" = "Google Nieuws";
+
+/* A menu item denoting that the user wants to search Google Product Search. */
+"^Google Product Search" = "Producten zoeken met Google";
+
+/* A menu item denoting that the user wants to search Wikipedia. */
+"^Wikipedia" = "Wikipedia";
+
+/* A menu item denoting that the user wants to search Google Docs. */
+"^Google Docs" = "Google Documenten";
+
+/* A menu item denoting that the user wants to search YouTube. */
+"^YouTube" = "YouTube";

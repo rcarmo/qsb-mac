@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Application UI Source. It is a source that allows you to access UI elements of applications. Do not include ^ in localization.*/
+"^Application UI Source" = "アプリケーション UI ソース";

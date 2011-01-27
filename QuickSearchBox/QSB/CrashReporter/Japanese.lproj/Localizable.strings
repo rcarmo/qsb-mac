@@ -1,0 +1,10 @@
+﻿"Send to %@" = "%@に送信";
+"Submit Report..." = "レポートを送信…";
+"Cancel" = "キャンセル";
+"Crash Report:" = "クラッシュレポート：";
+"Crash Report" = "クラッシュレポート";
+"Problem Description:" = "問題の説明：";
+"Crash report for \"%@\"" = "“%@”のクラッシュレポート";
+"The application %@ has unexpectedly quit." = "アプリケーション“%@”は予期しない理由で終了しました。";
+"Please describe the circumstances leading to the crash and any other relevant information:\n\n" = "クラッシュの原因となった状況と関連する情報を説明してください：\n\n";
+"The system and other applications have not been affected.\n\nWould you like to submit a bug report to %@?" = "システムおよびその他のアプリケーションには影響はありません。\n\nバグレポートを%@に送信しますか？";

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<blacklist version="1.0">
+
+<plugin>
+<title>Super Malware Plus</title>
+<description>Steals your credit card numbers and passwords</description>
+<guid>com.example.blacklist.super.malware.plus</guid>
+</plugin>
+
+<plugin>
+<title>Sneaky Ads</title>
+<description>Slips pop-up ads onto your system</description>
+<guid>com.example.blacklist.sneaky.ads</guid>
+</plugin>
+
+</blacklist>

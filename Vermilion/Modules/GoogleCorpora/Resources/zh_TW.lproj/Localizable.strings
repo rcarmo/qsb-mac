@@ -1,0 +1,20 @@
+﻿/* A menu item denoting that the user wants to search Google Image Search. */
+"^Google Image Search" = "Google 圖片搜尋";
+
+/* A menu item denoting that the user wants to search Gmail. */
+"^Gmail" = "Gmail";
+
+/* A menu item denoting that the user wants to search Google News. */
+"^Google News" = "Google 新聞";
+
+/* A menu item denoting that the user wants to search Google Product Search. */
+"^Google Product Search" = "Google 商品搜尋";
+
+/* A menu item denoting that the user wants to search Wikipedia. */
+"^Wikipedia" = "維基百科";
+
+/* A menu item denoting that the user wants to search Google Docs. */
+"^Google Docs" = "Google 文件";
+
+/* A menu item denoting that the user wants to search YouTube. */
+"^YouTube" = "YouTube";

@@ -1,0 +1,2 @@
+﻿/* Name of action that allows the user to email an URL to someone. Do not include ^ in localization. */
+"^Email URL" = "Envoyer une URL par e-mail";

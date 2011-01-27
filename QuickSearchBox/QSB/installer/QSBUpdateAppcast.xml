@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Quick Search Box Changelog</title>
+      <link>http://qsb-mac.googlecode.com/svn/trunk/QuickSearchBox/QSB/installer/QSBUpdateAppcast.xml</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>
+         <item>
+            <title>Version <VERSION></title>
+						<sparkle:releaseNotesLink>
+							http://qsb-mac.googlecode.com/svn/trunk/release_notes/<RELEASE_NOTES_NAME>
+						</sparkle:releaseNotesLink>
+            <pubDate><DATE></pubDate>
+            <enclosure url="http://qsb-mac.googlecode.com/files/<DMG_NAME>"
+              sparkle:version="<VERSION>"
+              length="<SIZE>"
+              type="application/octet-stream"
+              sparkle:dsaSignature="<HASH>" />
+         </item>
+   </channel>
+</rss>

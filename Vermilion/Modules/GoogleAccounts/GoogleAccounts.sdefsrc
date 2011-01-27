@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Google Accounts Terminology">
+
+  <suite name="Google Accounts Suite"
+         code="GAcc"
+         description="Classes for Google Accounts in QSB.">
+
+    <enumeration name="account type options"
+                 code="Apps">
+      <enumerator name="standard"
+                  code="Stnd"
+                  description="Standard, non-hosted Google account."/>
+      <enumerator name="apps"
+                  code="Hstd"
+                  description="Google Apps account, google.com account, etc."/>
+    </enumeration>
+
+    <command name="register google"
+             code="GgAcRgGA"
+             description="Set up a Google account for use within QSB.">
+      <cocoa class="GoogleAccountRegisterAccountCommand"/>
+      <parameter name="account"
+                 code="Acct"
+                 type="text"
+                 description="The name of the account.  Example: 'name@domain.com'.">
+        <cocoa key="Account"/>
+      </parameter>
+      <parameter name="password"
+                 code="Pass"
+                 type="text"
+                 description="The password for the account.">
+        <cocoa key="Password"/>
+      </parameter>
+      <parameter name="account type"
+                 code="Apps"
+                 type="account type options"
+                 optional="yes"
+                 description="The type of the account.">
+        <cocoa key="AccountType"/>
+      </parameter>
+      <result type="specifier" description="The newly set up account."/>
+    </command>
+
+    <class name="google account"
+           code="GAct"
+           inherits="simple account"
+           description="A standard Google account.">
+      <cocoa class="GoogleAccount"/>
+    </class>
+
+    <class name="google apps account"
+           code="AAct"
+           inherits="google account"
+           description="A Google Apps account.">
+      <cocoa class="GoogleAppsAccount"/>
+    </class>
+
+  </suite>
+</dictionary>

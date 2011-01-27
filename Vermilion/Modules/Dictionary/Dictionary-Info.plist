@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.dictionary</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>DictionarySearchSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.dictionary.source</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Dictionary</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSSearchSourceCannotArchive</key>
+			<true/>
+			<key>HGSSearchSourcePivotableTypes</key>
+			<array>
+				<string>file.application</string>
+			</array>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>onebox.dictionary_definition</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>ShowInDictionaryAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.dictionary.action.open</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>dictionary.definition</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Show in Dictionary</string>
+		</dict>
+	</array>
+</dict>
+</plist>

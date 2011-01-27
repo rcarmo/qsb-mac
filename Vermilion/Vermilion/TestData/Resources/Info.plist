@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.VermilionTest</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSActionArgumentTests</key>
+	<array>
+		<dict>
+			<key>HGSActionArgumentIdentifier</key>
+			<string>testActionArgument</string>
+			<key>HGSActionArgumentSupportedTypes</key>
+			<string>file</string>
+			<key>HGSActionArgumentUnsupportedTypes</key>
+			<string>file.text</string>
+			<key>HGSActionArgumentOptional</key>
+			<true/>
+			<key>HGSActionArgumentUserVisibleOtherTerms</key>
+			<array>
+				<string>^Document</string>
+				<string>^Doohickey</string>
+			</array>
+			<key>HGSActionArgumentUserVisibleName</key>
+			<string>^File</string>
+			<key>HGSActionArgumentUserVisibleDescription</key>
+			<string>^The file you want to manipulate.</string>
+		</dict>
+	</array>
+	<key>LocalizedKeyInfoPlistStringsTest</key>
+	<string>^Localize Me InfoPlist.strings</string>
+	<key>LocalizedKeyLocalizableTest</key>
+	<string>^Localize Me Localizable.strings</string>
+</dict>
+</plist>

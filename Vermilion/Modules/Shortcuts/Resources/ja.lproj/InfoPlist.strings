@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Shortcuts Source. It is a source that allows the user to store their own shortcuts for results. Do not include ^ in localization.*/
+"^Shortcuts" = "ショートカット";

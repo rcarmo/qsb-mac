@@ -1,0 +1,14 @@
+﻿/* A label denoting the name of the Address Book Contacts Source. It is a source that provides the user with the list of contacts from their Address Book.. Do not include ^ in localization. */
+"^Address Book Contacts Source" = "Bron van contactpersonen uit adresboek";
+
+/* A label denoting the name of the Email action which allows you to email a contact. Do not include ^ in localization. */
+"^Email" = "E-mail";
+
+/* A label denoting the name of the Email action which allows you to instant message a contact. Do not include ^ in localization. */
+"^Instant Message" = "Expresbericht";
+
+/* A label denoting the name of the Email action which allows you to video chat a contact. Do not include ^ in localization. */
+"^Video Chat" = "Videochat";
+
+/* A label denoting the name of the Email action which allows you to audio chat a contact. Do not include ^ in localization. */
+"^Audio Chat" = "Audiochat";

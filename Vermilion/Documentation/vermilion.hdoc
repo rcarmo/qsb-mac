@@ -1,0 +1,44 @@
+/*!
+  @framework <span style="color: #e34234">Vermilion</span>
+  @discussion 
+  Vermilion is our base framework for loading and interacting with extensions.
+  
+  Vermilion is another name for mercuric sulfide (HgS), hence the HGS prefix
+  on all Vermilion class names. 
+  
+  Vermilion extensions are all subclasses of 
+  @link //google_vermilion_ref/occ/cl/HGSExtension HGSExtension @/link
+  and are loaded in groups stored together on disk as plugins that are 
+  represented by the
+  @link //google_vermilion_ref/occ/cl/HGSPlugin HGSPlugin @/link class.
+  
+  When a @link //google_vermilion_ref/occ/cl/HGSPlugin HGSPlugin @/link loads 
+  it creates a series of 
+  @link //google_vermilion_ref/occ/cl/HGSProtoExtension HGSProtoExtensions @/link 
+  that represent the extensions that it can install. This is so users can turn
+  various @link //google_vermilion_ref/occ/cl/HGSExtension HGSExtensions @/link 
+  on and off. When an 
+  @link //google_vermilion_ref/occ/cl/HGSExtension HGSExtension @/link is on, we
+  refer to it as being installed.
+  
+  @link //google_vermilion_ref/occ/cl/HGSExtension HGSExtensions @/link that load
+  from plugins come in four basic types:
+  <ul>
+    <li>
+      search sources (subclasses of 
+      @link //google_vermilion_ref/occ/cl/HGSSearchSource HGSSearchSource @/link)
+    </li>
+    <li>
+      actions (subclasses of 
+      @link //google_vermilion_ref/occ/cl/HGSAction HGSAction @/link)
+    </li>
+    <li>
+      account types (subclasses of
+      @link //google_vermilion_ref/occ/cl/HGSAccountType HGSAccountType @/link)
+    </li>
+    <li>
+      services (miscellaneous support plugins. Subclasses of
+      @link //google_vermilion_ref/occ/cl/HGSExtension HGSExtension @/link)
+    </li>
+  </ul>  
+*/

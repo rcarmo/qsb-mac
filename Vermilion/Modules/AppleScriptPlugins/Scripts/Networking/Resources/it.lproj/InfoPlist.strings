@@ -1,0 +1,5 @@
+﻿/* Name of action that gets the user's internal IP address(es). Do not include ^ in localization. */
+"^Get IP" = "Recupera IP";
+
+/* Name of action that gets the user's external IP address(es). Do not include ^ in localization. */
+"^Get External IP" = "Recupera IP esterno";

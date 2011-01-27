@@ -1,0 +1,20 @@
+/* A label denoting %u number of online photos */
+"%u photos" = "%u photos";
+
+/* A label denoting a Picasaweb Photo Album */
+"album" = "album";
+
+/* A label denoting a Picasaweb photo */
+"photo" = "photo";
+
+/* A label denoting the picasaweb service. */
+"Picasaweb" = "Picasaweb";
+
+/* A dialog title denoting that we have encountered an error fetching data from Picasaweb. */
+"Picasaweb fetch problem." = "Picasaweb fetch problem.";
+
+/* The proper name of the Picasa Web service. */
+"Picasa Web" = "Picasa Web";
+
+/* A message explaining that the file given by %@ could not be uploaded because the MIME type of the file could not be determined. */
+"Could not upload '%@' because the MIME type of the file could not be determined." = "Could not upload '%@' because the MIME type of the file could not be determined.";

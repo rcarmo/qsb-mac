@@ -1,0 +1,5 @@
+﻿/* A label denoting the name of the Screen Savers Source. It is a source that allows the user to access screensavers installed on their computer. Do not include ^ in localization.*/
+"^Screen Savers" = "Screen Savers";
+
+/* Name of action that sets a screen saver. Do not include ^ in localization. */
+"^Set as Screen Saver" = "Set as Screen Saver";

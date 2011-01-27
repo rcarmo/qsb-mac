@@ -1,0 +1,172 @@
+# QSB suppressions for Valgrind
+{
+   PyObject_Free_Value8
+   Memcheck:Value8
+   fun:PyObject_Free
+   ...
+}
+{
+   PyObject_Free_Cond
+   Memcheck:Cond
+   fun:PyObject_Free
+   ...
+}
+{
+   PyObject_Free_Addr4
+   Memcheck:Addr4
+   fun:PyObject_Free
+   ...
+}
+{
+   PyObject_Realloc_Addr4
+   Memcheck:Addr4
+   fun:PyObject_Realloc
+   ...
+}
+{
+   PyObject_Realloc_Cond
+   Memcheck:Cond
+   fun:PyObject_Realloc
+   ...
+}
+{
+   PyObject_Realloc_Value8
+   Memcheck:Value8
+   fun:PyObject_Realloc
+   ...
+}
+{
+   PyEval_EvalFrameEx_SetEnv
+   Memcheck:Cond
+   fun:__setenv
+   fun:initposix
+   fun:PyEval_EvalFrameEx
+   ...
+}
+{
+   CGContextDrawPath_Cond
+   Memcheck:Cond
+   fun:_symmetric_convolve
+   fun:symmetric_convolve
+   fun:RIPLayerSymmetricConvolve
+   fun:RIPLayerGaussianBlur
+   fun:rips_s_BltShapeShadow
+   fun:rips_s_BltShape
+   fun:ripc_Render
+   fun:ripc_DrawPath
+   fun:CGContextDrawPath
+   ...
+}
+{
+   CGSConvertAlphaByte_Cond
+   Memcheck:Cond
+   fun:CGSConvertAlphaByte
+   fun:img_colormatch_read
+   fun:img_alphamerge_read
+   fun:img_data_lock
+   fun:CGSImageDataLock
+   ...
+}
+{
+   CGSConvertAlphaByte_Value8
+   Memcheck:Value8
+   fun:CGSConvertAlphaByte
+   fun:img_colormatch_read
+   fun:img_alphamerge_read
+   fun:img_data_lock
+   fun:CGSImageDataLock
+   ...
+}
+{
+   <CGSConvertAlphaByte_Cond2>
+   Memcheck:Cond
+   fun:CGSConvertAlphaByte
+   fun:img_alphamerge_read
+   fun:img_data_lock
+   fun:CGSImageDataLock
+   ...
+}
+{
+   img_interpolate_read_Cond
+   Memcheck:Cond
+   ...
+   fun:img_interpolate_read
+   fun:img_colormatch_read
+   fun:img_alphamerge_read
+   fun:img_data_lock
+   fun:CGSImageDataLock
+   fun:ripc_AcquireImage
+   fun:ripc_DrawImage
+   fun:CGContextDrawImage
+   ...
+}
+{
+   sseCGSBlendXXXX8888Transpose_Cond
+   Memcheck:Cond
+   fun:sseCGSBlendXXXX8888Transpose
+   fun:CGSBlendBGRA8888toRGBA8888
+   fun:argb32_image
+   fun:ripd_Mark
+   fun:ripl_BltImage
+   fun:ripc_RenderImage
+   fun:ripc_DrawImage
+   fun:CGContextDrawImage
+   ...
+}
+{
+   posix_spawn_Param
+   Memcheck:Param
+   posix_spawn(pid)
+   fun:__posix_spawn
+   fun:-[NSConcreteTask launchWithDictionary:]
+   fun:+[NSTask launchedTaskWithLaunchPath:arguments:]
+   fun:_NSUpdateDynamicServicesWithArgument
+   ...
+}
+{
+   _InitializeCachedDictionaries_Cond
+   Memcheck:Cond
+   fun:pthread_rwlock_init
+   fun:_ZL29_InitializeCachedDictionariesv
+   fun:pthread_once
+   ...
+}
+{
+   InitializeRegisteredAcccessMethods_Cond
+   Memcheck:Cond
+   fun:pthread_rwlock_init
+   fun:_ZL35_InitializeRegisteredAcccessMethodsv
+   fun:pthread_once
+   ...
+}   
+{
+   InitializeOpenedIndexes_Cond
+   Memcheck:Cond
+   fun:pthread_rwlock_init
+   fun:_ZL24_InitializeOpenedIndexesv
+   fun:pthread_once
+   ...
+}
+{
+   MDQuerySort_Overlap
+   Memcheck:Overlap
+   fun:memcpy
+   fun:multikey_qsort
+   fun:multikey_qsort
+   fun:multikey_qsort
+   fun:multikey_qsort
+   fun:multikey_qsort
+   fun:multikey_qsortmain
+   fun:__MDQuerySortResultsLocked
+   fun:processUpdatesLocked
+   fun:tryProcessUpdates
+   fun:_MDQueryCallback
+   fun:doQueryResultsCallback
+}
+{
+   find_registered_purgeable_zone_Cond
+   Memcheck:Cond
+   fun:x_zone_size
+   fun:find_registered_purgeable_zone
+   ...
+}

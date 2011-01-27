@@ -1,0 +1,18 @@
+﻿/* [Search <website>] for <search_term> (30 chars excluding <search_term>) */
+"for \"%@\"" = "搜尋「%@」";
+
+/* A label representing Google as a search source. */
+"Google" = "Google";
+
+/* Open <website> (eg. Wikipedia) (30 chars excluding <website>) */
+"Open %@" = "開啟「%@」";
+
+/* Search <website|category> (eg. Wikipedia) (30 chars excluding <website>) */
+"Search %@" = "搜尋「%@」";
+
+/* A result label denoting text typed in by the user that contains some special markers that we replace with data, such as the current date. */
+"Stamped text input" = "加註戳記的文字輸入";
+
+/* A result label denoting text typed in by the user */
+"Text" = "文字";
+

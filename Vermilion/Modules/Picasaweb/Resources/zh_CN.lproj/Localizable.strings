@@ -1,0 +1,41 @@
+/* A label denoting %u number of online photos */
+"%u photos" = "%u 张照片";
+
+/* A label denoting a Picasaweb Photo Album */
+"album" = "相册";
+
+/* A dialog label asking if the user has enabled their Picasa account for the username %1$@. %2$d is an error code returned from Picasaweb */
+"Have you enabled Picasa for your '%1$@' account? (%2$d)" = "您的“%1$@”帐户是否已启用 Picasa？(%2$d)";
+
+/* A label denoting a Picasaweb photo */
+"photo" = "照片";
+
+/* A label denoting the picasaweb service. */
+"Picasaweb" = "Picasa 网络相册";
+
+/* A dialog label explaining that the fetch for the item denoted by %1$@ from the account with the username %2$@ failed. %3$d is an error code returned from Picasaweb */
+"Picasaweb %1$@ fetch for account '%2$@' failed. (%3$d)" = "无法获取帐户“%2$@”的 Picasa 网络相册%1$@。(%3$d)";
+
+/* A dialog title denoting that we have encountered an error fetching data from Picasaweb. */
+"Picasaweb fetch problem." = "从 Picasa 网络相册获取数据时出现问题。";
+
+/* The proper name of the Picasa Web service. */
+"Picasa Web" = "Picasa Web";
+
+/* A message explaining to the user that an image was successfully uploaded. The first %@ is either 'image' or 'movie' and the second %@ is the name of the image or movie that was uploaded. */
+"%@ '%@' uploaded to your Drop Box at Picasa Web." = "%@ '%@' uploaded to your Drop Box at Picasa Web.";
+
+/* Used to specify that an image has been uploaded.  Note that the capitalization may need to be adjusted based on placement with the "%1$@ '%2$@' uploaded to your Drop Box at Picasa Web." string. */
+"Image" = "Image";
+
+/* Used to specify that a video has been uploaded.  Note that the capitalization may need to be adjusted based on placement with the "%1$@ '%2$@' uploaded to your Drop Box at Picasa Web." string. */
+"Video" = "Video";
+
+/* A message explaining that the user could not upload Picasa Web images due to a bad password for account %@. */
+"Could not upload images. Please check the password for account '%@'." = "Could not upload images. Please check the password for account '%@'.";
+
+/* A message explaining to the user that we could not upload an image. The first %@ is the name of the image to be uploaded.  The second %@ is the error description. And the %d is the error code. */
+"Could not upload image '%@'. \"%@\" (%d)" = "Could not upload image '%@'. \"%@\" (%d)";
+
+/* A message explaining that an image could not be uploaded to Picasa Web albums because it was taking too long.   The %@ is the file name of the image or video as shown in the search results. */
+"Upload of image '%@' timed out and could not be completed. Please check your connection to the Internet." = "Upload of image '%@' timed out and could not be completed. Please check your connection to the Internet.";

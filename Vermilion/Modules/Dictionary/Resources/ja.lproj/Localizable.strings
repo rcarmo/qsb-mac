@@ -1,0 +1,5 @@
+﻿/* A label for a result denoting the dictionary definition of the term represented by %@. */
+"Definition of %@" = "%@の定義";
+
+/* prefix for explicit dictionary searches of the form define foo. Note the space as a delimiter at the end. */
+"define " = "define ";

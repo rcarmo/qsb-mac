@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Recent applications and documents Source. It is a source that allows the user to access documents and applications they have launched recently. Do not include ^ in localization.*/
+"^Recent Applications and Documents" = "Recente toepassingen en documenten";

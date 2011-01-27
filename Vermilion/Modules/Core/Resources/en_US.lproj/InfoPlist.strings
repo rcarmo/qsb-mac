@@ -1,0 +1,68 @@
+﻿/* A label denoting the name of the URL Detection Source. It is a source that provides the user with an URL if it detects that the user is entering a URL. Do not include ^ in localization. */
+"^URL Detection" = "URL Detection";
+
+/* A label denoting the name of the File System Directories Source. It is a source that provides the user with the list of files if it detects that the user is entering a file path. Do not include ^ in localization. */
+"^File System Directories" = "File System Directories";
+
+/* A label denoting the name of the Web Search Source. It is a source that provides the user with the ability to search other web sites. Do not include ^ in localization. */
+"^Web Search" = "Web Search";
+
+/* A label denoting the name of the Google Search Source. It is a source that provides the user with the ability to search Google. Do not include ^ in localization. */
+"^Google Search" = "Google Search";
+
+/* A label denoting the name of the Search Suggestions Source. It is a source that provides the user with the ability to get Google search suggestions. Do not include ^ in localization. */
+"^Search Suggestions" = "Search Suggestions";
+
+/* A label denoting the name of the Open Search Source. It is a source that provides the user with the ability to use Open Search. Do not include ^ in localization. */
+"^Open Search Suggestions" = "Open Search Suggestions";
+
+/* A label denoting the name of the Text Input Source. It is a source that provides the user with the ability to enter free text into the QSB. Do not include ^ in localization. */
+"^Text Input" = "Text Input";
+
+/* A label denoting the name of the Open action which allows you to open a result from the QSB. Do not include ^ in localization. */
+"^Open" = "Open";
+
+/* A label denoting the name of the Open action which allows you to show the name of a result from the QSB as large type. Do not include ^ in localization. */
+"^Show Large Type" = "Show Large Type";
+
+/* A label denoting the name of the Open action which allows you to open a result from the QSB with a given application. Do not include ^ in localization. */
+"^Open With…" = "Open With…";
+
+/* A label denoting the name of the Open action which allows you to eject a volume. Do not include ^ in localization. */
+"^Eject" = "Eject";
+
+/* A label denoting the name of the Open action which allows you to reveal a result from the QSB in the Finder. Do not include ^ in localization. */
+"^Show in Finder" = "Show in Finder";
+
+/* A label denoting the name of the Quick Look action which allows you to use the system quick look feature to look at a result from the QSB. Do not include ^ in localization. */
+"^Quick Look" = "Quick Look";
+
+/* A label denoting the name of the Get Info action which allows you to get info on a result from the QSB. Do not include ^ in localization. */
+"^Get Info" = "Get Info";
+
+/* A label denoting the name of the Open Again action which allows you to open a file multiple times. Do not include ^ in localization. */
+"^Open Again" = "Open Again";
+
+/* A label denoting the name of the Rename action which allows you to rename a file. Do not include ^ in localization. */
+"^Rename…" = "Rename…";
+
+/* A label denoting the name of the Move To action which allows you to move a file. Do not include ^ in localization. */
+"^Move To…" = "Move To…";
+
+/* A label denoting the name of the Copy To action which allows you to copy a file. Do not include ^ in localization. */
+"^Copy To…" = "Copy To…";
+
+/* A label denoting the name of the Append To file action which allows you to append text to a file. Do not include ^ in localization. */
+"^Append To File…" = "Append To File…";
+
+/* A label denoting the name of the Set Comment file action which allows you to Set Comments for a file. Do not include ^ in localization. */
+"^Set Comment…" = "Set Comment…";
+
+/* A label denoting the name of the Reveal In Finder action which is a synonym for Show in Finder. Do not include ^ in localization. */
+"^Reveal In Finder…" = "Reveal In Finder…";
+
+/* A label denoting the name of the Shorten URL action which allows you to Shorten URLs. Do not include ^ in localization. */
+"^Shorten URL" = "Shorten URL";
+
+/* A label denoting the name of the Feeling Lucky action which allows you to open google search via feeling lucky button. Do not include ^ in localization. */
+"^I'm Feeling Lucky" = "I'm Feeling Lucky";

@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Google Apps Source. It is a source that allows you to access various Google corpora such as calendar etc. Do not include ^ in localization.*/
+"^Google Apps" = "Google 應用服務";

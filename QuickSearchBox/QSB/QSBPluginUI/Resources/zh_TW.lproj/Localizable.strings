@@ -1,0 +1,24 @@
+﻿/* A dialog title denoting that an account of that type with that login information has already been set up. */
+"Account already set up." = "帳戶已設定。";
+
+/* A dialog title denoting that we were unable to authenticate the account with the user info given to us */
+"Could not authenticate that account." = "無法驗證該帳戶。";
+
+/* A dialog title denoting that we were unable to set up the %@ account */
+"Could not set up that %@ account." = "無法設定「%@」帳戶。";
+
+/* A dialog title telling the user that they should enable some searchable items for the account they just set up. */
+"Enable searchable items for this account." = "啟用此帳戶的可搜尋項目。";
+
+/* A dialog label telling the user in detail how they should enable some searchable items for the account they just set up. */
+"One or more search sources may have been added for the account '%@'. It may be necessary to manually enable each search source that uses this account.  Do so via the 'Searchable Items' tab in Preferences." = "「%@」帳戶已新增一或多個搜尋來源。您可能需要手動啟用每個搜尋來源，請至 [偏好設定] 中的 [可搜尋項目] 開始啟用。";
+
+/* A dialog label explaining in detail that we could not set up an account of type 1 with username 2. */
+"The %1$@ account '%2$@' could not be set up for use.  Please check your password and try again." = "無法設定 %1$@ 的「%2$@」帳戶，請檢查您的密碼，然後再試一次。";
+
+/* A dialog label explaining in detail that we were unable to authenticate the account with the user info given to us */
+"The account '%@' could not be authenticated. Please check the account name and password and try again." = "無法驗證「%@」帳戶，請檢查帳戶名稱和密碼，然後再試一次。";
+
+/* A dialog label explaining in detail that an account of that type with that login information has already been set up. */
+"The account '%@' has already been set up for use in Quick Search Box." = "已設定以「%@」帳戶使用「快速搜尋框」。";
+

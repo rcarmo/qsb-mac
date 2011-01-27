@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.${PRODUCT_NAME:identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSPythonModule</key>
+			<string>___PROJECTNAMEASIDENTIFIER___</string>
+			<key>HGSPythonClass</key>
+			<string>___PROJECTNAMEASIDENTIFIER___Search</string>
+			<key>HGSExtensionClass</key>
+			<string>HGSPythonSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.yourcompany.source.___PROJECTNAMEASIDENTIFIER___</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>___PROJECTNAME___ Source</string>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>*</string>
+			<key>HGSSearchSourcePivotableTypes</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>HGSPythonModule</key>
+			<string>___PROJECTNAMEASIDENTIFIER___</string>
+			<key>HGSPythonClass</key>
+			<string>___PROJECTNAMEASIDENTIFIER___Action</string>
+			<key>HGSExtensionClass</key>
+			<string>HGSPythonAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.yourcompany.action.___PROJECTNAMEASIDENTIFIER___</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>___PROJECTNAME___ Action</string>
+		</dict>
+	</array>
+</dict>
+</plist>

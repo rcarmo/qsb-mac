@@ -1,0 +1,193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B7917E80FA0C395006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.py in Resources */ = {isa = PBXBuildFile; fileRef = 8B7917E70FA0C395006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.py */; };
+		8B7918BA0FA0D5B8006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7918B90FA0D5B8006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B7917E70FA0C395006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "___PROJECTNAMEASIDENTIFIER___.py"; sourceTree = "<group>"; };
+		8B7918B90FA0D5B8006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "___PROJECTNAMEASIDENTIFIER___.png"; sourceTree = "<group>"; };
+		8B7918D00FA0DE60006BFE1E /* QSBDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = QSBDebug.xcconfig; path = QSB/xcconfig/QSBDebug.xcconfig; sourceTree = QSBSRCROOT; };
+		8B7918D10FA0DE60006BFE1E /* QSBRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = QSBRelease.xcconfig; path = QSB/xcconfig/QSBRelease.xcconfig; sourceTree = QSBSRCROOT; };
+		8B791B3C0FA11711006BFE1E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = QSB/SDK/Templates/QSBPythonPlugin/README.txt; sourceTree = QSBSRCROOT; };
+		8D5B49B6048680CD000E48DA /* ___PROJECTNAME___.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "___PROJECTNAME___.hgs"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* ___PROJECTNAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				8B791B3C0FA11711006BFE1E /* README.txt */,
+				8B7918D00FA0DE60006BFE1E /* QSBDebug.xcconfig */,
+				8B7918D10FA0DE60006BFE1E /* QSBRelease.xcconfig */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "___PROJECTNAME___";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B7918B90FA0D5B8006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.png */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B7917E70FA0C395006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.py */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* ___PROJECTNAME___.hgs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* ___PROJECTNAME___ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "___PROJECTNAME___" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8B848F90114B571E002C460B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "___PROJECTNAME___";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "___PROJECTNAME___";
+			productReference = 8D5B49B6048680CD000E48DA /* ___PROJECTNAME___.hgs */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "___PROJECTNAME___" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* ___PROJECTNAME___ */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* ___PROJECTNAME___ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7917E80FA0C395006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.py in Resources */,
+				8B7918BA0FA0D5B8006BFE1E /* ___PROJECTNAMEASIDENTIFIER___.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B848F90114B571E002C460B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Copy the plugin so it can be used\n\nmkdir -p \"${USER_LIBRARY_DIR}/Application Support/Quick Search Box/PlugIns\"\nln -sf \"${CONFIGURATION_BUILD_DIR}/${FULL_PRODUCT_NAME}\" \"${USER_LIBRARY_DIR}/Application Support/Quick Search Box/PlugIns/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(QSBBUILDROOT)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "___PROJECTNAME___";
+				WRAPPER_EXTENSION = hgs;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(QSBBUILDROOT)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "___PROJECTNAME___";
+				WRAPPER_EXTENSION = hgs;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7918D00FA0DE60006BFE1E /* QSBDebug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7918D10FA0DE60006BFE1E /* QSBRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "___PROJECTNAME___" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "___PROJECTNAME___" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

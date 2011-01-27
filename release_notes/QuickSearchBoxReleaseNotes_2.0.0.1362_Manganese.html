@@ -1,0 +1,269 @@
+<html>
+<body style="font-family:lucida grande;font-size:13px;">
+<h2>Google Quick Search Box 2.0.0.1362 (Manganese)</h2>
+<div style="border:1px solid #ccc; background-color:#eee; padding-left:20px;line-height:150%;-webkit-border-radius: 4px;">
+<p>Thank you for working with QSB and giving us so much encouragement and feedback. We really appreciate it.</p>
+<p>Please consider joining our mailing list at 
+  <a href="http://groups.google.com/group/qsb-mac-discuss">
+    http://groups.google.com/group/qsb-mac-discuss
+  </a>.
+</p>
+<p>Issues can be filed on our issues list at 
+  <a href="http://code.google.com/p/qsb-mac/issues/list">
+    http://code.google.com/p/qsb-mac/issues/list
+  </a>.
+</p>
+</div>
+<h3>Important Notes</h3>
+<p>Due to some internal changes, your preferences are going to be reset.</p>
+<h3>Enhancements in this version</h3>
+<ul>
+    <li>
+      Fixed up issue where Actions and Contacts were not being added to the
+      shortcuts.
+    </li>
+    <li>
+      Issues <a href="http://code.google.com/p/qsb-mac/issues/detail?id=296">
+      296</a>, <a href="http://code.google.com/p/qsb-mac/issues/detail?id=298">
+      298</a> and 
+      <a href="http://code.google.com/p/qsb-mac/issues/detail?id=299">299</a>: 
+      Fixed a variety of issues introduced by recent changes to 
+      account handling including the losing the default button, text 
+      disappearing in the edit fields, account information being retained 
+      though invalid.  Also fixed tabbing through fields in Google account
+      setup and added some animation when captcha is required to smooth
+      out the presentation.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=263">
+        Issue 263</a>: Fixed runaway thread count when Spotlight is
+        manually disabled.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=193">
+        Issue 193</a> and 
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=253">
+        Issue 253</a>: Added a Trash plugin. Search for &quot;Trash&quot; to 
+        list the contents of the Trash for all mounted volumes, or use the 
+        &quot;Move to Trash&quot; to quickly move files and folders to the 
+        Trash.
+    </li>
+    <li>
+        Added a SMB/AFP Sharing plugin. Search for &quot;Mount&quot; to get
+        a list of nearby file shares, or type in the name of a specific
+        share. Select the share and hit Return to mount the share.
+    </li>
+    <li>
+        Fixed an exception thrown by the ChatBuddiesSource where an IMBuddy 
+        result contains an NSNull for the first and/or last name fields
+        by only using those names if they are actually NSStrings.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=18">
+        Issue 18</a>: Google Apps accounts (AKA 'hosted') are now supported.
+        When setting up a Google account, the user name is monitored as it
+        is being entered and if its domain does not match "gmail.com" then
+        a checkbox is presented ("This is a Google Apps account.") which,
+        when checked, will set up a hosted account.  The "gmail.com" domain
+        matching string can be localized using the string "@gmail.com".
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=76">
+        Issue 76</a>: The 'More' line in the top results now presents the
+        singular form of a category name if there is only 1 result for
+        that category.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=362">
+        Issue 362</a>: Fixed a problem where photos without a caption were
+        coming up without any description at all in 'More' and with a blank
+        top line in 'Top' results by substituting the picture title (often
+        the picture's file name).   Added a Picasaweb-specific placeholder
+        icon.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=365">
+        Issue 365</a>: A Google Bookmarks searchable item is no longer added
+        for Google hosted accounts since hosted accounts do not support
+        Bookmarks.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=360">
+        Issue 360</a>: Fixed a problem where if More is showing and the
+        user clears the query (i.e. presses &lt;esc&gt;) then Top is
+        presented but with a blank results window and a spinning progress
+        indicator.
+    </li>
+    <li>
+        Enhanced the debug log message emitted by the Developer Documentation
+        search source when one of the documentation sets cannot be found
+        such that the message indicates <i>which</i> of the developer 
+        documentation sets could not be found and opened.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=129">
+        Issue 129</a>: Added a 'Quit' action for application results.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=274">
+        Issue 274</a>: Fixed a bug that would cause iTunes related actions
+        (e.g., 'Add to Party Shuffle') to show up for applications other
+        than iTunes.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=307">
+        Issue 307</a>: Pivoting off the Dictionary application result now
+        allows you to search for dictionary definitions.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=372">
+        Issue 372</a>: Fixed Show in Terminal action to work with interesting
+        path characters. Thanks to Martin K&uuml;hl for his help with this one.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=5">
+        Issue 5</a> and 
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=7">
+        Issue 7</a>: Now matches and ranks text in the middle of a string and
+        deals reasonably well with matching camelcase. 
+    </li>
+    <li>
+        Added the concept of an account type extension and updated the
+        GoogleAccount and Twitter plugins.  The user interface elements
+        of setting up and editing accounts has been migrated out of
+        Vermilion and into QSB since it's the client's responsibility to
+        provide the user interface.  See QSBEditAccountWindowController.h,
+        QSBSetUpAccountViewController.h and HGSAccountTypesExtensionPoint.h.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=373">
+        Issue 373</a>: We now remove whitespace from around things that we
+        bring in via our service.
+    </li>
+    <li>
+        Changed Google and Twitter account authentication code so that it
+        backs off logarithmically if connection problems are encountered.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=389">
+        Issue 389</a>: File system search is no longer case dependent. Thanks
+        to Martin K&uuml;hl for the patch.
+    </li>
+    <li>
+        Updated presentation of Google Docs results:
+        <ul>
+          <li TYPE=square>
+            QSB now shows all docs contained in Google Docs when pivoting
+            on the 'docs.google.com' result. 
+          </li>
+          <li TYPE=square>
+            Added a snippet line for Google Docs results showing from which
+            account the result came, which is helpful for situations where
+            multiple Google accounts have been set up.
+          </li>
+          <li TYPE=square>
+            Enhanced the docs result tooltip to show the account.
+          </li>
+        </ul>
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=387">
+        Issue 387</a>: We've temporarily disabled the developer
+        documentation source while running under Snow Leopard.  This
+        will be re-enabled once we can determine what has changed.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=375">
+        Issue 375</a>: Corrected a problem where the 'this is a Google Apps
+        account' checkbox was not being reset after the account domain
+        was changed back to a non-hosted domain (such as 'gmail.com').
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=374">
+        Issue 374</a>: The 'this is a Google Apps account' checkbox is no
+        longer shown when setting up a Google account whose domain is
+        'google.co.uk'.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=382">
+        Issue 382</a>: Now, when you pivot on a Picasaweb album result,
+        all images associated with that album will be shown as pivot
+        results.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=406">
+        Issue 406</a>: The user interface functions necessary to support
+        plugins performing UI withing QSB have been moved into their own
+        framework now known as QSBPluginUI.framework.  Currently, UI is
+        supported for setting up and editing account credentials.
+    </li>
+    <li>
+        Added a screensaver search source and action that also functions as
+        an example of a Quick Search Box plugin implemented in Python.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=158">
+        Issue 158</a>: Reduced how often the keychain is required in order
+        to update Google Docs and Picasaweb sources.
+    </li>
+    <li>
+        Fixed up iTunes ranking so that music has a chance of appearing in the
+        results.
+    </li>
+    <li>
+        Allows pivoting on any search or suggestion (eventually for querying
+        but for now only for actions)
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=419">
+        Issue 419</a>: Fixed a problem where activation of the preference
+        window did not show current authentication status (i.e. red text)
+        upon activation.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=390">
+        Issue 390</a>: Looked into why a 'Grab' (cmd-g) would not keep the
+        results window open.  Fixed it by setting showResults_ if there were
+        any results. Then fixed the results being misplaced vertically by
+        using an animator on an instance of setFrame for the window.
+    </li>
+    <li>
+        Added a 'Welcome' window which is presented upon first launch of
+        the Quick Search Box and which will continue to appear until a
+        query is started of the application is quit.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=381">
+        Issue 381</a>: The search box no longer gets hidden at startup if
+        a keychain access authorization was also required at startup.
+    </li>
+    <li>
+        Google corporate accounts (currently, accounts with a domain of
+        'google.com' or 'google.uk.co') are now interpreted as 'hosted'
+        accounts and will allow Google Corpora search sources to be used.
+        In order to get this behaviour it is necessary to remove and
+        re-add the Google corporate account.
+    </li>
+    <li>
+        Added the ability to create AppleScript action plugins to QSB and 
+        Python actions and sources. Please see the SDK for details.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=1">
+        Issue 1</a>: Other input methods now supported (such as Hiragana).
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=37">
+        Issue 37</a>: Accented characters can now be used as input. 
+    </li>
+    <li>
+        We are now translated into French(fr), Spanish(es), German(de), 
+        Dutch(nl), Italian(it), Japanese(ja), Chinese(zh_TW, zh_CN).
+    </li>
+    <li>
+        Google website suggestion and Google search suggestions are now on
+        by default. You can still turn them off in the preferences.
+    </li>
+ </ul>
+</body>
+</html>

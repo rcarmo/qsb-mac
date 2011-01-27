@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.Trash</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>TrashSearchSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.trash.source</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Trash</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSSearchSourceCannotArchive</key>
+			<true/>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>*</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>MoveToTrashAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.trash.action.move</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>file</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Move to Trash</string>
+			<key>HGSExtensionIconImagePath</key>
+			<string>MoveToTrash.icns</string>
+		</dict>
+	</array>
+</dict>
+</plist>

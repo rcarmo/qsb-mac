@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Fake HGS Terminology">
+  <suite name="Fake HGS Suite"
+         code="FAKE"
+         description="Fake classes and commands for Vermilion Test.">
+    <class name="fakeClass"
+           code="fake"
+           description="A fake class.">
+      <cocoa class="NSObject"/>
+      <property name="item name" code="ITNM" type="text"> 
+        <cocoa key="itemName"/>
+      </property>
+    </class>
+  </suite>
+</dictionary>

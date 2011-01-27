@@ -1,0 +1,17 @@
+﻿/* A label denoting the name of the Quit action which allows you to Quit applications. Do not include ^ in localization. */
+"^Quit" = "Quit";
+
+/* A label denoting the name of the Applications Source. It is a source that provides a list of all the applications on the users computer. Do not include ^ in localization. */
+"^Applications Source" = "Applications Source";
+
+/* A label denoting the name of the Force Quit action which allows you to force quit applications. Do not include ^ in localization. */
+"^Force Quit" = "Force Quit";
+
+/* A label denoting the name of the Hide action which allows you to hide applications. Do not include ^ in localization. */
+"^Hide" = "Hide";
+
+/* A label denoting the name of the Quit Others action which allows you to quit other applications. Do not include ^ in localization. */
+"^Quit Others" = "Quit Others";
+
+/* A label denoting the name of the Hide Others action which allows you to hide other applications. Do not include ^ in localization. */
+"^Hide Others" = "Hide Others";

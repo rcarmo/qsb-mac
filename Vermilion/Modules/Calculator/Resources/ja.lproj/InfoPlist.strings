@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Calculator Source. It is a source that provides you with the ability to do calculations in the QSB. Do not include ^ in localization. */
+"^Calculator Source" = "計算機ソース";

@@ -1,0 +1,14 @@
+﻿/* A label denoting the name of the Camino Bookmarks Source. It is a source that allows the user to search the web bookmarks of the Camino Application. Do not include ^ in localization. */
+"^Camino Bookmarks" = "Camino Bookmarks";
+
+/* A label denoting the name of the Safari Bookmarks Source. It is a source that allows the user to search the web bookmarks of the Safari Application. Do not include ^ in localization. */
+"^Safari Bookmarks" = "Safari Bookmarks";
+
+/* A label denoting the name of the Chromium Bookmarks Source. It is a source that allows the user to search the web bookmarks of the Chromium Application. Do not include ^ in localization. */
+"^Chromium Bookmarks" = "Chromium Bookmarks";
+
+/* A label denoting the name of the Google Chrome Bookmarks Source. It is a source that allows the user to search the web bookmarks of the Google Chrome Application. Do not include ^ in localization. */
+"^Google Chrome Bookmarks" = "Google Chrome Bookmarks";
+
+/* A label denoting the name of the Firefox Bookmarks Source. It is a source that allows the user to search the web bookmarks of the Firefox Application. Do not include ^ in localization. */
+"^Firefox Bookmarks" = "Firefox Bookmarks";

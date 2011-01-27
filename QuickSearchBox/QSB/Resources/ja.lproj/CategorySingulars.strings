@@ -1,0 +1,41 @@
+﻿//
+//  CategorySingulars.strings (Localized) (en)
+//  
+//  Copyright Google Inc., 2009. All rights reserved.
+//
+
+/* A grouping label denoting an action that one may do. */
+"^Actions" = "処理";
+
+/* A grouping label denoting an application. */
+"^Apps" = "アプリケーション";
+
+/* A grouping label denoting a personal contact. */
+"^Contacts" = "連絡先";
+
+/* A grouping label denoting a document. */
+"^Docs" = "ドキュメント";
+
+/* A grouping label denoting a scheduled even. */
+"^Events" = "予定";
+
+/* A grouping label denoting a disk folders or directory. */
+"^Folders" = "フォルダ";
+
+/* A grouping label denoting a picture or graphic. */
+"^Images" = "画像";
+
+/* A grouping label denoting a music file, composer or artist. */
+"^Music" = "音楽";
+
+/* A grouping label denoting a movie or video. */
+"^Movies" = "ムービー";
+
+/* A grouping label denoting mail messages or chat transcript. */
+"^Messages" = "メッセージ";
+
+/* A grouping label denoting a webpage. */
+"^Webpages" = "ウェブページ";
+
+/* A grouping label denoting somethings that isn't covered by the other labels. */
+"^Others" = "その他";

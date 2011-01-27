@@ -1,0 +1,32 @@
+﻿/* The gmail domain extension. */
+"@gmail.com" = "@gmail.com";
+
+/* A dialog title for setting up a Google account */
+"Set up your Google account." = "Configura tu cuenta de Google.";
+
+/* A dialog title for updating your password for a Google account */
+"Update your Google password." = "Actualiza tu contraseña de Google.";
+
+/* A label for a field denoting an Account Name */
+"Account Name:" = "Nombre de cuenta:";
+
+/* A label for a field denoting an Password */
+"Password:" = "Contraseña:";
+
+/* A checkbox that denotes that this is a Google Apps Account */
+"This is a Google Apps account." = "Esta cuenta es de Google Apps.";
+
+/* A label denoting that the user should type in the characters that they see in the picture below. */
+"Type the characters you see in the picture below." = "Escribe los caracteres que veas en la imagen que aparece a continuación.";
+
+/* A label denoting that the letters that the user types in are not case-sensitive. */
+"Letters are not case-sensitive." = "No se distingue entre mayúsculas y minúsculas.";
+
+/* A cancel button */
+"Cancel" = "Cancelar";
+
+/* A button that denotes that you want to setup your account. */
+"Setup" = "Configurar";
+
+/* A button that denotes that you want to update your account. */
+"Update" = "Actualizar";

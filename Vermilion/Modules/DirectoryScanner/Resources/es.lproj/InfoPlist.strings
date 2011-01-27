@@ -1,0 +1,14 @@
+﻿/* A label denoting the name of the Documents Folder Source. It is a source that allows you to access the files in the user's Documents Folder. Do not include ^ in localization.*/
+"^Documents Folder" = "Carpeta de documentos";
+
+/* A label denoting the name of the Downloads Folder Source. It is a source that allows you to access the files in the user's Downloads Folder. Do not include ^ in localization.*/
+"^Downloads Folder" = "Carpeta de descargas";
+
+/* A label denoting the name of the Desktop Folder Source. It is a source that allows you to access the files in the user's Desktop Folder. Do not include ^ in localization.*/
+"^Desktop Folder" = "Carpeta de escritorio";
+
+/* A label denoting the name of the System Volume Source. It is a source that allows you to access the files in the top level of the user's System Volume. Do not include ^ in localization.*/
+"^System Volume" = "Volumen del sistema";
+
+/* A label denoting the name of the Home Folder Source. It is a source that allows you to access the files in the user's Home Folder. Do not include ^ in localization.*/
+"^Home Folder" = "Carpeta principal";

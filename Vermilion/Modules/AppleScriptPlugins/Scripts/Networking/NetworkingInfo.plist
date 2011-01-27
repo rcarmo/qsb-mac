@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+	<key>CFBundleName</key>
+	<string>Volume AppleScript</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.networkingapplescript</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.networkingapplescript.action.getip</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Get IP</string>
+			<key>HGSExtensionIconImagePath</key>
+			<string>getIP.icns</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>getIP</string>
+			<key>HGSAppleScriptSwitchContextsKey</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.networkingapplescript.action.getexternalip</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Get External IP</string>
+			<key>HGSExtensionIconImagePath</key>
+			<string>getExternalIP.icns</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>getExternalIP</string>
+			<key>HGSAppleScriptSwitchContextsKey</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

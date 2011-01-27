@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Recent Documents Source. It is a source that allows the user to access documents opened by the currently selected app. Do not include ^ in localization.*/
+"^Recent Documents" = "Letzte Dokumente";

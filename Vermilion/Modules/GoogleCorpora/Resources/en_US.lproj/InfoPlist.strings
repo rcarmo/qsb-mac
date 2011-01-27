@@ -1,0 +1,14 @@
+﻿/* A label denoting the name of the Google Apps Source. It is a source that allows you to access various Google corpora such as calendar etc. Do not include ^ in localization.*/
+"^Google Apps" = "Google Apps";
+
+/* A label denoting the name of the Google Apps For your domain Source. It is a source that allows you to access various Google corpora such as calendar etc. Do not include ^ in localization.*/
+"^Google Apps For Your Domain" = "Google Apps For Your Domain";
+
+/* A label denoting the name of the Wikipedia Source. It is a source that allows you to search wikipedia. Do not include ^ in localization.*/
+"^Wikipedia" = "Wikipedia";
+
+/* A label denoting the name of the Amazon Source. It is a source that allows you to search Amazon. Do not include ^ in localization.*/
+"^Amazon" = "Amazon";
+
+/* A label denoting the name of the IMDB Source. It is a source that allows you to search IMDB. Do not include ^ in localization.*/
+"^IMDB" = "IMDB";

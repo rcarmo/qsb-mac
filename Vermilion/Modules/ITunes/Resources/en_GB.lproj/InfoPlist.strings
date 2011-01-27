@@ -1,0 +1,62 @@
+﻿/* Name of action that decreases the rating of the currently selected iTunes song. Do not include ^ in localization. */
+"^Decrease iTunes Rating" = "Decrease iTunes Rating";
+
+/* Name of action that increases the rating of the currently selected iTunes song. Do not include ^ in localization. */
+"^Increase iTunes Rating" = "Increase iTunes Rating";
+
+/* Name of action that toggles the mute setting of iTunes. Do not include ^ in localization. */
+"^Toggle iTunes Mute" = "Toggle iTunes Mute";
+
+/* Name of action that increases iTunes volume. Do not include ^ in localization. */
+"^Increase iTunes Volume" = "Increase iTunes Volume";
+
+/* Name of action that decreases iTunes volume. Do not include ^ in localization. */
+"^Decrease iTunes Volume" = "Decrease iTunes Volume";
+
+/* Name of action that set the iTunes rating of the currently selected song to 5. Do not include ^ in localization. */
+"^Set iTunes Rating To 5" = "Set iTunes Rating To 5";
+
+/* Name of action that set the iTunes rating of the currently selected song to 4. Do not include ^ in localization. */
+"^Set iTunes Rating To 4" = "Set iTunes Rating To 4";
+
+/* Name of action that set the iTunes rating of the currently selected song to 3. Do not include ^ in localization. */
+"^Set iTunes Rating To 3" = "Set iTunes Rating To 3";
+
+/* Name of action that set the iTunes rating of the currently selected song to 2. Do not include ^ in localization. */
+"^Set iTunes Rating To 2" = "Set iTunes Rating To 2";
+
+/* Name of action that set the iTunes rating of the currently selected song to 1. Do not include ^ in localization. */
+"^Set iTunes Rating To 1" = "Set iTunes Rating To 1";
+
+/* Name of action that set the iTunes rating of the currently selected song to 0. Do not include ^ in localization. */
+"^Set iTunes Rating To 0" = "Set iTunes Rating To 0";
+
+/* Name of action that toggles iTunes shuffle. Do not include ^ in localization. */
+"^Toggle iTunes Shuffle" = "Toggle iTunes Shuffle";
+
+/* Name of action that toggles iTunes repeat. Do not include ^ in localization. */
+"^Toggle iTunes Repeat" = "Toggle iTunes Repeat";
+
+/* A label denoting the name of the iTunes Music Source. It is a source that allows the user to access all the music they have stored in iTunes. Do not include ^ in localization.*/
+"^iTunes Music" = "iTunes Music";
+
+/* Name of action that plays the currently selected song. Do not include ^ in localization. */
+"^Play in iTunes" = "Play in iTunes";
+
+/* Name of action that plays the currently selected song(s) in iTunes DJ. Do not include ^ in localization. */
+"^Play in iTunes DJ" = "Play in iTunes DJ";
+
+/* Name of action that adds the currently selected song(s) to iTunes DJ. Do not include ^ in localization. */
+"^Add to iTunes DJ" = "Add to iTunes DJ";
+
+/* Name of action that starts iTunes playing. Do not include ^ in localization. */
+"^Play iTunes" = "Play iTunes";
+
+/* Name of action that pauses iTunes playing. Do not include ^ in localization. */
+"^Pause iTunes" = "Pause iTunes";
+
+/* Name of action that goes to the next iTunes track. Do not include ^ in localization. */
+"^Next iTunes Track" = "Next iTunes Track";
+
+/* Name of action that goes to the previous iTunes track. Do not include ^ in localization. */
+"^Previous iTunes Track" = "Previous iTunes Track";

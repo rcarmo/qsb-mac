@@ -1,0 +1,216 @@
+<html>
+<body style="font-family:lucida grande;font-size:13px;">
+<h2>Google Quick Search Box 2.0.0.1674 (Cobalt)</h2>
+<div style="border:1px solid #ccc; background-color:#eee; padding-left:20px;line-height:150%;-webkit-border-radius: 4px;">
+<p>Thank you for working with QSB and giving us so much encouragement and feedback. We really appreciate it.</p>
+<p>Please consider joining our mailing list at 
+  <a href="http://groups.google.com/group/qsb-mac-discuss">
+    http://groups.google.com/group/qsb-mac-discuss
+  </a>.
+</p>
+<p>Issues can be filed on our issues list at 
+  <a href="http://code.google.com/p/qsb-mac/issues/list">
+    http://code.google.com/p/qsb-mac/issues/list
+  </a>.
+</p>
+</div>
+<ul>
+    <li>
+      Calculator results now copy and paste correctly.
+    </li>
+    <li>
+        Added GoogleDocsSaveAsActions which allow docs to be save to a local
+        file.  Spreadsheets are also supported as of the fix to
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=595">
+        Issue 595</a>.
+    </li>
+    <li>
+      <a href="http://code.google.com/p/qsb-mac/issues/detail?id=52">
+        Issue 52</a>: We now show the QSB immediately on launch in a disabled 
+      state until we are ready.
+    </li>
+    <li>
+      <a href="http://code.google.com/p/qsb-mac/issues/detail?id=354">
+        Issue 354</a>: You can now assign a function key to QSB. Thanks to
+        spleaner for supplying a patch for this issue.
+    </li>
+    <li>
+      <a href="http://code.google.com/p/qsb-mac/issues/detail?id=518">
+        Issue 518</a>: You can now assign control-tab as hotkey for QSB.
+    </li>
+    <li>
+      Matching performance (especially on regularly used items) should be
+      noticeably faster. Also, cut down on useless redraw.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=515">
+        Issue 515</a>: Play songs in iTunes in non-English locales should now 
+        work. Thanks to Philipp Comans for isolating this issue.
+    </li>
+    <li>
+        A couple of checkboxes in preferences had their scaling turned on
+        which was presenting warnings at compile time.
+        The scaling was unnecessary and was removed.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=483">
+        Issue 483</a>: At startup, the search window was always being
+        re-centered on the screen.  This has been changed to restore the
+        previous position and then perform a sanity check to insure the
+        window is completely visible.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=564">
+        Issue 564</a>: Some garbage could be seen in the descriptive text
+        shown for More results because the descriptive string contained
+        more than one line of text.  This is no longer necessary
+        since only one line of description is now shown,  so we retreive and
+        present only the single line of descriptive text.  Also enhanced the
+        tool tip for More results by presenting a URL when available.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=533">
+        Issue 533</a>: Accented characters and other composed characters
+        are now properly selected during autocompletion.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=570">
+        Issue 570</a>: Eliminated warnings when compiling .xib files.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=481">
+        Issue 481</a>: We no longer show up at startup if we are a startup item.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=502">
+        Issue 502</a>: When looking for the double command key tap we now ignore 
+        it if there is a mouse down or up during the taps. Makes cmd-clicking 
+        things much easier.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=531">
+        Issue 531</a>: Phone numbers now get a "1" country code stuck on them 
+        if necessary to make them work with Skype.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=561">
+        Issue 561</a>: Contacts now show street addresses as one of their 
+        fields.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=562">
+        Issue 562</a>: The default action for a street address is to display 
+        it in Google Maps.
+    </li>
+    <li>
+       Startup now has a "progress indicator" of sorts. Our window appears 
+       much faster at startup so there isn't any "hang" after launch.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=567">
+        Issue 567</a>: Right after launching, some shortcuts could be missing
+        critical information required for performing certain actions, 
+        particularly for sources that may take some time to refresh their
+        results.  To fix this, added -[HGSSearchSource archiveKeys] function
+        which allows sources to provide additional information to be cached
+        for a result.  This information could still become stale if the
+        source changes while QSB is not running, but that's a different
+        problem.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=350">
+        Issue 350</a>: We now keep track of what space (as in spaces and expose) 
+        the user is currently in, and display the preferences on that space 
+        instead of jumping to the first space that they opened the preferences 
+        panel on.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=597">
+        Issue 597</a>: Darkened the selection to make it easier to discern.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=540">
+        Issue 540</a> and <a href="http://code.google.com/p/qsb-mac/issues/detail?id=600">
+        Issue 600</a>: The positioning of the results in relation to the search
+        box should be much better now.  There was a cycle of window size
+        adjustments occurring which has been eliminated.
+    </li>
+    <li>
+      Added a new python search source for retrieving stock data, given a
+      stock ticker called StockQuoter.  This plugin also demonstrates the
+      use of custom results views.  See the comments in
+      QSBResultRowViewController.m and take a look at the implementation
+      of StockQuoterViewController.h/.m.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=581">
+        Issue 581</a>, <a href="http://code.google.com/p/qsb-mac/issues/detail?id=540">
+        Issue 540</a> and <a href="http://code.google.com/p/qsb-mac/issues/detail?id=495">
+        Issue 495</a>: The search box can now be moved closer to the edges
+        of the screen, the movement of the window has been improved significantly
+        when the results panel is presented, and the result window is kept 
+        better aligned with the search box.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=503">
+        Issue 503</a>: Enhanced the reporting of authentication issues
+        for Google Accounts.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=119">
+        Issue 119</a>: URLs containing encoded special characters were not
+        being complete decoded.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=17">
+        Issue 17</a>: Added a Directory Service search source that provides 
+        contact results from Open/Active/LDAP directories to which the computer 
+        is bound.
+    </li>
+    <li>
+       <a href="http://code.google.com/p/qsb-mac/issues/detail?id=568">
+        Issue 568</a>: QuickLook should no longer block up our UI, and icons in
+        general should load faster.
+    </li>
+    <li>
+      <a href="http://code.google.com/p/qsb-mac/issues/detail?id=119">
+      Issue 119</a>: Pivoting on a web history result, refining the
+      search and choosing the default action should now result in a valid
+      URL.
+    </li>
+    <li>
+      Shortcuts for items that no longer exist are now removed from the
+      shortcuts database.
+    </li>
+    <li>
+      Added Firefox bookmark plugin based on work by Adam Ecay.
+    </li>
+    <li>
+      Added support for unittesting plugins.
+    </li>
+    <li>
+      <a href="http://code.google.com/p/qsb-mac/issues/detail?id=435">
+      Issue 435</a>: A console message is now generated if there has been
+      an authentication issue that might stem from a corrupt keychain.
+    </li>
+    <li>
+      <a href="http://code.google.com/p/qsb-mac/issues/detail?id=586">
+      Issue 586</a>: A new action allowing image and movies results to
+      be uploaded to Picasa Web has been added to the PicasaWeb plugin.
+    </li>
+    <li>
+      <a href="http://code.google.com/p/qsb-mac/issues/detail?id=104">
+      Issue 104</a>: Added a search source for clipboard history. It allows
+      you to search for items in the history or simply search for "clipboard"
+      to see a list of the (up to) 25 most recent clipboard items. Select
+      the item, then hit return or command-C to copy back to the clipboard.
+    </li>
+    <li>
+      <a href="http://code.google.com/p/qsb-mac/issues/detail?id=630">
+      Issue 630</a>: Account passwords can be edited for an account, or the
+      account can be removed, for accounts for which the associated keychain
+      entry has been removed.
+    </li>
+ </ul>
+</body>
+</html>

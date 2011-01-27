@@ -1,0 +1,24 @@
+﻿/* A dialog title denoting that an account of that type with that login information has already been set up. */
+"Account already set up." = "Das Konto ist bereits eingerichtet.";
+
+/* A dialog title denoting that we were unable to authenticate the account with the user info given to us */
+"Could not authenticate that account." = "Das Konto konnte nicht authentifiziert werden.";
+
+/* A dialog title denoting that we were unable to set up the %@ account */
+"Could not set up that %@ account." = "Dieses %@-Konto konnte nicht eingerichtet werden.";
+
+/* A dialog title telling the user that they should enable some searchable items for the account they just set up. */
+"Enable searchable items for this account." = "Suchbare Elemente für dieses Konto aktivieren";
+
+/* A dialog label telling the user in detail how they should enable some searchable items for the account they just set up. */
+"One or more search sources may have been added for the account '%@'. It may be necessary to manually enable each search source that uses this account.  Do so via the 'Searchable Items' tab in Preferences." = "Es wurden möglicherweise eine oder mehrere Quellen für das Konto \"%@\" hinzugefügt. Es ist eventuell erforderlich, jede Suchquelle manuell zu aktivieren, die dieses Konto verwendet. Dies können Sie unter \"Einstellungen\" auf der Registerkarte \"Suchbare Elemente\" tun.";
+
+/* A dialog label explaining in detail that we could not set up an account of type 1 with username 2. */
+"The %1$@ account '%2$@' could not be set up for use.  Please check your password and try again." = "Das %1$@-Konto \"%2$@\" konnte nicht zur Verwendung eingerichtet werden. Überprüfen Sie Ihr Passwort und versuchen Sie es erneut.";
+
+/* A dialog label explaining in detail that we were unable to authenticate the account with the user info given to us */
+"The account '%@' could not be authenticated. Please check the account name and password and try again." = "Das Konto \"%@\" konnte nicht authentifiziert werden. Überprüfen Sie den Namen und das Passwort des Kontos und versuchen Sie es erneut.";
+
+/* A dialog label explaining in detail that an account of that type with that login information has already been set up. */
+"The account '%@' has already been set up for use in Quick Search Box." = "Das Konto \"%@\" wurde bereits zur Verwendung im Schnellsuche-Feld eingerichtet.";
+

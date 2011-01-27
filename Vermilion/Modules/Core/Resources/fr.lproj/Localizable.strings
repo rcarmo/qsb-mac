@@ -1,0 +1,18 @@
+﻿/* [Search <website>] for <search_term> (30 chars excluding <search_term>) */
+"for \"%@\"" = "pour \"%@\"";
+
+/* A label representing Google as a search source. */
+"Google" = "Google";
+
+/* Open <website> (eg. Wikipedia) (30 chars excluding <website>) */
+"Open %@" = "Ouvrir %@";
+
+/* Search <website|category> (eg. Wikipedia) (30 chars excluding <website>) */
+"Search %@" = "Rechercher sur/dans %@";
+
+/* A result label denoting text typed in by the user that contains some special markers that we replace with data, such as the current date. */
+"Stamped text input" = "Texte saisi horodaté";
+
+/* A result label denoting text typed in by the user */
+"Text" = "Texte";
+

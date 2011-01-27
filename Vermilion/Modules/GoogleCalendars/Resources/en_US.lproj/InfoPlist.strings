@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Google Calendars Source. It is a source that allows the user to access their Google Calendars. Do not include ^ in localization.*/
+"^Google Calendars" = "Google Calendars";

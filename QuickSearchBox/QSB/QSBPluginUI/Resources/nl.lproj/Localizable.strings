@@ -1,0 +1,24 @@
+﻿/* A dialog title denoting that an account of that type with that login information has already been set up. */
+"Account already set up." = "Account is al ingesteld.";
+
+/* A dialog title denoting that we were unable to authenticate the account with the user info given to us */
+"Could not authenticate that account." = "Kan dat account niet verifiëren.";
+
+/* A dialog title denoting that we were unable to set up the %@ account */
+"Could not set up that %@ account." = "Kan dat %@-account niet instellen.";
+
+/* A dialog title telling the user that they should enable some searchable items for the account they just set up. */
+"Enable searchable items for this account." = "Schakel doorzoekbare items in voor dit account.";
+
+/* A dialog label telling the user in detail how they should enable some searchable items for the account they just set up. */
+"One or more search sources may have been added for the account '%@'. It may be necessary to manually enable each search source that uses this account.  Do so via the 'Searchable Items' tab in Preferences." = "Er zijn mogelijk een of meer zoekbronnen toegevoegd voor het account '%@'. Mogelijk moet u handmatig elke zoekbron inschakelen die dit account gebruikt. U kunt dit doen op het tabblad 'Doorzoekbare items' in 'Voorkeuren'.";
+
+/* A dialog label explaining in detail that we could not set up an account of type 1 with username 2. */
+"The %1$@ account '%2$@' could not be set up for use.  Please check your password and try again." = "Het %1$@-account '%2$@' kan niet worden ingesteld voor gebruik. Controleer het wachtwoord en probeer het opnieuw.";
+
+/* A dialog label explaining in detail that we were unable to authenticate the account with the user info given to us */
+"The account '%@' could not be authenticated. Please check the account name and password and try again." = "Het account '%@' kan niet worden geverifieerd. Controleer de accountnaam en het wachtwoord en probeer het opnieuw.";
+
+/* A dialog label explaining in detail that an account of that type with that login information has already been set up. */
+"The account '%@' has already been set up for use in Quick Search Box." = "Het account '%@' is al ingesteld voor gebruik in het Snelzoekvak.";
+

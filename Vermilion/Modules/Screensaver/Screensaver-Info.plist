@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.screensaver</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Screensaver</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSPythonSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.screensaver.source</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Screen Savers</string>
+			<key>HGSPythonModule</key>
+			<string>Screensaver</string>
+			<key>HGSPythonClass</key>
+			<string>Screensaver</string>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<string>script.python.screensaver</string>
+		</dict>
+		<dict>
+			<key>HGSPythonModule</key>
+			<string>Screensaver</string>
+			<key>HGSPythonClass</key>
+			<string>SetScreensaverAction</string>
+			<key>HGSExtensionClass</key>
+			<string>HGSPythonAction</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.screensaver.action.set</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Set as Screen Saver</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<array>
+				<string>script.python.screensaver</string>
+				<string>file</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

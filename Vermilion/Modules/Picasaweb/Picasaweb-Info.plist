@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.qsb.plugin.Picasaweb</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>PicasawebSource</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.qsb.picasaweb.source</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Picasa Web Albums</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSSourcesExtensionPoint</string>
+			<key>HGSExtensionDesiredAccountTypes</key>
+			<string>kHGSGoogleAccountTypeID</string>
+			<key>HGSSearchSourceUTIsToExcludeFromDiskSources</key>
+			<array>
+				<string>com.googlecode.precipitate.pwa.album</string>
+				<string>com.googlecode.precipitate.pwa.photo</string>
+			</array>
+			<key>HGSSearchSourceSupportedTypes</key>
+			<array>
+				<string>webpage.image</string>
+				<string>webpage.image.album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>PicasaWebUploadImageAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>^Upload to Picasa Web Albums</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>com.google.text.picasaweb.action.uploadimage</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<array>
+				<string>file.media.image</string>
+				<string>file.media.movie</string>
+			</array>
+			<key>HGSExtensionDesiredAccountTypes</key>
+			<string>com.google.qsb.google.account</string>
+			<key>HGSActionMustRunOnMainThread</key>
+			<false/>
+		</dict>
+	</array>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+</dict>
+</plist>

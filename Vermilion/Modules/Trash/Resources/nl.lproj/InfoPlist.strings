@@ -1,0 +1,5 @@
+﻿/* A label denoting the name of the Trash Source. It is a source that allows the user to go dumpster diving into their desktop trash can. Do not include ^ in localization.*/
+"^Trash" = "Prullenbak";
+
+/* Name of action that moves a file to the trash. Do not include ^ in localization. */
+"^Move to Trash" = "Verplaatsen naar Prullenbak";

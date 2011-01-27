@@ -1,0 +1,10 @@
+﻿"Send to %@" = "Enviar a %@";
+"Submit Report..." = "Enviar informe…";
+"Cancel" = "Cancelar";
+"Crash Report:" = "Informe de error:";
+"Crash Report" = "Informe de error";
+"Problem Description:" = "Descripción del problema:";
+"Crash report for \"%@\"" = "Informe de error para \"%@\"";
+"The application %@ has unexpectedly quit." = "La aplicación %@ se ha cerrado inesperadamente.";
+"Please describe the circumstances leading to the crash and any other relevant information:\n\n" = "Describa las circunstancias que han provocado el error y añada la información que considere relevante:\n\n";
+"The system and other applications have not been affected.\n\nWould you like to submit a bug report to %@?" = "El sistema y el resto de aplicaciones abiertas no se han visto afectados.\n\n¿Desea enviar un informe de error a %@?";

@@ -1,0 +1,11 @@
+﻿/* Name of action that rotates an image 90 degrees clockwise. Do not include ^ in localization. */
+"^Rotate Clockwise 90 Degrees" = "Ruota di 90° in senso orario";
+
+/* Name of action that roates an image 90 degress counter clockwise. Do not include ^ in localization. */
+"^Rotate Counter Clockwise 90 Degrees" = "Ruota di 90° in senso antiorario";
+
+/* Name of action that will scale an image. Do not include ^ in localization. */
+"^Scale" = "Scala";
+
+/* Name of action that will convert an image from one file type to another. Do not include ^ in localization. */
+"^Convert" = "Converti";

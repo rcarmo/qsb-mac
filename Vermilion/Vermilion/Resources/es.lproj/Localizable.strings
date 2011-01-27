@@ -1,0 +1,8 @@
+﻿/* A label denoting that this result represents multiple items */
+"Multiple Items" = "Varios elementos";
+
+/* A label denoting a plugin missing it's name. */
+"Unknown Name" = "Nombre desconocido";
+
+/* A dialog title denoting an error caused while attempting to execute an AppleScript */
+"AppleScript Error" = "Error de AppleScript";

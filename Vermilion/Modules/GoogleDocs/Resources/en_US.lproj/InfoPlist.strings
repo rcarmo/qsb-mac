@@ -1,0 +1,14 @@
+﻿/* A label denoting the name of the Google Docs Source. It is a source that allows the user to access their Google Docs. Do not include ^ in localization.*/
+"^Google Docs" = "Google Docs";
+
+/* Action name for downloading and saving a Google Document. */
+"^Save as…" = "Save as…";
+
+/* Action name for uploading and converting a file to Google Docs. */
+"^Upload as Google Doc" = "Upload as Google Doc";
+
+/* Action name for uploading and image file and performing OCR (optical character recognition) on the image and saving as a Google Doc. */
+"^Upload and OCR as Google Doc" = "Upload and OCR as Google Doc";
+
+/* Action name for uploading a file in its raw state to Google Docs. */
+"^Upload without Conversion to Google Docs" = "Upload without Conversion to Google Docs";

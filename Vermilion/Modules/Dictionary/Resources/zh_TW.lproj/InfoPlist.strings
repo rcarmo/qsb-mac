@@ -1,0 +1,5 @@
+﻿/* A label denoting the name of the Dictionary Source. It is a source that allows you to look up definitions in a dictionary. */
+"^Dictionary" = "字典";
+
+/* A label denoting the name of the Show In Dictionry action which allows you to display the definition of a result from the QSB in the dictionary. Do not include ^ in localization. */
+"^Show in Dictionary" = "在字典中顯示";

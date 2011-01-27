@@ -1,0 +1,32 @@
+﻿/* Name of action that shows all applications. Do not include ^ in localization. */
+"^Show All Applications" = "Mostrar todas las aplicaciones";
+
+/* Name of action that shuts the computer off. Do not include ^ in localization. */
+"^Shut Down" = "Apagar";
+
+/* Name of action that puts the computer to sleep. Do not include ^ in localization. */
+"^Sleep" = "Suspender";
+
+/* Name of action that restarts the computer. Do not include ^ in localization. */
+"^Restart" = "Reiniciar";
+
+/* Name of action that quits the visible applications. Do not include ^ in localization. */
+"^Quit Visible Applications" = "Salir de aplicaciones visibles";
+
+/* Name of action that logs the user out of their computer. Do not include ^ in localization. */
+"^Log Out" = "Salir";
+
+/* Name of action that locks the user's screen. Do not include ^ in localization. */
+"^Lock Screen" = "Bloquear pantalla";
+
+/* Name of action that hides all other applications. Do not include ^ in localization. */
+"^Hide Others" = "Ocultar otras";
+
+/* Name of action that empties the trash. Do not include ^ in localization. */
+"^Empty Trash" = "Vaciar papelera";
+
+/* Name of action that ejects the user's dvd drive tray. Do not include ^ in localization. */
+"^Eject Disk Tray" = "Extraer bandeja del disco";
+
+/* Name of action that closes the user's dvd drive tray. Do not include ^ in localization. */
+"^Close Disk Tray" = "Cerrar bandeja del disco";

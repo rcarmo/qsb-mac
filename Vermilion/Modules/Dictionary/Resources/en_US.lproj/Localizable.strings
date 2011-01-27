@@ -1,0 +1,8 @@
+﻿/* A label for a result denoting the dictionary definition of the term represented by %@. */
+"Definition of %@" = "Definition of %@";
+
+/* prefix for explicit dictionary searches of the form 'define foo'. Note the space as a delimiter at the end. */
+"define " = "define ";
+
+/* suffix for explicit dictionary searches of the form 'foo define'. Note the space as a delimiter at the front. */
+" define" = " define";

@@ -1,0 +1,43 @@
+﻿/* A dialog lable denoting that authentication for account with username %@ failed */
+"Authentication for '%@' failed. Check your password." = "Autenticazione di \"%@\" non riuscita. Verifica la tua password.";
+
+/* A dialog label denoting that an attempt to fetch data with the account for username $1$@ failed with errorcode %2$d */
+"Fetch for '%1$@' failed. (%2$d)" = "Recupero per \"%1$@\" non riuscito. (%2$d)";
+
+/* A dialog label explaining to the user that the Google Doc could not be saved to a local file. %@ is the name of the document and %d is an error code. */
+"Could not save Google Doc ‘%@’! (%d)" = "Could not save Google Doc ‘%@’! (%d)";
+
+/* A dialog label explaining to the user that the Google Doc could not be fetched from the server. %d is an error code.*/
+"Could not fetch Google Doc! (%d)" = "Could not fetch Google Doc! (%d)";
+
+/* A label denoting a Google Docs result */
+"Google Docs" = "Google Documenti";
+
+/* A dialog title for a dialog describing a Google Docs data fetch problem. */
+"Google Docs fetch problem." = "Problema di recupero da Google Documenti.";
+
+/* Popup title specifying which worksheets of a spreadsheet document are to be saved. */
+"Save worksheet:" = "Save worksheet:";
+
+/* Popup title specifying the format to which a document is to be saved. */
+"Save as document type:" = "Save as document type:";
+
+/* Action name for saving a Google Document. */
+"Save as…" = "Save as…";
+
+/* Descriptive titles and extensions of the types of files by which a Google
+ Doc document can be exported.  These titles are shown in a popup. */
+"Comma-separated Document (CSV)" = "Comma-separated Document (CSV)";
+"Microsoft Word Document (DOC)" = "Microsoft Word Document (DOC)";
+"HTML Document (HTML)" = "HTML Document (HTML)";
+"OpenDocument Spreadsheet (ODS)" = "OpenDocument Spreadsheet (ODS)";
+"OpenDocument Format (ODT)" = "OpenDocument Format (ODT)";
+"Portable Document Format (PDF)" = "Portable Document Format (PDF)";
+"Image File (PNG)" = "Image File (PNG)";
+"Microsoft Powerpoint Document (PPT)" = "Microsoft Powerpoint Document (PPT)";
+"Rich Text Format (RTF)" = "Rich Text Format (RTF)";
+"Flash Format (SWF)" = "Flash Format (SWF)";
+"Tab-separated Document (TSV)" = "Tab-separated Document (TSV)";
+"Text (TXT)" = "Text (TXT)";
+"Microsoft Excel Document (XLS)" = "Microsoft Excel Document (XLS)";
+"ZIP Archive (with images) (ZIP)" = "ZIP Archive (with images) (ZIP)";

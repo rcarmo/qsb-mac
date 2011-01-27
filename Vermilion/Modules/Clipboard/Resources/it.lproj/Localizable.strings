@@ -1,0 +1,9 @@
+﻿/* The generic search term used to bring up clipboard contents and history */
+"Clipboard" = "Clipboard";
+
+/* The user-visible name for the clipboard history search result */
+"Clipboard History" = "Clipboard History";
+
+/* The user-visible name for clipboard image results */
+"Clipboard Image" = "Clipboard Image";
+

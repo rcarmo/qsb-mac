@@ -1,0 +1,2 @@
+﻿/* A label denoting the name of the Weather Source. It is a source that allows the user to get weather info about a zip code. Do not include ^ in localization.*/
+"^Weather" = "Meteo";

@@ -1,0 +1,251 @@
+<html>
+<body style="font-family:lucida grande;font-size:13px;">
+<h2>Google Quick Search Box 2.0.0.1053 (Vanadium)</h2>
+<div style="border:1px solid #ccc; background-color:#eee; padding-left:20px;line-height:150%;-webkit-border-radius: 4px;">
+<p>Thank you for working with QSB and giving us so much encouragement and feedback. We really appreciate it.</p>
+<p>Please consider joining our mailing list at <a href="http://groups.google.com/group/qsb-mac-discuss">http://groups.google.com/group/qsb-mac-discuss</a>.</p>
+<p>Issues can be filed on our issues list at <a href="http://code.google.com/p/qsb-mac/issues/list">http://code.google.com/p/qsb-mac/issues/list</a>.</p>
+</div>
+<h3>Important Notes</h3>
+<ul>
+<li>
+This version of QSB is going to reset your plugin preferences and account 
+preferences. You will have to go to the preferences panel and re-enter your 
+account information to use any features that depend upon accounts such as 
+PicasaWeb search, Google Docs search or Twitter.
+</li>
+<li>
+This version of QSB will break any third party plugins until they are
+upgraded to work with it. We apologize for any inconvenience this may cause, 
+however we are still attempting to stabilize the plugin APIs and they probably 
+won't be set in stone until the 1.0 release.
+</li>
+</ul>
+
+<h3>Enhancements in this version</h3>
+<ul>
+    <li>
+        HGSSimpleAccount supports authentication remediation.  See <code>
+        -[HGSSimpleAccountEditController canGiveUserAnotherTry]</code> and
+        <code>-[HGSSetUpSimpleAccountViewController
+        canGiveUserAnotherTryOffWindow:]</code> and the captcha implementation
+        in <code>GoogleAccount</code> for an example.
+    </li>
+    <li>
+        Extensions don't really know if they have an UI available, so 
+        we've added support for extensions to notify the client (QSB, in
+        this case) of short messages to be presented to the user.  This 
+        is done via <code>kHGSUserMessageNotification</code>.  Details 
+        can be fond in <code>HGSExtension.h</code> and an example can 
+        be seen in <code>TwitterMessageAction.m</code>.
+    </li>
+    <li>
+        Added QSBUserMessage.h/.m which does the user notification
+        presentation mentioned in the previous item.  A small gray status
+        window is presented over the query window for a few seconds.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=118">
+        Issue 118</a>: The path presentation shown at the bottom of the 
+        results window for the currently selected result was being overdrawn.
+        This has been fixed.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=34">
+        Issue 34</a> and
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=50">
+        issue 50</a>: The Google Bookmarks source now uses Google Accounts.
+        An instance of Google Bookmarks for each Google account that has been
+        set up will appear in the Searchable Items list in preferences.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=198">
+        Issue 198</a> and
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=211">
+        issue 211</a>: Fixed a problem in the SharedFileList search source
+        where changing the name of or moving a recently used file would
+        cause erroneous results to appear for the item.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=179">
+        Issue 179</a>: Fixed a off-by-one error in identifying word boundaries
+        that caused a crash when typing multiple words in the search box.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=140">
+        Issue 140</a>: Fixed a problem where pressing down-arrow in an
+        empty search box would show an empty result box. Recognize
+        that there are no results to show and suppress the result
+        window presentation.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=187">
+        Issue 187</a>: Fixed a problem where pressing right-arrow after
+        pivoting on a result would refuse to drill in because the old
+        completion text range was competing with the pivot.
+    </li>
+		<li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=135">
+        Issue 135</a>: Text input now has large type as a default action
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=146">
+        Issue 145</a>: Added support throughout QSB for arrays of results. 
+        All actions were overhauled to handle arrays of results. You can't use
+        the comma operator just yet, but you can get multiple items via
+        selections in the Finder, and choosing "cmd-G" in QSB. The interface
+        to actions has changed considerably. Third parties will need to update
+        their actions appropriately.
+    </li>
+    <li>
+        Cleaned up naming throughout internal API. Third parties will need to
+        update their code. HGSObject -> HGSResult is the main one, but several
+        methods had their names changed as well.
+    </li>
+    <li>
+        Added "path for file URL" command to AppleScript dictionary allowing
+        you to get the path of a file url.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=131">
+        Issue 131</a>: Fixed up image AppleScript plugins so you can now
+        rotate, scale and convert images.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=134">
+        Issue 134</a>: Lots of text typed into the search box no longer
+        shifts left and right.  The search box was valiantly trying to show
+        intermittent but inappropriate text completions.
+    </li>
+    <li>
+        Standardized on a new JSON framework that fixes a potential crasher if
+        we were passed a badly formatted JSON string. It is available as a
+        framework for plugins to link to. Thanks to Stig Brautaset for 
+        <a href="http://code.google.com/p/json-framework/">JSON.framework</a>.
+    </li>
+    <li>
+        Improved memory usage once again, cleaning up a couple of leaks and
+        reducing startup memory usage by about 10%.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=10">
+        Issue 10</a>: QSB should now position itself correctly in the Finder. 
+        We have set all the appropriate flags, so if it isn't working, chances
+        are it's a Finder bug.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=229">
+        Issue 229</a>: User messages can now be shown via Growl, which is
+        the default.  A <b>Use Growl for user messages</b> checkbox has been
+        added to the <b>General</b> panel of preferences for controlling
+        the use of Growl.  A plugin can optionally add descriptive text
+        to the user message notification.  This will be shown as a second
+        line when presented to the user.
+    </li>
+    <li>
+        Fixed a problem where right-arrowing from the top-most result was
+        not pivoting on the result.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=200">
+        Issue 200</a>: Previously, some results were always shown below-the-fold
+        (mostly actions) regardless of how much room was available in the top
+        results.  This has been changed so that as many of the below-the-fold
+        results as possible will be shown in the available space in the top
+        results, respecting the user's <b>Number of results</b> preference.
+        This means that more actions will be available when pivoting. 
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=221">
+        Issue 221</a>: Now adds "from Google Quick Search Box (Mac)" to
+        tweets. 
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=238">
+        Issue 238</a>: Icon fetch operations that complete needed to be
+        removed from the list of pending fetch operations.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=222">
+        Issue 222</a>: When the preference window is shown a validation is
+        done on all accounts so that account status is up-to-date.  Whenever
+        a search source experiences what may be an authentication issue it
+        has the account do an authentication so that the preferences are
+        updated immediately. 
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=273">
+        Issue 273</a>: Changed sending of Twitter messages to be asynchronous.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=281">
+        Issue 281</a>: If a search source relies on an account that fails
+        to authenticate at startup then it is still shown in the Searchable
+        Items list but is disabled.  Once the account problem is fixed the
+        search source will be available once again.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=283">
+        Issue 283</a>: Whenever Google Bookmarks or Twitter gets a credential
+        challenge the account is immediately authenticated and an error is
+        reported if there is an authentication failure.
+    </li>
+    <li>
+        Added a plugin API version check when starting up QSB. QSB plugins must
+        have a 'HGSPluginAPIVersion' key in their plists with a value of '2'.
+        We have made extensive changes to the API and didn't want non-conformant
+        plugins to crash on launch.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=270">
+        Issue 270</a>: The search options are now properly enabled in the
+        pop-down menu.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=268">
+        Issue 268</a>: Icons should now show up correctly for AppleScript 
+        actions. Thanks to Aaron Ecay for the patch.
+    </li>
+    <li>
+        The Picasaweb search source will now suggest to the user that they
+        may need to enable Picasa for their Google account whenever the
+        server reports a '404 - Not found'.
+    </li>
+    <li>
+        Issues <a href="http://code.google.com/p/qsb-mac/issues/detail?id=215">
+        215</a>, <a href="http://code.google.com/p/qsb-mac/issues/detail?id=245">
+        245</a>, and <a href="http://code.google.com/p/qsb-mac/issues/detail?id=249">
+        249</a>: Account setup and editing has been improved.  Validation is
+        performed for all accounts whenever the Preferences window is shown.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=260">
+        Issue 260</a>: Ligatures are now turned off across the
+        typed/autocompleted text boundary.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=232">
+        Issue 232</a>: We now support Canadian postal codes and metric 
+        temperatures. Thanks to Christian Savard for the patch.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=292">
+        Issue 292</a>: We now support weather for UK post codes.
+    </li>
+    <li>
+        <a href="http://code.google.com/p/qsb-mac/issues/detail?id=127">
+        Issue 127</a>: A plugin that provides a system dictionary search source
+        has been added to the distribution, returning defintions for words
+        typed into QSB and direct access to definitions in the Dictionary
+        application.
+    </li>
+    <li>
+        ApplicationUI source is now on by default. You must "Enable access for 
+        assistive devices" in the "Universal Access" system preference for it 
+        to work.
+    </li>
+
+    
+</ul>
+</body>
+</html>

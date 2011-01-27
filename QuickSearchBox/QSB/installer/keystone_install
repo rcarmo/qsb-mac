@@ -1,0 +1,76 @@
+#!/bin/bash
+
+function Log() {
+  syslog -s -l 3 $1
+}
+
+function PathForBundleID() {
+  ksadmin -pP $1 | grep xc= | sed -E 's/.+path=(.+)>$/\1/g'
+}
+
+cd "$1" || exit 1
+
+app_name="Quick Search Box.app"
+bundle_id="com.google.qsb"
+
+dest_path=$(PathForBundleID "$bundle_id")
+version=$(defaults read "$dest_path/Contents/Info" CFBundleVersion)
+
+if [ -z "$version" ]; then
+  Log "Error(1): Can't find QSB version"
+  echo exit=1
+  exit 1
+fi
+
+dest_dir=$(dirname "$dest_path")
+
+if [[ "${#dest_path}" -le 5 ||
+     ! -e "$dest_path" ||
+     "$app_name" -ef "$dest_path" ||
+     ! -e "$dest_dir" ||
+     "$dest_dir" -ef "/" ]]; then
+  Log "Error(77): Invalid dest path \"$dest_path\""
+  echo exit=77
+  exit 77  # Try again later
+fi
+
+backup_path="$dest_path.backup"
+mv "$dest_path" "$backup_path" || exit 2
+
+status=0
+tar cf - "$app_name" | tar xf - -C "$dest_dir"
+if [[ $? -eq 0 ]]; then
+  status=$?
+  chmod -R u+w "$backup_path"
+  rm -rf "$backup_path"
+else
+  status=$?
+  chmod -R u+w "$dest_path"
+  rm -rf "$dest_path"
+  mv "$backup_path" "$dest_path"
+fi
+
+xattr -d com.apple.quarantine "$dest_path"
+
+lsrtail="Frameworks/LaunchServices.framework/Support/lsregister"
+lsregister="/System/Library/Frameworks/CoreServices.framework/$lsrtail"
+if [ ! -x "$lsregister" ]; then
+  lsregister="/System/Library/Frameworks/ApplicationServices.framework/$lsrtail"
+fi
+
+$lsregister "$dest_path"
+
+if [[ $? -ne 0 ]]; then
+  Log "Error($?): Unable to $lsregister $dest_path"
+fi
+
+# Remove the QSB ticket
+ksadmin -d -P com.google.qsb
+
+# If this above command fails we don't care.  If Keystone is not installed,
+# great we don't have a ticket.  If there was no ticket to delete, great
+# our job was already done for us.
+
+# The postinstall script needs this path to restart QSB
+echo dest_path=$dest_path
+exit 0
