@@ -779,6 +779,8 @@ GTM_METHOD_CHECK(NSObject, gtm_stopObservingAllKeyPaths);
 #pragma mark Application Delegate Methods
 
 - (void)applicationWillFinishLaunching:(NSNotification *)notification {
+  /* this code block commented by @rcarmo for 10.6+
+     TODO: Figure out Quicklook integration later on - right now I just want a clean build.
   if ([GTMSystemVersion isLeopard]) {
     // Force load the private framework that has the QuickLook APIs
     // On Leopard.
@@ -798,6 +800,7 @@ GTM_METHOD_CHECK(NSObject, gtm_stopObservingAllKeyPaths);
       NSLog(@"Unable to load QLPreviewPanel class");
     }
   }
+  */
   // If the user launches us hidden we don't want to activate.
   NSWorkspace *ws = [NSWorkspace sharedWorkspace];
   NSDictionary *processDict
@@ -887,6 +890,8 @@ GTM_METHOD_CHECK(NSObject, gtm_stopObservingAllKeyPaths);
 }
 
 - (void)applicationWillResignActive:(NSNotification *)notification {
+/* This code block commented by @rcarmo for 10.6+
+   TODO: figure out Quicklook integration later on
 #if MAC_OS_X_VERSION_MIN_REQUIRED > MAC_OS_X_VERSION_10_5
   #error Clean up this mess now that we don't support Leopard
 #endif //  MAC_OS_X_VERSION_MIN_REQUIRED > MAC_OS_X_VERSION_10_5
@@ -895,6 +900,7 @@ GTM_METHOD_CHECK(NSObject, gtm_stopObservingAllKeyPaths);
   if ([panel isVisible]) {
     [panel close];
   }
+*/
 }
 
 - (void)applicationWillTerminate:(NSNotification *)notification {

@@ -41,7 +41,9 @@
   NSRect bounds = [self bounds];
   NSImage *image = [[self cell] image];
   
-  NSImageRep *bestRep = [image gtm_bestRepresentationForSize:bounds.size];
+  //NSImageRep *bestRep = [image gtm_bestRepresentationForSize:bounds.size];
+  // patched by @rcarmo for 10.6+
+  NSImageRep *bestRep = [image bestRepresentationForRect:bounds context:nil hints:nil];
   NSSize size = [bestRep size];
   [image setSize:size];
   

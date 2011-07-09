@@ -331,7 +331,10 @@ GTMOBJECT_SINGLETON_BOILERPLATE(HGSIconCache, sharedIconCache);
   NSSize preferredSize = [self preferredIconSize];
   NSRect borderRect = GTMNSRectOfSize(preferredSize);
   borderRect = NSInsetRect(borderRect, 8.0, 8.0);
-  NSImageRep *bestRep = [image gtm_bestRepresentationForSize:borderRect.size];
+  //NSImageRep *bestRep = [image gtm_bestRepresentationForSize:borderRect.size];
+  //@rcarmo patch for 10.6+
+  NSImageRep *bestRep = [image bestRepresentationForRect:borderRect context:nil hints:nil];
+
   NSRect bestRepRect = GTMNSRectOfSize([bestRep size]);
   NSRect drawRect = GTMNSScaleRectToRect(bestRepRect,
                                          borderRect,
