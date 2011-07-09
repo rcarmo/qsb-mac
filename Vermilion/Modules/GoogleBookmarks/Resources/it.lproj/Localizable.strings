@@ -1,9 +1,0 @@
-﻿/* A label in a dialog denoting that authentication for the account with username %@ failed due to a validation error */
-"Authentication for '%@' failed. Check your password." = "Autenticazione di \"%@\" non riuscita. Verifica la tua password.";
-
-/* A dialog label denoting that an attempt to fetch data with the account for username $1$@ failed with errorcode %2$d */
-"Fetch for '%1$@' failed. (%2$d)" = "Recupero per \"%1$@\" non riuscito. (%2$d)";
-
-/* A dialog title denoting that this dialog has to do with Google Bookmarks */
-"Google Bookmarks" = "Segnalibri Google";
-

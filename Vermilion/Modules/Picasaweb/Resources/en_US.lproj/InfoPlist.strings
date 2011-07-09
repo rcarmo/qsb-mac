@@ -1,5 +1,0 @@
-﻿/* A label denoting the name the Picasa Web Albums source. It is a source that allows the user to access all of their photos in Picasa. Do not include ^ in localization.*/
-"^Picasa Web Albums" = "Picasa Web Albums";
-
-/* A string describing an action that the user can choose that will be cause the selected item(s) to be uploaded to a Picasa Web Albums account. */
-"^Upload to Picasa Web Albums" = "Upload to Picasa Web Albums";

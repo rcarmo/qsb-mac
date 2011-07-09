@@ -1,2 +1,0 @@
-﻿/* A label denoting the name of the Google Docs Source. It is a source that allows the user to access their Google Docs. Do not include ^ in localization.*/
-"^Google Docs" = "Google 文档";
