@@ -51,42 +51,6 @@
 	<string>${QSB_BUNDLE_ID}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>NSServices</key>
-	<array>
-		<dict>
-			<key>NSMessage</key>
-			<string>getSelectionFromService</string>
-			<key>NSPortName</key>
-			<string>Quick Search Box</string>
-			<key>NSTimeout</key>
-			<string>10000</string>
-			<key>NSSendTypes</key>
-			<array>
-				<string>NSColorPboardType</string>
-				<string>NSFileContentsPboardType</string>
-				<string>NSFilenamesPboardType</string>
-				<string>NSFontPboardType</string>
-				<string>NSHTMLPboardType</string>
-				<string>NSPDFPboardType</string>
-				<string>NSPICTPboardType</string>
-				<string>NSPostScriptPboardType</string>
-				<string>NSRulerPboardType</string>
-				<string>NSRTFPboardType</string>
-				<string>NSRTFDPboardType</string>
-				<string>NSStringPboardType</string>
-				<string>NSTabularTextPboardType</string>
-				<string>NSTIFFPboardType</string>
-				<string>NSURLPboardType</string>
-				<string>NSVCardPboardType</string>
-				<string>NSFilesPromisePboardType</string>
-			</array>
-			<key>NSMenuItem</key>
-			<dict>
-				<key>default</key>
-				<string>Send to Quick Search Box</string>
-			</dict>
-		</dict>
-	</array>
 	<key>CFBundleName</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
@@ -110,6 +74,24 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>${GOOGLE_VERSIONINFO_LONG}</string>
+	<key>com.apple.PreferenceSync.ExcludeSyncKeys</key>
+	<array>
+		<string>moveToApplicationsFolderAlertSuppress</string>
+		<string>SULastCheckTime</string>
+	</array>
+	<key>CrashReporterCompany</key>
+	<string>QSB Team</string>
+	<key>CrashReporterURL</key>
+	<string>http://qsb-mac-crashes.appspot.com/crashreport</string>
+	<key>GTMGoogleSearchClientAppArgs</key>
+	<dict>
+		<key>client</key>
+		<string>qsb-mac</string>
+		<key>source</key>
+		<string>qsb-mac</string>
+	</dict>
+	<key>LSHasLocalizedDisplayName</key>
+	<true/>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.5.0</string>
 	<key>LSUIElement</key>
@@ -122,35 +104,53 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>QSBApplication</string>
-	<key>OSAScriptingDefinition</key>
-	<string>dynamic</string>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Send to Quick Search Box</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>getSelectionFromService</string>
+			<key>NSPortName</key>
+			<string>Quick Search Box</string>
+			<key>NSSendTypes</key>
+			<array>
+				<string>NSColorPboardType</string>
+				<string>NSFileContentsPboardType</string>
+				<string>NSFilenamesPboardType</string>
+				<string>NSFontPboardType</string>
+				<string>NSHTMLPboardType</string>
+				<string>NSPDFPboardType</string>
+				<string>NSPICTPboardType</string>
+				<string>NSPostScriptPboardType</string>
+				<string>NSRulerPboardType</string>
+				<string>NSRTFPboardType</string>
+				<string>NSRTFDPboardType</string>
+				<string>NSStringPboardType</string>
+				<string>NSTabularTextPboardType</string>
+				<string>NSTIFFPboardType</string>
+				<string>NSURLPboardType</string>
+				<string>NSVCardPboardType</string>
+				<string>NSFilesPromisePboardType</string>
+			</array>
+			<key>NSTimeout</key>
+			<string>10000</string>
+		</dict>
+	</array>
 	<key>NSSupportsSuddenTermination</key>
 	<false/>
-	<key>LSHasLocalizedDisplayName</key>
-	<true/>
+	<key>OSAScriptingDefinition</key>
+	<string>dynamic</string>
 	<key>QSBFeedbackURL</key>
-	<string>http://groups.google.com/group/qsb-mac-discuss</string>
+	<string>https://github.com/rcarmo/qsb-mac</string>
 	<key>QSBHomepageURL</key>
-	<string>http://code.google.com/p/qsb-mac</string>
-	<key>CrashReporterURL</key>
-	<string>http://qsb-mac-crashes.appspot.com/crashreport</string>
-	<key>CrashReporterCompany</key>
-	<string>QSB Team</string>
-	<key>GTMGoogleSearchClientAppArgs</key>
-	<dict>
-		<key>client</key>
-		<string>qsb-mac</string>
-		<key>source</key>
-		<string>qsb-mac</string>
-	</dict>
-	<key>com.apple.PreferenceSync.ExcludeSyncKeys</key>
-	<array>
-		<string>moveToApplicationsFolderAlertSuppress</string>
-		<string>SULastCheckTime</string>
-	</array>
+	<string>https://github.com/rcarmo/qsb-mac</string>
+	<key>SUFeedURL</key>
+	<string>http://localhost#disabled-sparkle-feed</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
-	<key>SUFeedURL</key>
-	<string>http://qsb-mac.googlecode.com/svn/trunk/installer/QSBUpdateAppcast.xml</string>
 </dict>
 </plist>
