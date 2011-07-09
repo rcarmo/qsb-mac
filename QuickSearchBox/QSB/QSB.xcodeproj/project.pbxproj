@@ -2331,6 +2331,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05AEA12113C8CDE500A2AC5D /* GoogleBookmarks.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBookmarks.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AEA12213C8CDE500A2AC5D /* GoogleDocs.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDocs.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AEA12313C8CDE500A2AC5D /* PicasaWeb.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicasaWeb.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AEA12413C8CDE500A2AC5D /* GoogleCalendars.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleCalendars.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		332AD7380DC910A20009A7E9 /* GTMSystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSystemVersion.h; sourceTree = "<group>"; };
 		332AD7390DC910A20009A7E9 /* GTMSystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSystemVersion.m; sourceTree = "<group>"; };
@@ -2348,8 +2352,6 @@
 		332ADB8F0DCA65990009A7E9 /* GTMNSBezierPath+RoundRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSBezierPath+RoundRect.h"; sourceTree = "<group>"; };
 		332ADB900DCA65990009A7E9 /* GTMNSBezierPath+RoundRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSBezierPath+RoundRect.m"; sourceTree = "<group>"; };
 		33A016DD0DD3D00A00578DE5 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
-		33D2C5F30DD1068000C1FBDC /* GoogleDocs.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GoogleDocs.hgs; path = "/Users/rcarmo/Development/qsb-mac/QuickSearchBox/QSB/build/Release/GoogleDocs.hgs"; sourceTree = "<absolute>"; };
-		33D2CAE00DD24C2500C1FBDC /* GoogleBookmarks.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GoogleBookmarks.hgs; path = "/Users/rcarmo/Development/qsb-mac/QuickSearchBox/QSB/build/Release/GoogleBookmarks.hgs"; sourceTree = "<absolute>"; };
 		33D2CBAB0DD2573100C1FBDC /* HGSMemorySearchSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGSMemorySearchSource.h; sourceTree = "<group>"; };
 		33D2CBAC0DD2573100C1FBDC /* HGSMemorySearchSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSMemorySearchSource.m; sourceTree = "<group>"; };
 		33EEA68B0DD0D9C0005766AB /* WebBookmarks.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebBookmarks.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2414,7 +2416,6 @@
 		620055670F78595F00C806A1 /* GoogleAccountSetUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAccountSetUpViewController.h; sourceTree = "<group>"; };
 		620055680F78595F00C806A1 /* GoogleAccountSetUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAccountSetUpViewController.m; sourceTree = "<group>"; };
 		620CB3090FAA827E0029801C /* QSBPluginUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QSBPluginUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6210450E113C85AA00AF95F8 /* GoogleCalendars.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GoogleCalendars.hgs; path = "/Users/rcarmo/Development/qsb-mac/QuickSearchBox/QSB/build/Release/GoogleCalendars.hgs"; sourceTree = "<absolute>"; };
 		6211C4BA0F311ADE003A5122 /* HGSSimpleAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGSSimpleAccount.h; sourceTree = "<group>"; };
 		6211C4BB0F311ADE003A5122 /* HGSSimpleAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSSimpleAccount.m; sourceTree = "<group>"; };
 		6219B5330E8C1DB3008643F4 /* en_US */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en_US; path = en_US.lproj/BaseResultsViews.xib; sourceTree = "<group>"; };
@@ -2460,7 +2461,6 @@
 		62541752102C904A00808254 /* HGSSearchTermScorer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSSearchTermScorer.m; sourceTree = "<group>"; };
 		625A2C960E5614F3008CA9BF /* QSBPreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBPreferenceWindowController.h; sourceTree = "<group>"; };
 		625A2C970E5614F3008CA9BF /* QSBPreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBPreferenceWindowController.m; sourceTree = "<group>"; };
-		6263CAFB0EB79F3600FF03A1 /* PicasaWeb.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PicasaWeb.hgs; path = "/Users/rcarmo/Development/qsb-mac/QuickSearchBox/QSB/build/Release/PicasaWeb.hgs"; sourceTree = "<absolute>"; };
 		626585210F43BD4C008A94B2 /* QSBUserMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBUserMessenger.h; sourceTree = "<group>"; };
 		626585220F43BD4C008A94B2 /* QSBUserMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBUserMessenger.m; sourceTree = "<group>"; };
 		6274BD82112C69D2008D56D7 /* HGSGDataUploadActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSGDataUploadActionTest.m; sourceTree = "<group>"; };
@@ -4300,6 +4300,10 @@
 				8BF62716110A6519000AB941 /* Transference Demo.app */,
 				8B847B9711499653002C460B /* CorePlugin Test.octest */,
 				8BEDECFD121B1BEB00ABD57F /* CrashReporter.app */,
+				05AEA12113C8CDE500A2AC5D /* GoogleBookmarks.hgs */,
+				05AEA12213C8CDE500A2AC5D /* GoogleDocs.hgs */,
+				05AEA12313C8CDE500A2AC5D /* PicasaWeb.hgs */,
+				05AEA12413C8CDE500A2AC5D /* GoogleCalendars.hgs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -6485,7 +6489,7 @@
 			);
 			name = "Google Docs";
 			productName = GoogleDocs;
-			productReference = 33D2C5F30DD1068000C1FBDC /* GoogleDocs.hgs */;
+			productReference = 05AEA12213C8CDE500A2AC5D /* GoogleDocs.hgs */;
 			productType = "com.apple.product-type.bundle";
 		};
 		33D2CADF0DD24C2500C1FBDC /* Google Bookmarks */ = {
@@ -6504,7 +6508,7 @@
 			);
 			name = "Google Bookmarks";
 			productName = GoogleBookmarks;
-			productReference = 33D2CAE00DD24C2500C1FBDC /* GoogleBookmarks.hgs */;
+			productReference = 05AEA12113C8CDE500A2AC5D /* GoogleBookmarks.hgs */;
 			productType = "com.apple.product-type.bundle";
 		};
 		33EEA68A0DD0D9C0005766AB /* Web Bookmarks */ = {
@@ -6677,7 +6681,7 @@
 			);
 			name = "Google Calendars";
 			productName = GoogleDocs;
-			productReference = 6210450E113C85AA00AF95F8 /* GoogleCalendars.hgs */;
+			productReference = 05AEA12413C8CDE500A2AC5D /* GoogleCalendars.hgs */;
 			productType = "com.apple.product-type.bundle";
 		};
 		623ADD320EC0CC17001651D1 /* Email URL Action */ = {
@@ -6734,7 +6738,7 @@
 			);
 			name = PicasaWeb;
 			productName = GoogleDocs;
-			productReference = 6263CAFB0EB79F3600FF03A1 /* PicasaWeb.hgs */;
+			productReference = 05AEA12313C8CDE500A2AC5D /* PicasaWeb.hgs */;
 			productType = "com.apple.product-type.bundle";
 		};
 		627FAEBA0DF9D73500E3E765 /* Recent Documents */ = {
@@ -12351,9 +12355,15 @@
 					"$(inherited)",
 					"VERMILLION_PLUGIN_API_VERSION=$(VERMILLION_PLUGIN_API_VERSION)",
 				);
+				GCC_VERSION = "";
+				GOOGLE_VERSIONINFO_ABOUT = "$(GOOGLE_VERSION_COPYRIGHT) The Tao of Mac - Originally © Google Inc.";
+				GOOGLE_VERSIONINFO_FINDER = "${GOOGLE_PRODUCT_NAME} - ${QSB_CODE_NAME} ${GOOGLE_VERSIONINFO_LONG}${GOOGLE_VERSION_EXTRAINFO}${GOOGLE_VERSION_DEBUG_FLAG}, ${GOOGLE_VERSION_COPYRIGHT} The Tao of Mac - Originally © Google Inc.";
+				GOOGLE_VERSION_COPYRIGHT = 2011;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"ONLY_ACTIVE_ARCH[sdk=iphoneos*]" = NO;
 				OTHER_LDFLAGS = "-lgcov";
 				SDKROOT = macosx10.6;
+				VERSION_INFO_BUILDER = "Tao of Mac";
 			};
 			name = "Debug-gcov";
 		};
@@ -13124,8 +13134,14 @@
 					"$(inherited)",
 					"VERMILLION_PLUGIN_API_VERSION=$(VERMILLION_PLUGIN_API_VERSION)",
 				);
+				GCC_VERSION = "";
+				GOOGLE_VERSIONINFO_ABOUT = "$(GOOGLE_VERSION_COPYRIGHT) The Tao of Mac - Originally © Google Inc.";
+				GOOGLE_VERSIONINFO_FINDER = "${GOOGLE_PRODUCT_NAME} - ${QSB_CODE_NAME} ${GOOGLE_VERSIONINFO_LONG}${GOOGLE_VERSION_EXTRAINFO}${GOOGLE_VERSION_DEBUG_FLAG}, ${GOOGLE_VERSION_COPYRIGHT} The Tao of Mac - Originally © Google Inc.";
+				GOOGLE_VERSION_COPYRIGHT = 2011;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"ONLY_ACTIVE_ARCH[sdk=iphoneos*]" = NO;
 				SDKROOT = macosx10.6;
+				VERSION_INFO_BUILDER = "Tao of Mac";
 			};
 			name = Debug;
 		};
@@ -13137,8 +13153,14 @@
 					"$(inherited)",
 					"VERMILLION_PLUGIN_API_VERSION=$(VERMILLION_PLUGIN_API_VERSION)",
 				);
+				GCC_VERSION = "";
+				GOOGLE_VERSIONINFO_ABOUT = "$(GOOGLE_VERSION_COPYRIGHT) The Tao of Mac - Originally © Google Inc.";
+				GOOGLE_VERSIONINFO_FINDER = "${GOOGLE_PRODUCT_NAME} - ${QSB_CODE_NAME} ${GOOGLE_VERSIONINFO_LONG}${GOOGLE_VERSION_EXTRAINFO}, ${GOOGLE_VERSION_COPYRIGHT} The Tao of Mac - Originally © Google Inc.";
+				GOOGLE_VERSION_COPYRIGHT = 2011;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"ONLY_ACTIVE_ARCH[sdk=iphoneos*]" = NO;
 				SDKROOT = macosx10.6;
+				VERSION_INFO_BUILDER = "Tao of Mac";
 			};
 			name = Release;
 		};
