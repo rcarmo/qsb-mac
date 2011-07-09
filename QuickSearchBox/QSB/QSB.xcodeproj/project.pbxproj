@@ -418,7 +418,6 @@
 		62104506113C85AA00AF95F8 /* Vermilion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6F2CE10DA2B7F50052CA40 /* Vermilion.framework */; };
 		62104507113C85AA00AF95F8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E429DF760AC1907A00E747D8 /* Security.framework */; };
 		62104508113C85AA00AF95F8 /* GTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD97D0A0E636D8C00F5C83B /* GTM.framework */; };
-		62104744113C945400AF95F8 /* GoogleCalendars.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6210450E113C85AA00AF95F8 /* GoogleCalendars.hgs */; };
 		6211C51D0F312E7E003A5122 /* HGSSimpleAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 6211C4BB0F311ADE003A5122 /* HGSSimpleAccount.m */; };
 		6219B5340E8C1DB3008643F4 /* BaseResultsViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6219B5320E8C1DB3008643F4 /* BaseResultsViews.xib */; };
 		621B1E3B0E4CD7B800EEF553 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621B1E390E4CD7B800EEF553 /* PreferencesWindow.xib */; };
@@ -1287,8 +1286,6 @@
 		F4EF90C50ECB4529008DD6DA /* Contacts.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B6F2F2E0DA2BB660052CA40 /* Contacts.hgs */; };
 		F4EF90C60ECB4529008DD6DA /* Applications.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B6F2F4E0DA2C37C0052CA40 /* Applications.hgs */; };
 		F4EF90C80ECB4529008DD6DA /* WebBookmarks.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33EEA68B0DD0D9C0005766AB /* WebBookmarks.hgs */; };
-		F4EF90CA0ECB4529008DD6DA /* GoogleDocs.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33D2C5F30DD1068000C1FBDC /* GoogleDocs.hgs */; };
-		F4EF90CB0ECB4529008DD6DA /* GoogleBookmarks.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33D2CAE00DD24C2500C1FBDC /* GoogleBookmarks.hgs */; };
 		F4EF90CC0ECB4529008DD6DA /* Actions.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = E46933050DDB7A0200C5A64A /* Actions.hgs */; };
 		F4EF90CE0ECB4529008DD6DA /* RecentDocuments.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 627FAECA0DF9D73500E3E765 /* RecentDocuments.hgs */; };
 		F4EF90D00ECB4529008DD6DA /* iTunes.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AF2C4860E5E19A400F4D546 /* iTunes.hgs */; };
@@ -1297,7 +1294,6 @@
 		F4EF90D50ECB4529008DD6DA /* ApplicationUI.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B3D2A380EAFDA66004EA504 /* ApplicationUI.hgs */; };
 		F4EF90D60ECB4529008DD6DA /* Calculator.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4E3B5890EB6573300CB713D /* Calculator.hgs */; };
 		F4EF90D70ECB4529008DD6DA /* Weather.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4E3B70B0EB66AA900CB713D /* Weather.hgs */; };
-		F4EF90D80ECB4529008DD6DA /* PicasaWeb.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6263CAFB0EB79F3600FF03A1 /* PicasaWeb.hgs */; };
 		F4EF90D90ECB4529008DD6DA /* EmailURLAction.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 623ADD450EC0CC17001651D1 /* EmailURLAction.hgs */; };
 		F4EF90DA0ECB4529008DD6DA /* CorePlugin.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4FEECDA0EC4BF99000758EC /* CorePlugin.hgs */; };
 		F4EF90DC0ECB4529008DD6DA /* System.hgs in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BCCD26D0EC8E5EC00688D64 /* System.hgs */; };
@@ -2311,8 +2307,6 @@
 				F4EF90C50ECB4529008DD6DA /* Contacts.hgs in CopyFiles */,
 				F4EF90C60ECB4529008DD6DA /* Applications.hgs in CopyFiles */,
 				F4EF90C80ECB4529008DD6DA /* WebBookmarks.hgs in CopyFiles */,
-				F4EF90CA0ECB4529008DD6DA /* GoogleDocs.hgs in CopyFiles */,
-				F4EF90CB0ECB4529008DD6DA /* GoogleBookmarks.hgs in CopyFiles */,
 				F4EF90CC0ECB4529008DD6DA /* Actions.hgs in CopyFiles */,
 				F4EF90CE0ECB4529008DD6DA /* RecentDocuments.hgs in CopyFiles */,
 				F4EF90D00ECB4529008DD6DA /* iTunes.hgs in CopyFiles */,
@@ -2321,7 +2315,6 @@
 				F4EF90D50ECB4529008DD6DA /* ApplicationUI.hgs in CopyFiles */,
 				F4EF90D60ECB4529008DD6DA /* Calculator.hgs in CopyFiles */,
 				F4EF90D70ECB4529008DD6DA /* Weather.hgs in CopyFiles */,
-				F4EF90D80ECB4529008DD6DA /* PicasaWeb.hgs in CopyFiles */,
 				F4EF90D90ECB4529008DD6DA /* EmailURLAction.hgs in CopyFiles */,
 				F4EF90DA0ECB4529008DD6DA /* CorePlugin.hgs in CopyFiles */,
 				622911E60F2E805B005D34CE /* GoogleAccounts.hgs in CopyFiles */,
@@ -2332,7 +2325,6 @@
 				5AF0EC900F6076000041E0B9 /* Dictionary.hgs in CopyFiles */,
 				5AF0EF330F61D32E0041E0B9 /* Trash.hgs in CopyFiles */,
 				5AF0F5B90F6720B10041E0B9 /* Mount.hgs in CopyFiles */,
-				62104744113C945400AF95F8 /* GoogleCalendars.hgs in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2356,8 +2348,8 @@
 		332ADB8F0DCA65990009A7E9 /* GTMNSBezierPath+RoundRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSBezierPath+RoundRect.h"; sourceTree = "<group>"; };
 		332ADB900DCA65990009A7E9 /* GTMNSBezierPath+RoundRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSBezierPath+RoundRect.m"; sourceTree = "<group>"; };
 		33A016DD0DD3D00A00578DE5 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
-		33D2C5F30DD1068000C1FBDC /* GoogleDocs.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDocs.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
-		33D2CAE00DD24C2500C1FBDC /* GoogleBookmarks.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBookmarks.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D2C5F30DD1068000C1FBDC /* GoogleDocs.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GoogleDocs.hgs; path = "/Users/rcarmo/Development/qsb-mac/QuickSearchBox/QSB/build/Release/GoogleDocs.hgs"; sourceTree = "<absolute>"; };
+		33D2CAE00DD24C2500C1FBDC /* GoogleBookmarks.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GoogleBookmarks.hgs; path = "/Users/rcarmo/Development/qsb-mac/QuickSearchBox/QSB/build/Release/GoogleBookmarks.hgs"; sourceTree = "<absolute>"; };
 		33D2CBAB0DD2573100C1FBDC /* HGSMemorySearchSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGSMemorySearchSource.h; sourceTree = "<group>"; };
 		33D2CBAC0DD2573100C1FBDC /* HGSMemorySearchSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSMemorySearchSource.m; sourceTree = "<group>"; };
 		33EEA68B0DD0D9C0005766AB /* WebBookmarks.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebBookmarks.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2422,7 +2414,7 @@
 		620055670F78595F00C806A1 /* GoogleAccountSetUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAccountSetUpViewController.h; sourceTree = "<group>"; };
 		620055680F78595F00C806A1 /* GoogleAccountSetUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAccountSetUpViewController.m; sourceTree = "<group>"; };
 		620CB3090FAA827E0029801C /* QSBPluginUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QSBPluginUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6210450E113C85AA00AF95F8 /* GoogleCalendars.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleCalendars.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
+		6210450E113C85AA00AF95F8 /* GoogleCalendars.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GoogleCalendars.hgs; path = "/Users/rcarmo/Development/qsb-mac/QuickSearchBox/QSB/build/Release/GoogleCalendars.hgs"; sourceTree = "<absolute>"; };
 		6211C4BA0F311ADE003A5122 /* HGSSimpleAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGSSimpleAccount.h; sourceTree = "<group>"; };
 		6211C4BB0F311ADE003A5122 /* HGSSimpleAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSSimpleAccount.m; sourceTree = "<group>"; };
 		6219B5330E8C1DB3008643F4 /* en_US */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en_US; path = en_US.lproj/BaseResultsViews.xib; sourceTree = "<group>"; };
@@ -2468,7 +2460,7 @@
 		62541752102C904A00808254 /* HGSSearchTermScorer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSSearchTermScorer.m; sourceTree = "<group>"; };
 		625A2C960E5614F3008CA9BF /* QSBPreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBPreferenceWindowController.h; sourceTree = "<group>"; };
 		625A2C970E5614F3008CA9BF /* QSBPreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBPreferenceWindowController.m; sourceTree = "<group>"; };
-		6263CAFB0EB79F3600FF03A1 /* PicasaWeb.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicasaWeb.hgs; sourceTree = BUILT_PRODUCTS_DIR; };
+		6263CAFB0EB79F3600FF03A1 /* PicasaWeb.hgs */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PicasaWeb.hgs; path = "/Users/rcarmo/Development/qsb-mac/QuickSearchBox/QSB/build/Release/PicasaWeb.hgs"; sourceTree = "<absolute>"; };
 		626585210F43BD4C008A94B2 /* QSBUserMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBUserMessenger.h; sourceTree = "<group>"; };
 		626585220F43BD4C008A94B2 /* QSBUserMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBUserMessenger.m; sourceTree = "<group>"; };
 		6274BD82112C69D2008D56D7 /* HGSGDataUploadActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGSGDataUploadActionTest.m; sourceTree = "<group>"; };
@@ -4283,13 +4275,10 @@
 				7F9415D60EEF52970049AE06 /* DirectoryScanner.hgs */,
 				623ADD450EC0CC17001651D1 /* EmailURLAction.hgs */,
 				62EA8BCD0F2E7DE200C92E0B /* GoogleAccounts.hgs */,
-				33D2CAE00DD24C2500C1FBDC /* GoogleBookmarks.hgs */,
 				7F5626100EF31C060030E922 /* GoogleCorpora.hgs */,
-				33D2C5F30DD1068000C1FBDC /* GoogleDocs.hgs */,
 				8B735FA80EC905E900E74421 /* Images.hgs */,
 				5AF2C4860E5E19A400F4D546 /* iTunes.hgs */,
 				8BCCD3740EC8F93C00688D64 /* Networking.hgs */,
-				6263CAFB0EB79F3600FF03A1 /* PicasaWeb.hgs */,
 				627FAECA0DF9D73500E3E765 /* RecentDocuments.hgs */,
 				5A0BB1680FAB8A6300AA4858 /* Screensaver.hgs */,
 				7F9415CC0EEF52930049AE06 /* SharedFileList.hgs */,
@@ -4309,7 +4298,6 @@
 				8B0FFC8110C6033800C1A6FD /* Shortcuts Test.octest */,
 				8BF62037110A60C2000AB941 /* TransferenceBeacon.hgs */,
 				8BF62716110A6519000AB941 /* Transference Demo.app */,
-				6210450E113C85AA00AF95F8 /* GoogleCalendars.hgs */,
 				8B847B9711499653002C460B /* CorePlugin Test.octest */,
 				8BEDECFD121B1BEB00ABD57F /* CrashReporter.app */,
 			);
