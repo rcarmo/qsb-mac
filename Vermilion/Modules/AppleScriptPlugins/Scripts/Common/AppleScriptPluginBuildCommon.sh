@@ -40,4 +40,4 @@ set -o verbose
 QSBSRCROOT=${QSBSRCROOT:="${SRCROOT}/../"}
 
 rm -rf "${BUILT_PRODUCTS_DIR}/${EXECUTABLE_FOLDER_PATH}"
-"${QSBSRCROOT}/QSB/BuildScripts/Localization.sh"
+"${QSBSRCROOT}/QuickSearchBox/QSB/BuildScripts/Localization.sh"

@@ -7666,6 +7666,7 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QSB" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en_US,
@@ -7706,12 +7707,12 @@
 					ProjectRef = 8B989F350FA7B93C009DC652 /* ___PROJECTNAME___.xcodeproj */;
 				},
 				{
-					ProductGroup = 8B989F2B0FA7B93C009DC652 /* Products */;
-					ProjectRef = 8B989F2A0FA7B93C009DC652 /* ___PROJECTNAME___.xcodeproj */;
-				},
-				{
 					ProductGroup = 8B989F150FA7B93C009DC652 /* Products */;
 					ProjectRef = 8B989F140FA7B93C009DC652 /* ___PROJECTNAME___.xcodeproj */;
+				},
+				{
+					ProductGroup = 8B989F2B0FA7B93C009DC652 /* Products */;
+					ProjectRef = 8B989F2A0FA7B93C009DC652 /* ___PROJECTNAME___.xcodeproj */;
 				},
 				{
 					ProductGroup = 8B637B4D0F2777C300997738 /* Products */;
